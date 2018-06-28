@@ -1128,6 +1128,11 @@
             </a>
         </li>
         <li class="">
+            <a href="../start/dashboard.html">
+                <span class="nav-label">Performance</span>
+            </a>
+        </li>
+        <li class="">
             <a href="../start/projects.html">
                 <span class="nav-label">Projects</span>
             </a>
@@ -1156,12 +1161,7 @@
             <a href="../start/stock.html">
                 <span class="nav-label">Stock</span>
             </a>
-        </li>
-        <li class="">
-            <a href="../start/performance.html">
-                <span class="nav-label">Performance</span>
-            </a>
-        </li>
+        </li>      
         <li class="">
             <a href="../start/exchange&amp;trading.html">
                 <span class="nav-label">Exchange &amp; Trading</span>
@@ -2249,64 +2249,7 @@
                     <button type="button" class="btn btn-sm btn-default">USD<i class="fa m-l-1 fa-caret-down"></i> </button>
                 </div>
             </div>
-            <!-- END ROW "Your Cash" Header -->
-
-            <!-- START ROW "Your Cash" Panels -->
-            <div class="row">
-
-                <!-- START Main Fundings -->
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="panel panel-default b-a-0 bg-gray-dark">
-                        <div class="panel-heading">Main Fundings</div>
-                        <div class="panel-body">
-                            <h2 class="m-t-0 f-w-300">
-              <span>$ 694.00</span></h2>
-                            <i class="fa fa-fw fa-caret-up text-success"></i> <span>$ 284.00</span>
-                        </div>
-                    </div>
-                </div>
-                <!-- END Main Fundings -->
-
-                <!-- START Invoices -->
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="panel panel-default b-a-0 bg-gray-dark">
-                        <div class="panel-heading">Invoices</div>
-                        <div class="panel-body">
-                            <h2 class="m-t-0 f-w-300">
-              <span>$ 254.00</span></h2>
-                            <i class="fa fa-fw fa-caret-down text-danger"></i> <span>$ 828.00</span>
-                        </div>
-                    </div>
-                </div>
-                <!-- END Invoices -->
-
-                <!-- START Accounts Receiveable -->
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="panel panel-default b-a-0 bg-gray-dark">
-                        <div class="panel-heading">Accounts Receiveable</div>
-                        <div class="panel-body">
-                            <h2 class="m-t-0 f-w-300">
-              <span>$ 346.00</span></h2>
-                            <i class="fa fa-fw fa-caret-up text-success"></i> <span>$ 663.00</span>
-                        </div>
-                    </div>
-                </div>
-                <!-- END Accounts Receiveable -->
-
-                <!-- START Secure Holdings -->
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="panel panel-default b-a-0 bg-gray-dark">
-                        <div class="panel-heading">Secure Holdings</div>
-                        <div class="panel-body">
-                            <h2 class="m-t-0 f-w-300">
-              <span>$ 7.00</span></h2> No Change
-                        </div>
-                    </div>
-                </div>
-                <!-- END Secure Holdings -->
-
-            </div>
-            <!-- END ROW "Your Cash" Panels -->
+            <!-- END ROW "Your Cash" Header -->           
 
 
             <!-- START ROW "Money Map" & "Recent Map" -->
@@ -2358,160 +2301,130 @@
                     <!-- START ROW "Your Cash" Header -->
                     <div class="row m-b-2">
                         <div class="col-md-4 col-sm-4 col-xs-6">
-                            <h4 class="m-b-0 f-w-300">Recent Funding</h4></div>
+                            <h4 class="m-b-0 f-w-300">Top BlockProducers</h4></div>
                         <div class="col-md-4 col-sm-4 col-xs-4 col-xs-offset-2 col-sm-offset-4 col-md-offset-4 text-right">
                             <button type="button" class="btn btn-sm btn-default">View All<i class="fa m-l-1 fa-angle-right"></i> </button>
                         </div>
                     </div>
                     <!-- END ROW "Your Cash" Header -->
+
+                    <!-- Start table with top Block Producers -->
                     <div class="panel panel-default b-a-2 b-gray-dark no-bg">
 
                         <table class="table table-striped">
                             <thead>
                                 <tr>
-                                    <th class="small text-muted text-uppercase"><strong>Company</strong>
+                                    <th class="small text-muted text-uppercase"><strong>#</strong>
                                     </th>
-                                    <th class="small text-muted text-uppercase"><strong>Amount</strong>
+                                    <th class="small text-muted text-uppercase"><strong>Name</strong>
                                     </th>
-                                    <th class="small text-muted text-uppercase"><strong>Date</strong>
+                                    <th class="small text-muted text-uppercase"><strong>Votes</strong>
                                     </th>
-                                    <th class="small text-right text-muted text-uppercase"><strong>Action</strong>
+                                    <th class="small text-muted text-muted text-uppercase"><strong>%</strong>
+                                    </th>
+                                    <th class="small text-muted text-muted text-uppercase"><strong>Daily Rewards</strong>
+                                    </th>
+                                    <th class="small text-muted text-muted text-uppercase"><strong>Action</strong>
                                     </th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td class="v-a-m"><span class="text-white">Adams, Rutherford and Cremin</span></td>
-                                    <td class="v-a-m"><span>$ 933.00</span></td>
-                                    <td class="v-a-m">
-                                        <span>20-04-2011</span>
-                                    </td>
+                                    <td class="v-a-m"><span>1</span></td>
+                                    <td class="v-a-m"><span class="text-white">Bitfinex</span></td>
+                                    <td class="v-a-m"><span>53,704,776</span></td>
+                                    <td class="v-a-m"><span>3.41%</span></td>
+                                    <td class="v-a-m"><span>1109 EOS</span></td>                                   
                                     <td class="v-a-m text-right">
                                         <a href="#">View <i class="fa fa-angle-right"></i></a>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="v-a-m">
-                                        <span class="text-white">Toy - Schmitt</span>
-                                    </td>
-                                    <td class="v-a-m">
-                                        <span>$ 396.00</span>
-                                    </td>
-                                    <td class="v-a-m">
-                                        <span>14-08-2013</span>
-                                    </td>
+                                    <td class="v-a-m"><span>1</span></td>
+                                    <td class="v-a-m"><span class="text-white">Bitfinex</span></td>
+                                    <td class="v-a-m"><span>53,704,776</span></td>
+                                    <td class="v-a-m"><span>3.41%</span></td>
+                                    <td class="v-a-m"><span>1109 EOS</span></td>                                   
                                     <td class="v-a-m text-right">
                                         <a href="#">View <i class="fa fa-angle-right"></i></a>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="v-a-m">
-                                        <span class="text-white">Kulas LLC</span>
-                                    </td>
-                                    <td class="v-a-m">
-                                        <span>$ 297.00</span>
-                                    </td>
-                                    <td class="v-a-m">
-                                        <span>19-10-2011</span>
-                                    </td>
+                                    <td class="v-a-m"><span>1</span></td>
+                                    <td class="v-a-m"><span class="text-white">Bitfinex</span></td>
+                                    <td class="v-a-m"><span>53,704,776</span></td>
+                                    <td class="v-a-m"><span>3.41%</span></td>
+                                    <td class="v-a-m"><span>1109 EOS</span></td>                                   
                                     <td class="v-a-m text-right">
                                         <a href="#">View <i class="fa fa-angle-right"></i></a>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="v-a-m">
-                                        <span class="text-white">Dach and Sons</span>
-                                    </td>
-                                    <td class="v-a-m">
-                                        <span>$ 927.00</span>
-                                    </td>
-                                    <td class="v-a-m">
-                                        <span>31-04-2016</span>
-                                    </td>
+                                    <td class="v-a-m"><span>1</span></td>
+                                    <td class="v-a-m"><span class="text-white">Bitfinex</span></td>
+                                    <td class="v-a-m"><span>53,704,776</span></td>
+                                    <td class="v-a-m"><span>3.41%</span></td>
+                                    <td class="v-a-m"><span>1109 EOS</span></td>                                   
                                     <td class="v-a-m text-right">
                                         <a href="#">View <i class="fa fa-angle-right"></i></a>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="v-a-m">
-                                        <span class="text-white">Kertzmann - Spencer</span>
-                                    </td>
-                                    <td class="v-a-m">
-                                        <span>$ 212.00</span>
-                                    </td>
-                                    <td class="v-a-m">
-                                        <span>06-03-2013</span>
-                                    </td>
+                                    <td class="v-a-m"><span>1</span></td>
+                                    <td class="v-a-m"><span class="text-white">Bitfinex</span></td>
+                                    <td class="v-a-m"><span>53,704,776</span></td>
+                                    <td class="v-a-m"><span>3.41%</span></td>
+                                    <td class="v-a-m"><span>1109 EOS</span></td>                                   
                                     <td class="v-a-m text-right">
                                         <a href="#">View <i class="fa fa-angle-right"></i></a>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="v-a-m">
-                                        <span class="text-white">Ryan LLC</span>
-                                    </td>
-                                    <td class="v-a-m">
-                                        <span>$ 640.00</span>
-                                    </td>
-                                    <td class="v-a-m">
-                                        <span>31-07-2014</span>
-                                    </td>
+                                    <td class="v-a-m"><span>1</span></td>
+                                    <td class="v-a-m"><span class="text-white">Bitfinex</span></td>
+                                    <td class="v-a-m"><span>53,704,776</span></td>
+                                    <td class="v-a-m"><span>3.41%</span></td>
+                                    <td class="v-a-m"><span>1109 EOS</span></td>                                   
                                     <td class="v-a-m text-right">
                                         <a href="#">View <i class="fa fa-angle-right"></i></a>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="v-a-m">
-                                        <span class="text-white">Zemlak Inc</span>
-                                    </td>
-                                    <td class="v-a-m">
-                                        <span>$ 690.00</span>
-                                    </td>
-                                    <td class="v-a-m">
-                                        <span>11-11-2014</span>
-                                    </td>
+                                    <td class="v-a-m"><span>1</span></td>
+                                    <td class="v-a-m"><span class="text-white">Bitfinex</span></td>
+                                    <td class="v-a-m"><span>53,704,776</span></td>
+                                    <td class="v-a-m"><span>3.41%</span></td>
+                                    <td class="v-a-m"><span>1109 EOS</span></td>                                   
                                     <td class="v-a-m text-right">
                                         <a href="#">View <i class="fa fa-angle-right"></i></a>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="v-a-m">
-                                        <span class="text-white">Erdman LLC</span>
-                                    </td>
-                                    <td class="v-a-m">
-                                        <span>$ 417.00</span>
-                                    </td>
-                                    <td class="v-a-m">
-                                        <span>30-10-2014</span>
-                                    </td>
+                                    <td class="v-a-m"><span>1</span></td>
+                                    <td class="v-a-m"><span class="text-white">Bitfinex</span></td>
+                                    <td class="v-a-m"><span>53,704,776</span></td>
+                                    <td class="v-a-m"><span>3.41%</span></td>
+                                    <td class="v-a-m"><span>1109 EOS</span></td>                                   
                                     <td class="v-a-m text-right">
                                         <a href="#">View <i class="fa fa-angle-right"></i></a>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="v-a-m">
-                                        <span class="text-white">Hills - Bartell</span>
-                                    </td>
-                                    <td class="v-a-m">
-                                        <span>$ 621.00</span>
-                                    </td>
-                                    <td class="v-a-m">
-                                        <span>01-02-2014</span>
-                                    </td>
+                                    <td class="v-a-m"><span>1</span></td>
+                                    <td class="v-a-m"><span class="text-white">Bitfinex</span></td>
+                                    <td class="v-a-m"><span>53,704,776</span></td>
+                                    <td class="v-a-m"><span>3.41%</span></td>
+                                    <td class="v-a-m"><span>1109 EOS</span></td>                                   
                                     <td class="v-a-m text-right">
                                         <a href="#">View <i class="fa fa-angle-right"></i></a>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="v-a-m">
-                                        <span class="text-white">Strosin, Romaguera and Leuschke</span>
-                                    </td>
-                                    <td class="v-a-m">
-                                        <span>$ 409.00</span>
-                                    </td>
-                                    <td class="v-a-m">
-                                        <span>17-11-2013</span>
-                                    </td>
+                                    <td class="v-a-m"><span>1</span></td>
+                                    <td class="v-a-m"><span class="text-white">Bitfinex</span></td>
+                                    <td class="v-a-m"><span>53,704,776</span></td>
+                                    <td class="v-a-m"><span>3.41%</span></td>
+                                    <td class="v-a-m"><span>1109 EOS</span></td>                                   
                                     <td class="v-a-m text-right">
                                         <a href="#">View <i class="fa fa-angle-right"></i></a>
                                     </td>
@@ -2520,6 +2433,7 @@
                         </table>
 
                     </div>
+                    <!-- End table with top block producers -->
                 </div>
                 <!-- END ROW "Recent Funding" -->
 
