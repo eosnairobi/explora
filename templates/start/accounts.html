@@ -20,6 +20,9 @@
     <!-- SCSS Output -->
     <link rel="stylesheet" href="../assets/stylesheets/app.min.e0bb64e7.css">
 
+    <!-- fonts-awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
     <!-- START Favicon -->
     <link rel="icon" type="image/png" sizes="192x192" href="../assets/images/favicons/eos-logo.png">
     <!-- END Favicon -->
@@ -1072,1071 +1075,122 @@
 <!-- END Navbar -->
  
     <!-- START Sidebars -->
-<aside class="navbar-default sidebar">
-    <div class="sidebar-overlay-head">
-        <img src="../assets/images/spin-logo-inverted.png" alt="Logo" width="90">
-        <a href="#" class="sidebar-switch action-sidebar-close">
-            <i class="fa fa-times"></i>
-        </a>
-    </div>
-    <div class="sidebar-logo">
-        <img class="logo-default" src="../assets/images/spin-logo-big-inverse-@2X.png" alt="Logo" width="53">
-        <img class="logo-slim" src="../assets/images/spin-logo-slim.png" alt="Logo" height="13">
-    </div>
-
-    <div class="sidebar-content">
-        <div class="p-y-3 avatar-container">
-            <img src="../assets/images/avatars/spin-avatar-woman.png" width="50" alt="Avatar" class="spin-avatar img-circle">
-            <div class="text-center">
-                <h6 class="m-b-0">Michelle Baez</h6>
-                <small class="text-muted">Help Desk</small>
-                <p class="m-t-1 m-b-2">
-                    <span id="sidebar-avatar-chart">5,3,2,-1,-3,-2,2,3,5,2</span>
-                </p>
+    <aside class="navbar-default sidebar">
+            <div class="sidebar-overlay-head">
+                <img src="../assets/images/favicon.png" alt="Logo" width="90">
+                <a href="#" class="sidebar-switch action-sidebar-close">
+                    <i class="fa fa-times"></i>
+                </a>
             </div>
-        </div>
-    <div class="sidebar-default-visible text-muted small text-uppercase sidebar-section p-y-2">
-        <strong>Navigation</strong>
-    </div>
-
-    <!-- START Tree Sidebar Common -->
-<ul class="side-menu">
-
-    <li class="Dashboards">
-    <a href="#" title="Dashboards">
-        <i class="fa fa-home fa-lg fa-fw"></i><span class="nav-label">Dashboard</span><i class="fa arrow"></i>
-    </a>
-    <ul>
-        <li class="">
-        <a href="../start/home.html">
-            <span class="nav-label">Home</span>
-        </a>
-        </li>
-        <li class="">
-        <a href="../start/transactions.html">
-            <span class="nav-label">Transactions</span>
-        </a>
-        </li>
-        <li class="">
-        <a href="../start/blocks.html">
-            <span class="nav-label">Blocks</span>
-        </a>
-        </li>  
-        <li class="active">
-        <a href="../start/accounts.html">
-            <span class="nav-label">Top Accounts</span>
-        </a>
-        </li>             
-    </ul>
-    </li>
-
-    <li>
-        <a href="#" title="Dashboards">
-            <i class="fa fa-th fa-lg"></i><span class="nav-label">Widgets</span>
-            <span class="pull-right label label-primary label-outline text-uppercase">New</span>
-        </a>
-        <ul>
-            <li class="">
-                <a href="../widgets/widgets.html">
-                <span class="nav-label">Data Widgets</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../widgets/graphs-widgets.html">
-                <span class="nav-label">Graphs Widgets</span>
-                </a>
-            </li>
-        </ul>
-    </li>
-
-    <li>
-        <a href="#" title="Layouts">
-            <i class="fa fa-columns fa-lg fa-fw"></i><span class="nav-label">Layouts</span><i class="fa arrow"></i>
-        </a>
-        <ul>
-            <li class="">
-                <a href="../layouts/default.html">
-                    <span class="nav-label">Default Page</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../layouts/default-fixed.html">
-                    <span class="nav-label">Default Fixed</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../layouts/default-w-navbar.html">
-                    <span class="nav-label">Default w/ Navbar</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../layouts/default-w-footer.html">
-                    <span class="nav-label">Default w/ Footer</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../layouts/default-footer-fixed.html">
-                    <span class="nav-label">Default Footer Fixed</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../layouts/navbar.html">
-                    <span class="nav-label">Navbar</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../layouts/navbar-fixed.html">
-                    <span class="nav-label">Navbar Fixed</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../layouts/navbar-container.html">
-                    <span class="nav-label">Navbar Container</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../layouts/default-fullwidth.html">
-                    <span class="nav-label">Default FullWidth</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../layouts/empty-page.html">
-                    <span class="nav-label">Empty Page</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../layouts/boxed.html">
-                    <span class="nav-label">Boxed</span>
-                </a>
-            </li>
-        </ul>
-    </li>
-
-    <li>
-        <a href="#" title="Layouts">
-            <i class="fa fa-fw fa-lg fa-bars"></i><span class="nav-label">Sidebars</span><i class="fa arrow"></i>
-        </a>
-        <ul>
-            <li class="">
-                <a href="../sidebars/sidebar-default.html">
-                    <span class="nav-label">Sidebar Default</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../sidebars/sidebar-w-progress.html">
-                    <span class="nav-label">Sidebar w/ Progress</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../sidebars/sidebar-w-menu.html">
-                    <span class="nav-label">Sidebar w/ Menu</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../sidebars/sidebar-w-bars.html">
-                    <span class="nav-label">Sidebar w/ Bars</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../sidebars/sidebar-avatar-&amp;-bars.html">
-                    <span class="nav-label">Sidebar Avatar &amp; Bars</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../sidebars/sidebar-aside.html">
-                    <span class="nav-label">Sidebar ASide</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../sidebars/sidebar-avatar-numbers.html">
-                    <span class="nav-label">With Avatar &amp; Numbers</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../sidebars/sidebar-avatar-stats.html">
-                    <span class="nav-label">With Avatar &amp; Stats</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../sidebars/sidebar-slim.html">
-                    <span class="nav-label">Sidebar Slim</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../sidebars/sidebar-big-icons.html">
-                    <span class="nav-label">Sidebar Big Icons</span>
-                </a>
-            </li>
-        </ul>
-    </li>
-
-        <li>
-        <a href="#" title="Skins">
-            <i class="fa fa-google-wallet fa-lg"></i><span class="nav-label">Skins</span>
-            <span class="pull-right badge badge-info badge-outline text-uppercase">42</span>
-        </a>
-
-        <ul>
-            <li>
-                <a href="#">
-                <span class="nav-label">Dark &amp; Inverse</span> <i class="fa arrow"></i>
-                </a>
-
+            <div class="sidebar-logo">
+                <img class="logo-default" src="../assets/images/spin-logo-big-inverse-@2X.png" alt="Logo" width="53">
+                <img class="logo-slim" src="../assets/images/spin-logo-slim.png" alt="Logo" height="13">
+            </div>
+        
+            <div class="sidebar-content">
+                <div class="p-y-3 avatar-container">
+                    <img src="../assets/images/avatars/spin-avatar-woman.png" width="50" alt="Avatar" class="spin-avatar img-circle">
+                    <div class="text-center">
+                        <h6 class="m-b-0">Michelle Baez</h6>
+                        <small class="text-muted">Help Desk</small>
+                        <p class="m-t-1 m-b-2">
+                            <span id="sidebar-avatar-chart">5,3,2,-1,-3,-2,2,3,5,2</span>
+                        </p>
+                    </div>
+                </div>
+            <div class="sidebar-default-visible text-muted small text-uppercase sidebar-section p-y-2">
+                <strong>Navigation</strong>
+            </div>
+        
+            <!-- START Tree Sidebar Common -->
+        <ul class="side-menu">
+        
+            <li class="Dashboards">
+            <a href="#" title="Dashboards">
+                    <i class="fas fa-tachometer-alt"></i> <span class="nav-label">Dashboard</span> 
+            </a>
             <ul>
-                       <li class="">
-                            <a href="../skins/dark-inverse-primary.html">
-                                <span class="nav-label">Primary</span>
-                                <small><i class="fa fa-fw fa-circle text-primary pull-right"></i></small>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="../skins/dark-inverse-info.html">
-                                <span class="nav-label">Info</span>
-                                <small><i class="fa fa-fw fa-circle text-info pull-right"></i></small>
-                            </a>
-                        </li>
-                         <li class="">
-                            <a href="../skins/dark-inverse-success.html">
-                                <span class="nav-label">Success</span>
-                                <small><i class="fa fa-fw fa-circle text-success pull-right"></i></small>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="../skins/dark-inverse-warning.html">
-                                <span class="nav-label">Warning</span>
-                                <small><i class="fa fa-fw fa-circle text-warning pull-right"></i></small>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="../skins/dark-inverse-danger.html">
-                                <span class="nav-label">Danger</span>
-                                <small><i class="fa fa-fw fa-circle text-danger pull-right"></i></small>
-                            </a>
-                        </li>
-                    </ul>
+                <li class="">
+                <a href="../start/home.html">
+                    <span class="nav-label">Home</span>
+                </a>
+                </li>
+                <li class="">
+                <a href="../start/transactions.html">
+                    <span class="nav-label">Transactions</span>
+                </a>
+                </li>
+                <li class="">
+                <a href="../start/blocks.html">
+                    <span class="nav-label">Blocks</span>
+                </a>
+                </li>  
+                <li class="active">
+                <a href="../start/accounts.html">
+                    <span class="nav-label">Top Accounts</span>
+                </a>
+                </li>      
+                     
+            </ul>
             </li>
-
+        
             <li>
-                <a href="#">
-                <span class="nav-label">Dark &amp; White</span> <i class="fa arrow"></i>
-                </a>
-
-                <ul>
-                       <li class="">
-                            <a href="../skins/dark-default-primary.html">
-                                <span class="nav-label">Primary</span>
-                                <small><i class="fa fa-fw fa-circle text-primary pull-right"></i></small>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="../skins/dark-default-info.html">
-                                <span class="nav-label">Info</span>
-                                <small><i class="fa fa-fw fa-circle text-info pull-right"></i></small>
-                            </a>
-                        </li>
-                         <li class="">
-                            <a href="../skins/dark-default-success.html">
-                                <span class="nav-label">Success</span>
-                                <small><i class="fa fa-fw fa-circle text-success pull-right"></i></small>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="../skins/dark-default-warning.html">
-                                <span class="nav-label">Warning</span>
-                                <small><i class="fa fa-fw fa-circle text-warning pull-right"></i></small>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="../skins/dark-default-danger.html">
-                                <span class="nav-label">Danger</span>
-                                <small><i class="fa fa-fw fa-circle text-danger pull-right"></i></small>
-                            </a>
-                        </li>
-                    </ul>
-
-
-            </li>
-
-            <li>
-                <a href="#">
-                <span class="nav-label">Dark &amp; Color</span> <i class="fa arrow"></i>
-                </a>
-
-                <ul>
-                       <li class="">
-                            <a href="../skins/dark-primary.html">
-                                <span class="nav-label">Primary</span>
-                                <small><i class="fa fa-fw fa-circle text-primary pull-right"></i></small>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="../skins/dark-info.html">
-                                <span class="nav-label">Info</span>
-                                <small><i class="fa fa-fw fa-circle text-info pull-right"></i></small>
-                            </a>
-                        </li>
-                         <li class="">
-                            <a href="../skins/dark-success.html">
-                                <span class="nav-label">Success</span>
-                                <small><i class="fa fa-fw fa-circle text-success pull-right"></i></small>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="../skins/dark-warning.html">
-                                <span class="nav-label">Warning</span>
-                                <small><i class="fa fa-fw fa-circle text-warning pull-right"></i></small>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="../skins/dark-danger.html">
-                                <span class="nav-label">Danger</span>
-                                <small><i class="fa fa-fw fa-circle text-danger pull-right"></i></small>
-                            </a>
-                        </li>
-                    </ul>
-
-
-            </li>
-
-
-
-            <li>
-                <a href="#">
-                <span class="nav-label">Light &amp; Inverse</span> <i class="fa arrow"></i>
-                </a>
-                    <ul>
-                       <li class="">
-                            <a href="../skins/light-inverse-primary.html">
-                                <span class="nav-label">Primary</span>
-                                <small><i class="fa fa-fw fa-circle text-primary pull-right"></i></small>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="../skins/light-inverse-info.html">
-                                <span class="nav-label">Info</span>
-                                <small><i class="fa fa-fw fa-circle text-info pull-right"></i></small>
-                            </a>
-                        </li>
-                         <li class="">
-                            <a href="../skins/light-inverse-success.html">
-                                <span class="nav-label">Success</span>
-                                <small><i class="fa fa-fw fa-circle text-success pull-right"></i></small>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="../skins/light-inverse-warning.html">
-                                <span class="nav-label">Warning</span>
-                                <small><i class="fa fa-fw fa-circle text-warning pull-right"></i></small>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="../skins/light-inverse-danger.html">
-                                <span class="nav-label">Danger</span>
-                                <small><i class="fa fa-fw fa-circle text-danger pull-right"></i></small>
-                            </a>
-                        </li>
-                    </ul>
-            </li>
-
-            <li>
-                <a href="#">
-                <span class="nav-label">Light &amp; White</span> <i class="fa arrow"></i>
-                </a>
-                    <ul>
-                       <li class="">
-                            <a href="../skins/light-default-primary.html">
-                                <span class="nav-label">Primary</span>
-                                <small><i class="fa fa-fw fa-circle text-primary pull-right"></i></small>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="../skins/light-default-info.html">
-                                <span class="nav-label">Info</span>
-                                <small><i class="fa fa-fw fa-circle text-info pull-right"></i></small>
-                            </a>
-                        </li>
-                         <li class="">
-                            <a href="../skins/light-default-success.html">
-                                <span class="nav-label">Success</span>
-                                <small><i class="fa fa-fw fa-circle text-success pull-right"></i></small>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="../skins/light-default-warning.html">
-                                <span class="nav-label">Warning</span>
-                                <small><i class="fa fa-fw fa-circle text-warning pull-right"></i></small>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="../skins/light-default-danger.html">
-                                <span class="nav-label">Danger</span>
-                                <small><i class="fa fa-fw fa-circle text-danger pull-right"></i></small>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="../skins/light-default-soft-purple.html">
-                                <span class="nav-label">Soft Purple</span>
-                                <small><i class="fa fa-fw fa-circle text-soft-purple pull-right"></i></small>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="../skins/light-default-lighting-yellow.html">
-                                <span class="nav-label">Lighting Yellow</span>
-                                <small><i class="fa fa-fw fa-circle text-lighting-yellow pull-right"></i></small>
-                            </a>
-                        </li>
-                    </ul>
-            </li>
-
-            <li>
-                <a href="#">
-                <span class="nav-label">Light &amp; Color</span> <i class="fa arrow"></i>
-                </a>
-
-                <ul>
-                       <li class="">
-                            <a href="../skins/light-primary.html">
-                                <span class="nav-label">Primary</span>
-                                <small><i class="fa fa-fw fa-circle text-primary pull-right"></i></small>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="../skins/light-info.html">
-                                <span class="nav-label">Info</span>
-                                <small><i class="fa fa-fw fa-circle text-info pull-right"></i></small>
-                            </a>
-                        </li>
-                         <li class="">
-                            <a href="../skins/light-success.html">
-                                <span class="nav-label">Success</span>
-                                <small><i class="fa fa-fw fa-circle text-success pull-right"></i></small>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="../skins/light-warning.html">
-                                <span class="nav-label">Warning</span>
-                                <small><i class="fa fa-fw fa-circle text-warning pull-right"></i></small>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="../skins/light-danger.html">
-                                <span class="nav-label">Danger</span>
-                                <small><i class="fa fa-fw fa-circle text-danger pull-right"></i></small>
-                            </a>
-                        </li>
-                    </ul>
-
-
-            </li>
-
-
-
-            <li>
-                <a href="#">
-                <span class="nav-label">Color &amp; Inverse</span> <i class="fa arrow"></i>
-                </a>
-                    <ul>
-                       <li class="">
-                            <a href="../skins/primary-inverse.html">
-                                <span class="nav-label">Primary</span>
-                                <small><i class="fa fa-fw fa-circle text-primary pull-right"></i></small>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="../skins/info-inverse.html">
-                                <span class="nav-label">Info</span>
-                                <small><i class="fa fa-fw fa-circle text-info pull-right"></i></small>
-                            </a>
-                        </li>
-                         <li class="">
-                            <a href="../skins/success-inverse.html">
-                                <span class="nav-label">Success</span>
-                                <small><i class="fa fa-fw fa-circle text-success pull-right"></i></small>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="../skins/warning-inverse.html">
-                                <span class="nav-label">Warning</span>
-                                <small><i class="fa fa-fw fa-circle text-warning pull-right"></i></small>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="../skins/danger-inverse.html">
-                                <span class="nav-label">Danger</span>
-                                <small><i class="fa fa-fw fa-circle text-danger pull-right"></i></small>
-                            </a>
-                        </li>
-                    </ul>
-            </li>
-
-            <li>
-                <a href="#">
-                <span class="nav-label">Color &amp; White</span> <i class="fa arrow"></i>
-                </a>
-                    <ul>
-                       <li class="">
-                            <a href="../skins/primary-default.html">
-                                <span class="nav-label">Primary</span>
-                                <small><i class="fa fa-fw fa-circle text-primary pull-right"></i></small>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="../skins/info-default.html">
-                                <span class="nav-label">Info</span>
-                                <small><i class="fa fa-fw fa-circle text-info pull-right"></i></small>
-                            </a>
-                        </li>
-                         <li class="">
-                            <a href="../skins/success-default.html">
-                                <span class="nav-label">Success</span>
-                                <small><i class="fa fa-fw fa-circle text-success pull-right"></i></small>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="../skins/warning-default.html">
-                                <span class="nav-label">Warning</span>
-                                <small><i class="fa fa-fw fa-circle text-warning pull-right"></i></small>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="../skins/danger-default.html">
-                                <span class="nav-label">Danger</span>
-                                <small><i class="fa fa-fw fa-circle text-danger pull-right"></i></small>
-                            </a>
-                        </li>
-                    </ul>
-            </li>
-
-            <li>
-                <a href="#">
-                <span class="nav-label">Color &amp; Color</span> <i class="fa arrow"></i>
-                </a>
-
-                <ul>
-                       <li class="">
-                            <a href="../skins/primary-primary.html">
-                                <span class="nav-label">Primary</span>
-                                <small><i class="fa fa-fw fa-circle text-primary pull-right"></i></small>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="../skins/info-info.html">
-                                <span class="nav-label">Info</span>
-                                <small><i class="fa fa-fw fa-circle text-info pull-right"></i></small>
-                            </a>
-                        </li>
-                         <li class="">
-                            <a href="../skins/success-success.html">
-                                <span class="nav-label">Success</span>
-                                <small><i class="fa fa-fw fa-circle text-success pull-right"></i></small>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="../skins/warning-warning.html">
-                                <span class="nav-label">Warning</span>
-                                <small><i class="fa fa-fw fa-circle text-warning pull-right"></i></small>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="../skins/danger-danger.html">
-                                <span class="nav-label">Danger</span>
-                                <small><i class="fa fa-fw fa-circle text-danger pull-right"></i></small>
-                            </a>
-                        </li>
-                    </ul>
-
-
-            </li>
-
-
-        </ul>
-    </li>
-
-
-    <li>
-        <a href="#">
-            <i class="fa fa-toggle-on fa-lg"></i><span class="nav-label">Interface</span><i class="fa arrow"></i>
-        </a>
-        <ul>
-            <li class="">
-                <a href="../interface/colors.html">
-                    <span class="nav-label">Colors</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../interface/typography.html">
-                    <span class="nav-label">Typography</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../interface/buttons.html">
-                    <span class="nav-label">Buttons</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../interface/paginations&amp;pager.html">
-                    <span class="nav-label">Paginations &amp; Pager</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../interface/images&amp;thumbs.html">
-                    <span class="nav-label">Images &amp; Thumbs</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../interface/avatars.html">
-                    <span class="nav-label">Avatars</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../interface/navbars.html">
-                    <span class="nav-label">Navbars</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../interface/alerts.html">
-                    <span class="nav-label">Alerts</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../interface/toastr.html">
-                    <span class="nav-label">Toastr</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../interface/modals.html">
-                    <span class="nav-label">Modals</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../interface/progress-bars.html">
-                    <span class="nav-label">Progress Bars</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../interface/badges&amp;labels.html">
-                    <span class="nav-label">Badges &amp; Labels</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../interface/breadcrumps.html">
-                    <span class="nav-label">Breadcrumbs</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../interface/tabs&amp;pills.html">
-                    <span class="nav-label">Tabs &amp; Pills</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../interface/tooltips&amp;popovers.html">
-                    <span class="nav-label">Tooltips &amp; Popovers</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../interface/list-groups.html">
-                    <span class="nav-label">List Groups</span>
-                </a>
-            </li>
-        </ul>
-    </li>
-
-    <li>
-        <a href="#" title="Graphs">
-            <i class="fa fa-pie-chart  fa-lg"></i><span class="nav-label">Graphs</span> <i class="fa arrow"></i>
-        </a>
-        <ul>
-             <li class="">
-                <a href="../graphs/peity.html">
-                    <span class="nav-label">Peity</span>
-                </a>
-            </li>
-            <li class="" id="sidebar-link-highstock">
-                <a href="../graphs/highstock.html">
-                    <span class="nav-label">Highstock</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../graphs/sparklines.html">
-                    <span class="nav-label">Sparklines</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../graphs/chartist.html">
-                    <span class="nav-label">Chartist</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../graphs/highcharts.html">
-                    <span class="nav-label">Highcharts</span>
-                </a>
-            </li>
-        </ul>
-    </li>
-
-    <li>
-        <a href="#" title="Tables">
-            <i class="fa fa-trello fa-lg"></i><span class="nav-label">Tables</span> <i class="fa arrow"></i>
-        </a>
-        <ul>
-            <li class="">
-                <a href="../tables/pricing-tables.html">
-                    <span class="nav-label">Pricing Tables</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../tables/tables.html">
-                    <span class="nav-label">Tables</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../tables/datatables.html">
-                    <span class="nav-label">Datatables</span>
-                </a>
-            </li>
-        </ul>
-    </li>
-
-    <li>
-        <a href="#" title="Forms">
-            <i class="fa fa-check-square-o fa-fw fa-lg"></i><span class="nav-label">Forms</span> <i class="fa arrow"></i>
-        </a>
-        <ul>
-            <li class="">
-                <a href="../forms/forms.html">
-                    <span class="nav-label">Forms</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../forms/forms-layouts.html">
-                    <span class="nav-label">Forms Layouts</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../forms/date-range-picker.html">
-                    <span class="nav-label">Date Range Picker</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../forms/forms-extended.html">
-                    <span class="nav-label">Forms Extended</span>
-                </a>
-            </li>
-        </ul>
-    </li>
-
-    <li class="">
-        <a href="../grids/grids.html" title="Grids">
-            <i class="fa fa-lg fa-th-list fa-fw"></i><span class="nav-label">Grids</span>
-        </a>
-    </li>
-
-    <li>
-        <a href="#" title="Pages">
-            <i class="fa fa-clone fa-lg"></i><span class="nav-label">Pages</span> <i class="fa arrow"></i>
-        </a>
-        <ul>
-            <li class="">
-                <a href="../pages/register.html">
-                    <span class="nav-label">Register</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../pages/login.html">
-                    <span class="nav-label">login</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../pages/forgot-password.html">
-                    <span class="nav-label">Forgot Password</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../pages/lock-screen.html">
-                    <span class="nav-label">Lock Screen</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../pages/error-404.html">
-                    <span class="nav-label">Error 404</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../pages/invoice.html">
-                    <span class="nav-label">Invoice</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../pages/timeline.html">
-                    <span class="nav-label">Timeline</span>
-                </a>
-            </li>
-        </ul>
-    </li>
-
-    <li>
-        <a href="#" title="Apps">
-            <i class="fa fa-suitcase fa-lg"></i><span class="nav-label">Apps</span> <i class="fa arrow"></i>
-        </a>
-
-        <ul>
-            <li>
-                <a href="#">
-                <span class="nav-label">Projects</span> <i class="fa arrow"></i>
-                </a>
-                    <ul>
-                        <li class="">
-                            <a href="../apps/projects-list.html">
-                                <span class="nav-label">Projects List</span>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="../apps/projects-grid.html">
-                                <span class="nav-label">Projects Grid</span>
-                            </a>
-                        </li>
-                    </ul>
-            </li>
-
-            <li>
-                <a href="#">
-                    <span class="nav-label">Tasks</span> <i class="fa arrow"></i>
-                </a>
-                    <ul>
-                        <li class="">
-                            <a href="../apps/tasks-list.html">
-                                <span class="nav-label">Tasks List</span>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="../apps/tasks-grid.html">
-                                <span class="nav-label">Tasks Grid</span>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="../apps/tasks-details.html">
-                                <span class="nav-label">Tasks Details</span>
-                            </a>
-                        </li>
-                    </ul>
-            </li>
-
-            <li>
-                <a href="#">
-                    <span class="nav-label">Files Manager</span> <i class="fa arrow"></i>
+                <a href="#" title="Dashboards">
+                    <i class="far fa-chart-bar"></i> <span class="nav-label">Charts & Graphs</span>
+                    <span class="pull-right label label-primary label-outline text-uppercase">New</span>
                 </a>
                 <ul>
+                    <!-- <li class="">
+                        <a href="../widgets/widgets.html">
+                        <span class="nav-label">Data Widgets</span>
+                        </a>
+                    </li> -->
                     <li class="">
-                        <a href="../apps/files-list.html">
-                            <span class="nav-label">Files List</span>
+                        <a href="../widgets/graphs-widgets.html">
+                        <span class="nav-label">Graphs Widgets</span>
                         </a>
                     </li>
                     <li class="">
-                        <a href="../apps/files-grid.html">
-                            <span class="nav-label">Files Grid</span>
+                        <a href="../widgets/graphs-widgets.html">
+                        <span class="nav-label">Price Performance</span>
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="../widgets/graphs-widgets.html">
+                        <span class="nav-label">Tax Volume</span>
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="../widgets/graphs-widgets.html">
+                        <span class="nav-label">Price Performance</span>
                         </a>
                     </li>
                 </ul>
-            </li>
-
-            <li>
-                <a href="#">
-                    <span class="nav-label">Search Results</span> <i class="fa arrow"></i>
-                </a>
-                <ul>
-                    <li class="">
-                        <a href="../apps/search-results.html">
-                            <span class="nav-label">Search Results</span>
-                        </a>
-                    </li>
-                    <li class="">
-                        <a href="../apps/images-results.html">
-                            <span class="nav-label">Images Results</span>
-                        </a>
-                    </li>
-                    <li class="">
-                        <a href="../apps/videos-results.html">
-                            <span class="nav-label">Videos Results</span>
-                        </a>
-                    </li>
-                    <li class="">
-                        <a href="../apps/users-results.html">
-                            <span class="nav-label">Users Results</span>
-                        </a>
-                    </li>
-                </ul>
-            </li>
-
-            <li class="">
-                <a href="../apps/faq.html">
-                    <span class="nav-label">FAQ</span>
-                </a>
-            </li>
-
-            <li>
-                <a href="#">
-                    <span class="nav-label">Users</span> <i class="fa arrow"></i>
-                </a>
-                <ul>
-                    <li class="">
-                        <a href="../apps/users-list.html">
-                            <span class="nav-label">Users List</span>
-                        </a>
-                    </li>
-                    <li class="">
-                        <a href="../apps/users-grid.html">
-                            <span class="nav-label">Users Grid</span>
-                        </a>
-                    </li>
-                </ul>
-            </li>
-
-            <li class="">
-                <a href="../apps/chat.html">
-                    <span class="nav-label">Chat</span>
-                </a>
-            </li>
-
-            <li class="">
-                <a href="../apps/calendar.html">
-                    <span class="nav-label">Calendar</span>
-                </a>
-            </li>
-
-            <li>
-                <a href="#">
-                    <span class="nav-label">Mailbox</span> <i class="fa arrow"></i>
-                </a>
-                <ul>
-                    <li class="">
-                        <a href="../apps/inbox.html">
-                            <span class="nav-label">Inbox</span>
-                        </a>
-                    </li>
-                    <li class="">
-                        <a href="../apps/email-details.html">
-                            <span class="nav-label">Email Details</span>
-                        </a>
-                    </li>
-                    <li class="">
-                        <a href="../apps/new-email.html">
-                            <span class="nav-label">New Email</span>
-                        </a>
-                    </li>
-                </ul>
-            </li>
-
-            <li class="">
-                <a href="../apps/clients.html">
-                    <span class="nav-label">Clients</span>
-                </a>
-            </li>
-
-            <li>
-                <a href="#">
-                    <span class="nav-label">Profile User</span> <i class="fa arrow"></i>
-                </a>
-                <ul>
-                    <li class="">
-                        <a href="../apps/profile-details.html">
-                            <span class="nav-label">Profile Details</span>
-                        </a>
-                    </li>
-                    <li class="">
-                        <a href="../apps/profile-edit.html">
-                            <span class="nav-label">Profile Edit</span>
-                        </a>
-                    </li>
-                    <li class="">
-                        <a href="../apps/account-edit.html">
-                            <span class="nav-label">Account Edit</span>
-                        </a>
-                    </li>
-                    <li class="">
-                        <a href="../apps/billing-edit.html">
-                            <span class="nav-label">Billing Edit</span>
-                        </a>
-                    </li>
-                    <li class="">
-                        <a href="../apps/settings-edit.html">
-                            <span class="nav-label">Settings Edit</span>
-                        </a>
-                    </li>
-                    <li class="">
-                        <a href="../apps/sessions-edit.html">
-                            <span class="nav-label">Sessions Edit</span>
-                        </a>
-                    </li>
-                </ul>
-            </li>
+            </li>  
+        
         </ul>
-    </li>
-
-    <li>
-        <a href="#" title="Icons">
-            <i class="fa fa-star  fa-lg"></i><span class="nav-label">Icons</span><i class="fa arrow"></i>
-        </a>
-        <ul>
-            <li class="">
-                <a href="../icon/fonts-awesome.html">
-                    <span class="nav-label">Fonts Awesome</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../icon/glyphicons.html">
-                    <span class="nav-label">Glyphicons</span>
-                </a>
-            </li>
-        </ul>
-    </li>
-
-    <li class="">
-        <a href="../panels/panels.html">
-            <i class="fa fa-columns fa-lg "></i><span class="nav-label">Panels</span>
-        </a>
-    </li>
-
-       <li class="">
-        <a href="../styleguide/styleguide.html">
-            <i class="fa fa-cube  fa-lg"></i><span class="nav-label">Styleguide</span>
-        </a>
-    </li>
-
-    <li class="">
-        <a href="../docs/docs.html">
-            <i class="fa fa-file-o fa-lg "></i><span class="nav-label">Docs</span>
-            <span class="badge badge-outline badge-gray-lighter pull-right">2</span>
-        </a>
-    </li>
-    
-    <li>
-        <a href="http://spin.webkom.co/react/">
-            <i class="fa fa-flash fa-lg"></i><span class="nav-label">Switch to React</span>
-            <span class="label label-outline label-danger pull-right">NEW</span>
-        </a>
-    </li>
-
-</ul>
-<!-- END Tree Sidebar Common  -->
-
-
-    <div class="sidebar-default-visible">
-        <hr>
-    </div>
-
-    <div class="sidebar-default-visible sidebar-section m-b-2">
-        <span class="small text-muted text-uppercase p-b-2 block">
-            <strong>Labels</strong>
-        </span>
-        <br>
-        <br>
-        <p><i class="fa fa-circle-thin text-danger m-r-1"></i> Videos</p>
-        <p><i class="fa fa-circle-thin text-info m-r-1"></i> Pictures</p>
-        <p><i class="fa fa-circle-thin text-muted m-r-1"></i> Documents</p>
-    </div>
-    </div>
-</aside>
-<!-- END Sidebars -->
+        <!-- END Tree Sidebar Common  -->
+        
+        
+            <div class="sidebar-default-visible">
+                <hr>
+            </div>
+        
+            <div class="sidebar-default-visible sidebar-section m-b-2" id="links">
+                <span class="small text-muted text-uppercase p-b-2 block">
+                    <strong>Links</strong>
+                </span>
+                <br>
+                <br>
+                <a href="#"><p><i class="fas fa-envelope"></i> Contact Us</p></a>
+                <a href="#"><p><i class="fas fa-users"></i> About Us</p></a>
+                <a href="#"><p><i class="fab fa-twitter"></i> Twitter</p></a>
+                <a href="#"><p><i class="fab fa-telegram"></i> Telegram</p></a>        
+            </div>
+            </div>
+        </aside>
+        <!-- END Sidebars -->
+        
 
 
 
