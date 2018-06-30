@@ -1,6 +1,13 @@
 .current{
   padding-top: 1em;
 }
-#links {
+#links a {
+  text-decoration: none;
+  /* color: white; */
+}
+#thefoot a {
+  text-decoration: none;
+}
+#logo a {
   text-decoration: none;
 }
