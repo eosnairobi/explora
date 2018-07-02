@@ -7,8 +7,8 @@
     <!-- Enable responsiveness on mobile devices-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-    <title>            
-         eos | BlockExplorer
+    <title>
+         eos | BlockExplorer 
     </title>
 
     <!--START Loader -->
@@ -20,14 +20,13 @@
     <!-- SCSS Output -->
     <link rel="stylesheet" href="../assets/stylesheets/app.min.e0bb64e7.css">
 
+
     <!-- fonts-awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="../assets/stylesheets/custom.css">
-    <!-- START Favicon -->
-    <link rel="icon" type="image/png" sizes="192x192" href="../assets/images/favicons/eos-logo.png">
-    <!-- END Favicon -->
+        <!-- START Favicon -->
+        <link rel="icon" type="image/png" sizes="192x192" href="../assets/images/favicons/eos-logo.png">
+        <!-- END Favicon -->
 
     <!-- RSS -->
     <link rel="alternate" type="application/rss+xml" title="RSS" href="../atom.xml">
@@ -55,7 +54,7 @@
     <div id="initial-loader">
     <div>
         <div class="initial-loader-top">
-            <!-- <img class="initial-loader-logo" src="../assets/images/favicon.png" alt="Loader"> -->
+            <img class="initial-loader-logo" src="../assets/images/spin-logo-inverted.png" alt="Loader">
             <div class="loader loader--style1">
                 <svg version="1.1" id="loader-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="30px" height="30px" viewbox="0 0 40 40" enable-background="new 0 0 40 40" xml:space="preserve">
                     <g>
@@ -81,9 +80,10 @@
 <div class="navbar-inverse navbar navbar-fixed-top">
        <div class="container-fluid">
 
-           <div class="navbar-header" id="logo">
-            <a class="current navbar-brand" href="../index.html">                
+           <div class="navbar-header">
+            <a class="current navbar-brand" href="../index.html">
                 EOS | BlockExplorer
+                <!-- <img alt="Spin Logo Inverted" class="h-20" src="../assets/images/spin-logo-inverted-@2X.png"> -->
             </a>
             <button class="action-right-sidebar-toggle navbar-toggle collapsed" data-target="#navdbar" data-toggle="collapse" type="button">
                 <i class="fa fa-fw fa-align-right text-white"></i>
@@ -99,14 +99,14 @@
         <div class="collapse navbar-collapse" id="navbar">
 
             <!-- START Search Mobile -->
-            <!-- <div class="form-group hidden-lg hidden-md hidden-sm">
+            <div class="form-group hidden-lg hidden-md hidden-sm">
                 <div class="input-group hidden-lg hidden-md">
                     <input type="text" class="form-control" placeholder="Search for...">
                     <span class="input-group-btn">
                         <button class="btn btn-primary" type="button"><i class="fa fa-fw fa-search"></i></button>
                     </span>
                 </div>
-            </div> -->
+            </div>
             <!-- END Search Mobile -->
 
             <!-- START Left Side Navbar -->
@@ -115,10 +115,10 @@
                 <!-- START Switch Sidebar ON/OFF -->
                 <li id="sidebar-switch" class="hidden-xs">
                     <a class="action-toggle-sidebar-slim" data-placement="bottom" data-toggle="tooltip" href="#" title="Slim sidebar on/off">
-                        <i class="fas fa-bars"></i>
-                    </a> 
+                        <i class="fa fa-lg fa-bars fa-fw"></i>
+                    </a>
                 </li>
-                <!-- <END Switch Sidebar ON/OFF -->
+                <!-- END Switch Sidebar ON/OFF -->
 
                 <!-- START Menu Only Visible on Navbar -->
                 <li id="top-menu-switch" class="dropdown">
@@ -161,8 +161,8 @@
                                                 </a>
                                             </li>
                                             <li class="m-l-1 ">
-                                                <a href="../start/home.html" class="text-gray-lighter">
-                                                    <span class="nav-label">home</span>
+                                                <a href="../start/financial.html" class="text-gray-lighter">
+                                                    <span class="nav-label">Financial</span>
                                                 </a>
                                             </li>
                                             <li class="m-l-1 ">
@@ -201,7 +201,7 @@
                                             </li>
                                             <li class="m-l-1 ">
                                                 <a href="../graphs-widgets/widgets.html" class="text-gray-lighter">
-                                                    <span class="nav-label">Graphs Widgets</span>
+                                                    <span class="nav-label">Price</span>
                                                 </a>
                                             </li>
 
@@ -727,340 +727,20 @@
 
                 <li class="spin-search-box clearfix hidden-xs">
                     <a href="#" class="pull-left">
-                        <i class="fas fa-search"></i>                        
+                        <i class="fa fa-search fa-lg icon-inactive"></i>
+                        <i class="fa fa-close fa-lg icon-active"></i>
                     </a>
-                   
                     <div class="input-group input-group-sm pull-left p-10">
                         <input type="text" class="form-control" placeholder="Search for...">
                         <span class="input-group-btn">
                             <button class="btn btn-primary" type="button">
-                                <i class="fas fa-search"></i>
+                                <i class="fa fa-search"></i>
                             </button>
                         </span>
                     </div>
                 </li>
             </ul>
-            <!-- START Left Side Navbar -->
-
-            <!-- START Right Side Navbar -->
-            <ul class="nav navbar-nav navbar-right">
-
-                <li role="separator" class="divider hidden-lg hidden-md hidden-sm"></li>
-                <li class="dropdown-header hidden-lg hidden-md hidden-sm text-gray-lighter text-uppercase">
-                    <strong>Your Profile</strong>
-                </li>
-
-                <!-- START Notification -->
-                <li class="dropdown">
-
-                    <!-- START Icon Notification with Badge (10)-->
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button">
-                        <i class="fas fa-bell"></i>
-                            <span class="hidden-sm hidden-md hidden-lg">                                
-                            </span>
-                           <span  class="label label-primary label-pill label-with-icon hidden-xs">10</span>                            
-                    </a>
-                    <!-- END Icon Notification with Badge (10)-->
-
-            <!-- START Notification Dropdown Menu -->
-            <ul class="dropdown-menu dropdown-menu-right p-t-0 b-t-0 p-b-0 b-b-0 b-a-0">
-                <li>
-                    <div class="yamm-content p-t-0 p-r-0 p-l-0 p-b-0">
-                        <ul class="list-group m-b-0 b-b-0">
-                            <li class="list-group-item b-r-0 b-l-0 b-r-0 b-t-r-0  b-t-l-0 b-b-2 w-350">
-                                <small class="text-uppercase">
-                                    <strong>Notifications</strong>
-                                </small>
-                                <a role="button" href="../apps/settings-edit.html" class="btn m-t-0 btn-xs btn-default pull-right">
-                                    <i class="fa fa-fw fa-gear"></i>
-                                </a>
-                            </li>
-
-                            <!-- START Scroll Inside Panel -->
-                            <li class="list-group-item b-a-0 p-x-0 p-y-0 b-t-0">
-                                <div class="scroll-300 custom-scrollbar">
-                                    <a href="../pages/timeline.html" class="list-group-item b-r-0 b-t-0 b-l-0">
-                                        <div class="media">
-                                            <div class="media-left">
-                                                <span class="fa-stack fa-lg">
-                                                    <i class="fa fa-circle-thin fa-stack-2x text-danger"></i>
-                                                    <i class="fa fa-close fa-stack-1x fa-fw text-danger"></i>
-                                                </span>
-                                            </div>
-                                            <div class="media-body">
-                                                <h5 class="m-t-0">
-                                                    <span>If we bypass the alarm, we can get to the FTP feed through the solid state FTP microchip!</span>
-                                                </h5>
-                                                <p class="text-nowrap small m-b-0">
-                                                    <span>04-Oct-2015, 07:10</span>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                    <a href="../pages/timeline.html" class="list-group-item b-r-0 b-l-0">
-                                        <div class="media">
-                                            <div class="media-left">
-                                                <span class="fa-stack fa-lg">
-                                                    <i class="fa fa-circle-thin fa-stack-2x text-primary"></i>
-                                                    <i class="fa fa-info fa-stack-1x text-primary"></i>
-                                                </span>
-                                            </div>
-                                            <div class="media-body">
-                                                <h5 class="m-t-0">
-                                                    <span>If we hack the program, we can get to the IB pixel through the 1080p SAS microchip!</span>
-                                                </h5>
-                                                <p class="text-nowrap small m-b-0">
-                                                    <span>03-Nov-2012, 12:20</span>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                    <a href="../pages/timeline.html" class="list-group-item b-r-0 b-l-0">
-                                        <div class="media">
-                                            <div class="media-left">
-                                                <span class="fa-stack fa-lg">
-                                                    <i class="fa fa-circle-thin fa-stack-2x text-success"></i>
-                                                    <i class="fa fa-check fa-stack-1x text-success"></i>
-                                                </span>
-                                            </div>
-                                            <div class="media-body">
-                                                <h5 class="m-t-0">
-                                                    <span>Use the mobile THX feed, then you can program the back-end protocol!</span>
-                                                </h5>
-                                                <p class="text-nowrap small m-b-0">
-                                                    <span>02-Sep-2011, 02:14</span>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                    <a href="../pages/timeline.html" class="list-group-item b-r-0 b-l-0">
-                                        <div class="media">
-                                            <div class="media-left">
-                                                <span class="fa-stack fa-lg">
-                                                    <i class="fa fa-circle-thin fa-stack-2x text-warning"></i>
-                                                    <i class="fa fa-exclamation fa-stack-1x fa-fw text-warning"></i>
-                                                </span>
-                                            </div>
-                                            <div class="media-body">
-                                                <h5 class="m-t-0">
-                                                    <span>I&apos;ll connect the primary SCSI matrix, that should hard drive the RAM bus!</span>
-                                                </h5>
-                                                <p class="text-nowrap small m-b-0">
-                                                    <span>16-May-2013, 04:24</span>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                            </li>
-
-                        <!-- END Scroll Inside Panel -->
-                        <li class="list-group-item b-a-0 p-x-0 p-y-0 r-a-0 b-b-0">
-                            <a class="list-group-item text-center b-r-0 b-b-0 b-l-0 b-r-b-r-0 b-r-b-l-0" href="../pages/timeline.html">
-                                See All Notifications <i class="fa fa-angle-right"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-
-                </li>
-                </ul>
-                <!-- END Notification Dropdown Menu -->
-
-                </li>
-                <!-- END Notification -->
-
-                <li class="dropdown">
-                    <!-- <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button">
-                        <i class="fa fa-lg fa-fw fa-envelope hidden-xs"></i>
-                            <span class="hidden-sm hidden-md hidden-lg">Messages <span class="badge badge-info m-l-1">3</span></span>
-                        <span class="label label-info label-pill label-with-icon hidden-xs">3</span>
-                        <span class="fa fa-fw fa-angle-down hidden-lg hidden-md hidden-sm"></span>
-                    </a> -->
-
-                    <!-- START Messages Dropdown Menu -->
-                    <ul class="dropdown-menu dropdown-menu-right p-t-0 b-t-0 p-b-0 b-b-0 b-a-0">
-                        <li>
-                            <div class="yamm-content p-t-0 p-r-0 p-l-0 p-b-0">
-                                <ul class="list-group m-b-0">
-                                    <li class="list-group-item b-r-0 b-l-0 b-r-0 b-t-r-0 b-t-l-0 b-b-2 w-350">
-                                        <small class="text-uppercase">
-                                            <strong>Messages</strong>
-                                        </small>
-                                        <a role="button" href="../apps/new-email.html" class="btn m-t-0 btn-xs btn-default pull-right">
-                                            <i class="fa fa-pencil"></i>
-                                        </a>
-                                    </li>
-
-                                    <!-- START Scroll Inside Panel -->
-                                    <li class="list-group-item b-a-0 p-x-0 p-y-0 b-t-0">
-                                        <div class="scroll-200 custom-scrollbar">
-
-                                            <a href="../apps/email-details.html" class="list-group-item b-r-0 b-t-0 b-l-0">
-                                                <div class="media">
-                                                    <div class="media-left media-middle">
-                                                        <div class="avatar">
-                                                            <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/marlinjayakody/128.jpg" alt="Avatar">
-                                                                <i class="avatar-status avatar-status-bottom bg-danger b-gray-darker"></i>
-                                                        </div>
-                                                    </div>
-                                                    <div class="media-body media-auto">
-                                                        <h5 class="m-b-0 m-t-0">
-                                                            <span>Darrin Brekke</span>
-                                                            <small><span>01:12</span></small>
-                                                        </h5>
-                                                        <p class="m-t-0 m-b-0">
-                                                            <span>Nisi consequuntur quia officia.</span>
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </a>
-
-                                            <a href="../apps/email-details.html" class="list-group-item b-r-0 b-l-0">
-                                                <div class="media">
-                                                    <div class="media-left media-middle">
-                                                        <div class="avatar">
-                                                            <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/lebronjennan/128.jpg" alt="Avatar">
-                                                                <i class="avatar-status avatar-status-bottom bg-warning b-gray-darker"></i>
-                                                        </div>
-                                                    </div>
-                                                    <div class="media-body media-auto">
-                                                        <h5 class="m-b-0 m-t-0">
-                                                            <span>Bria Larkin</span>
-                                                            <small><span>08:34</span></small>
-                                                        </h5>
-                                                        <p class="m-t-0 m-b-0">
-                                                            <span>Atque labore corrupti iste eum explicabo.</span>
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </a>
-
-                                            <a href="../apps/email-details.html" class="list-group-item b-r-0 b-l-0">
-                                                <div class="media">
-                                                    <div class="media-left media-middle">
-                                                        <div class="avatar">
-                                                            <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/andrea211087/128.jpg" alt="Avatar">
-                                                            <i class="avatar-status avatar-status-bottom bg-success b-gray-darker"></i>
-                                                        </div>
-                                                    </div>
-                                                    <div class="media-body media-auto">
-                                                        <h5 class="m-b-0 m-t-0">
-                                                            <span>Citlalli Nitzsche</span>
-                                                            <small><span>12:57</span></small>
-                                                        </h5>
-                                                        <p class="m-t-0 m-b-0">
-                                                            <span>Illo asperiores consequatur.</span>
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </a>
-
-                                            <a href="../apps/email-details.html" class="list-group-item b-r-0 b-l-0">
-                                                <div class="media">
-                                                    <div class="media-left media-middle">
-                                                        <div class="avatar">
-                                                            <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/syropian/128.jpg" alt="Avatar">
-                                                            <i class="avatar-status avatar-status-bottom bg-danger b-gray-darker"></i>
-                                                        </div>
-                                                    </div>
-                                                    <div class="media-body media-auto">
-                                                        <h5 class="m-b-0 m-t-0">
-                                                            <span>Dillan Boyer</span>
-                                                            <small><span>09:51</span></small>
-                                                        </h5>
-                                                        <p class="m-t-0 m-b-0">
-                                                            <span>Temporibus assumenda nisi corporis officia maiores fuga enim aut esse.</span>
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </a>
-
-                                            <a href="../apps/email-details.html" class="list-group-item b-r-0 b-l-0">
-                                                <div class="media">
-                                                    <div class="media-left media-middle">
-                                                        <div class="avatar">
-                                                            <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/lisovsky/128.jpg" alt="Avatar">
-                                                            <i class="avatar-status avatar-status-bottom bg-warning b-gray-darker"></i>
-                                                        </div>
-                                                    </div>
-                                                    <div class="media-body media-auto">
-                                                        <h5 class="m-b-0 m-t-0">
-                                                            <span>Darryl Lowe</span>
-                                                            <small><span>06:13</span></small>
-                                                        </h5>
-                                                        <p class="m-t-0 m-b-0">
-                                                            <span>Eius quae qui non aut omnis accusamus.</span>
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </a>
-
-                                            <a href="../apps/email-details.html" class="list-group-item b-r-0 b-l-0">
-                                                <div class="media">
-                                                    <div class="media-left media-middle">
-                                                        <div class="avatar">
-                                                            <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/andrewofficer/128.jpg" alt="Avatar">
-                                                            <i class="avatar-status avatar-status-bottom bg-success b-gray-darker"></i>
-                                                        </div>
-                                                    </div>
-                                                    <div class="media-body media-auto">
-                                                        <h5 class="m-b-0 m-t-0">
-                                                            <span>Abigail Braun</span>
-                                                            <small><span>01:49</span></small>
-                                                        </h5>
-                                                        <p class="m-t-0 m-b-0">
-                                                            <span>Facere atque doloribus fuga voluptas.</span>
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </a>
-
-                                        </div>
-                                    </li>
-                                    <!-- END Scroll Inside Panel -->
-
-                                    <li class="list-group-item b-a-0 p-x-0 b-b-0 p-y-0 r-a-0">
-                                        <a class="list-group-item text-center b-b-0 b-r-0 b-l-0 b-r-b-r-0 b-r-b-l-0" href="../apps/inbox.html">
-                                            See All Messages <i class="fa fa-angle-right"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-                    </ul>
-                    <!-- END Messages Dropdown Menu -->
-
-                </li>
-
-                <li class="dropdown">                   
-                    <ul class="dropdown-menu">
-                        <li class="dropdown-header text-gray-lighter">
-                            <strong class="text-uppercase">Account</strong>
-                        </li>
-                        <li role="separator" class="divider"></li>
-                        <li>
-                            <a href="../apps/profile-details.html">Your Profile</a>
-                        </li>
-                        <li>
-                            <a href="../apps/profile-edit.html">Settings</a>
-                        </li>
-                        <li>
-                            <a href="../apps/faq.html">Faq</a>
-                        </li>
-                        <li role="separator" class="divider"></li>
-                        <li>
-                            <a href="../pages/login.html">Sign Out</a>
-                        </li>
-                    </ul>
-                </li>
-                <!-- <li class="hidden-xs">
-                    <a class="action-right-sidebar-toggle" title="Right sidebar on/off">
-                        <i class="fa fa-lg fa-align-right"></i>
-                    </a>
-                </li> -->
-            </ul>
-            <!-- END Right Side Navbar -->
+            <!-- START Left Side Navbar -->          
         </div>
 
         
@@ -1071,7 +751,7 @@
     <!-- START Sidebars -->
 <aside class="navbar-default sidebar">
     <div class="sidebar-overlay-head">
-        <img src="../assets/images/favicon.png" alt="Logo" width="90">
+        <img src="../assets/images/spin-logo-inverted.png" alt="Logo" width="90">
         <a href="#" class="sidebar-switch action-sidebar-close">
             <i class="fa fa-times"></i>
         </a>
@@ -1101,10 +781,10 @@
 
     <li class="Dashboards">
     <a href="#" title="Dashboards">
-            <i class="fas fa-tachometer-alt"></i> <span class="nav-label">Dashboard</span> 
+        <i class="fas fa-tachometer-alt"></i> <span class="nav-label">Dashboard</span>
     </a>
     <ul>
-        <li class="active">
+        <li class="">
         <a href="../start/home.html">
             <span class="nav-label">Home</span>
         </a>
@@ -1123,45 +803,48 @@
         <a href="../start/accounts.html">
             <span class="nav-label">Top Accounts</span>
         </a>
-        </li>      
-             
+        </li>              
     </ul>
     </li>
 
     <li>
         <a href="#" title="Dashboards">
             <i class="far fa-chart-bar"></i> <span class="nav-label">Charts & Graphs</span>
-            <span class="pull-right label label-primary label-outline text-uppercase">New</span>
+            <!-- <span class="pull-right label label-primary label-outline text-uppercase">New</span> -->
         </a>
-        <ul>
-            <!-- <li class="">
-                <a href="../widgets/widgets.html">
-                <span class="nav-label">Data Widgets</span>
+        <ul>           
+            <li class="active">
+                <a href="../widgets/prices.html">
+                <span class="nav-label">Price </span>
                 </a>
-            </li> -->
+            </li>
             <li class="">
                 <a href="../widgets/prices.html">
-                <span class="nav-label">Price Performance</span>
+                <span class="nav-label">Transaction Fees</span>
                 </a>
             </li>
             <li class="">
-                <a href="../widgets/graphs-widgets.html">
-                <span class="nav-label">Price Performance</span>
+                <a href="../widgets/prices.html">
+                <span class="nav-label">Historical Prices</span>
                 </a>
             </li>
             <li class="">
-                <a href="../widgets/graphs-widgets.html">
-                <span class="nav-label">Tax Volume</span>
+                <a href="../widgets/marketcap.html">
+                <span class="nav-label">Market Capitalization</span>
                 </a>
             </li>
             <li class="">
-                <a href="../widgets/graphs-widgets.html">
-                <span class="nav-label">Price Performance</span>
+                <a href="../widgets/prices.html">
+                <span class="nav-label">Total Supply Chart</span>
+                </a>
+            </li>
+            <li class="">
+                <a href="../widgets/prices.html">
+                <span class="nav-label">Accounts growth rate</span>
                 </a>
             </li>
         </ul>
-    </li>  
-
+    </li>    
 </ul>
 <!-- END Tree Sidebar Common  -->
 
@@ -1196,7 +879,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="page-header m-t-0">
-                    <h3 class="m-t-0">home</h3>
+                    <h3 class="m-t-0">Price</h3>
                 </div>
             </div>
         </div>
@@ -1204,485 +887,216 @@
 </div>
 <!-- END Sub-Navbar with Header only-->
 
-<div class="container">
-
-    <!-- START EDIT CONTENT -->
-    <div class="row">
-        <div class="col-lg-12">
-
-            <!-- START ROW "Your Cash" Header -->
-            <div class="row m-b-2">
-                <div class="col-md-4 col-sm-4 col-xs-4">
-                <h4 class="m-b-0 m-t-0 f-w-300 current">Current Price <span>$8.23 USD (1.06%)</span> </h4>
-                </div>               
+<!-- START Sub-Navbar with Header and Breadcrumbs-->
+<div class="sub-navbar sub-navbar__header-breadcrumbs">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 sub-navbar-column">
+                <div class="sub-navbar-header">
+                    <!-- <h3>Charts</h3> -->
+                </div>
+                <ol class="breadcrumb navbar-text navbar-right no-bg">
+                    <li class="current-parent">
+                        <a class="current-parent" href="../index.html">
+                            <i class="fa fa-fw fa-home"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Widgets
+                        </a>
+                    </li>
+                    <li class="active">Prices</li>
+                </ol>
             </div>
-            <!-- END ROW "Your Cash" Header -->           
-
-
-            <!-- START ROW "Market Cap" & "Recent Map" -->
-            <div class="row">
-
-                <!-- START ROW "Market Cap" -->
-                <div class="col-lg-5">
-                    <!-- START ROW "Your Cash" Header -->
-                    <div class="row m-b-2">
-                        <div class="col-md-4">
-                            <h4 class="m-b-0 f-w-300">Market Cap</h4></div>
-                        <div class="col-md-4 col-md-offset-4 text-right">
-                        </div>
-                    </div>
-                    <!-- END ROW "Your Cash" Header -->
-                    <div class="panel panel-default b-a-2 b-gray-dark no-bg">
-                        <div class="panel-heading">
-
-                            <div class="row">
-                                <div class="col-md-7 col-sm-7 col-xs-7">
-
-                                    <div class="btn-group" role="group" aria-label="...">
-                                        <div class="btn-group" role="group" aria-label="...">
-                                            <button type="button" class="btn btn-sm btn-default">Last Month</button>
-                                            <button type="button" class="btn btn-sm btn-default">This Month</button>
-                                            <button type="button" class="btn btn-sm btn-default">Today</button>
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <div class="col-md-3 col-sm-3 col-xs-3 col-xs-offset-2 col-sm-offset-2 col-md-offset-2 text-right">
-                                    <div class="btn-group" role="group" aria-label="...">
-                                        <button type="button" class="btn btn-sm btn-default"><i class="fa fa-pie-chart"></i></button>
-                                        <button type="button" class="btn btn-sm btn-default"><i class="fa fa-bar-chart"></i></button>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel-body">
-                            <!-- <div class="highcharts-pie-with-legend-money-map"></div> -->
-                            <div class="highcharts-pie-with-legend"></div>
-                        </div>
-                    </div>
-                </div>
-                <!-- END ROW "Market Cap" -->
-
-                <!-- START ROW "Recent Funding" -->
-                <div class="col-lg-7">
-                    <!-- START ROW "Your Cash" Header -->
-                    <div class="row m-b-2">
-                        <div class="col-md-4 col-sm-4 col-xs-6">
-                            <h4 class="m-b-0 f-w-300">Top BlockProducers</h4></div>
-                        <div class="col-md-4 col-sm-4 col-xs-4 col-xs-offset-2 col-sm-offset-4 col-md-offset-4 text-right">
-                            <button type="button" class="btn btn-sm btn-default">View All<i class="fa m-l-1 fa-angle-right"></i> </button>
-                        </div>
-                    </div>
-                    <!-- END ROW "Your Cash" Header -->
-
-                    <!-- Start table with top Block Producers -->
-                    <div class="panel panel-default b-a-2 b-gray-dark no-bg">
-
-                        <table class="table table-striped">
-                            <thead>
-                                <tr>
-                                    <th class="small text-muted text-uppercase"><strong>#</strong>
-                                    </th>
-                                    <th class="small text-muted text-uppercase"><strong>Name</strong>
-                                    </th>
-                                    <th class="small text-muted text-uppercase"><strong>Votes</strong>
-                                    </th>
-                                    <th class="small text-muted text-muted text-uppercase"><strong>%</strong>
-                                    </th>
-                                    <th class="small text-muted text-muted text-uppercase"><strong>Daily Rewards</strong>
-                                    </th>
-                                    <th class="small text-muted text-muted text-uppercase"><strong>Action</strong>
-                                    </th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td class="v-a-m"><span>1</span></td>
-                                    <td class="v-a-m"><span class="text-white">Bitfinex</span></td>
-                                    <td class="v-a-m"><span>53,704,776</span></td>
-                                    <td class="v-a-m"><span>3.41%</span></td>
-                                    <td class="v-a-m"><span>1109 EOS</span></td>                                   
-                                    <td class="v-a-m text-right">
-                                        <a href="#">View <i class="fa fa-angle-right"></i></a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="v-a-m"><span>1</span></td>
-                                    <td class="v-a-m"><span class="text-white">Bitfinex</span></td>
-                                    <td class="v-a-m"><span>53,704,776</span></td>
-                                    <td class="v-a-m"><span>3.41%</span></td>
-                                    <td class="v-a-m"><span>1109 EOS</span></td>                                   
-                                    <td class="v-a-m text-right">
-                                        <a href="#">View <i class="fa fa-angle-right"></i></a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="v-a-m"><span>1</span></td>
-                                    <td class="v-a-m"><span class="text-white">Bitfinex</span></td>
-                                    <td class="v-a-m"><span>53,704,776</span></td>
-                                    <td class="v-a-m"><span>3.41%</span></td>
-                                    <td class="v-a-m"><span>1109 EOS</span></td>                                   
-                                    <td class="v-a-m text-right">
-                                        <a href="#">View <i class="fa fa-angle-right"></i></a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="v-a-m"><span>1</span></td>
-                                    <td class="v-a-m"><span class="text-white">Bitfinex</span></td>
-                                    <td class="v-a-m"><span>53,704,776</span></td>
-                                    <td class="v-a-m"><span>3.41%</span></td>
-                                    <td class="v-a-m"><span>1109 EOS</span></td>                                   
-                                    <td class="v-a-m text-right">
-                                        <a href="#">View <i class="fa fa-angle-right"></i></a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="v-a-m"><span>1</span></td>
-                                    <td class="v-a-m"><span class="text-white">Bitfinex</span></td>
-                                    <td class="v-a-m"><span>53,704,776</span></td>
-                                    <td class="v-a-m"><span>3.41%</span></td>
-                                    <td class="v-a-m"><span>1109 EOS</span></td>                                   
-                                    <td class="v-a-m text-right">
-                                        <a href="#">View <i class="fa fa-angle-right"></i></a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="v-a-m"><span>1</span></td>
-                                    <td class="v-a-m"><span class="text-white">Bitfinex</span></td>
-                                    <td class="v-a-m"><span>53,704,776</span></td>
-                                    <td class="v-a-m"><span>3.41%</span></td>
-                                    <td class="v-a-m"><span>1109 EOS</span></td>                                   
-                                    <td class="v-a-m text-right">
-                                        <a href="#">View <i class="fa fa-angle-right"></i></a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="v-a-m"><span>1</span></td>
-                                    <td class="v-a-m"><span class="text-white">Bitfinex</span></td>
-                                    <td class="v-a-m"><span>53,704,776</span></td>
-                                    <td class="v-a-m"><span>3.41%</span></td>
-                                    <td class="v-a-m"><span>1109 EOS</span></td>                                   
-                                    <td class="v-a-m text-right">
-                                        <a href="#">View <i class="fa fa-angle-right"></i></a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="v-a-m"><span>1</span></td>
-                                    <td class="v-a-m"><span class="text-white">Bitfinex</span></td>
-                                    <td class="v-a-m"><span>53,704,776</span></td>
-                                    <td class="v-a-m"><span>3.41%</span></td>
-                                    <td class="v-a-m"><span>1109 EOS</span></td>                                   
-                                    <td class="v-a-m text-right">
-                                        <a href="#">View <i class="fa fa-angle-right"></i></a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="v-a-m"><span>1</span></td>
-                                    <td class="v-a-m"><span class="text-white">Bitfinex</span></td>
-                                    <td class="v-a-m"><span>53,704,776</span></td>
-                                    <td class="v-a-m"><span>3.41%</span></td>
-                                    <td class="v-a-m"><span>1109 EOS</span></td>                                   
-                                    <td class="v-a-m text-right">
-                                        <a href="#">View <i class="fa fa-angle-right"></i></a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="v-a-m"><span>1</span></td>
-                                    <td class="v-a-m"><span class="text-white">Bitfinex</span></td>
-                                    <td class="v-a-m"><span>53,704,776</span></td>
-                                    <td class="v-a-m"><span>3.41%</span></td>
-                                    <td class="v-a-m"><span>1109 EOS</span></td>                                   
-                                    <td class="v-a-m text-right">
-                                        <a href="#">View <i class="fa fa-angle-right"></i></a>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-
-                    </div>
-                    <!-- End table with top block producers -->
-                </div>
-                <!-- END ROW "Recent Funding" -->
-
-            </div>
-            <!-- END ROW "Market Cap" & "Recent Map" -->
-
-
-            <!-- START ROW "Transactions" -->
-            <div class="row">
-
-                <!-- START ROW "Transactions" -->
-                <div class="col-lg-12">
-                    <!-- START ROW "Transactions" Header -->
-                    <div class="row m-b-2">
-                        <div class="col-md-4 col-sm-4 col-xs-4">
-                            <h4 class="m-b-0 f-w-300">Latest Transactions</h4></div>
-                        <div class="col-md-4  col-sm-4  col-xs-4 col-xs-offset-4 col-sm-offset-4 col-md-offset-4 text-right">
-                            <button type="button" class="btn btn-sm btn-default"><a href="transactions.html">View All</a><i class="fa m-l-1 fa-caret-down"></i> </button>
-                        </div>
-                    </div>
-                    <!-- END ROW "Transactions" Header -->
-                    <div class="panel panel-default b-a-2 b-gray-dark no-bg">
-
-                        <table class="table table-striped">
-                            <thead>
-                                <tr>
-                                    <th class="small text-muted text-uppercase"><strong>#</strong>
-                                    </th>
-                                    <th class="small text-muted text-uppercase"><strong>Block ID</strong>
-                                    </th>
-                                    <th class="small text-muted text-uppercase"><strong>Created at</strong>
-                                    </th>
-                                    <th class="small text-muted text-uppercase"><strong>Expiration</strong>
-                                    </th>
-                                    <th class="small text-muted text-uppercase"><strong>Block Producer</strong>
-                                    </th>                                    
-                                    <th class="small text-muted text-muted text-uppercase"><strong>Action</strong>
-                                    </th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td class="v-a-m"><span>0e5592a99510212143c7a1e47d...</span></td>
-                                    <td class="v-a-m"><span class="text-white">2636246</span></td>
-                                    <td class="v-a-m"><span>Jun 26, 2018, 1:25:06 AM</span></td>
-                                    <td class="v-a-m"><span>Jun 26, 2018, 1:29:06 AM</span></td>
-                                    <td class="v-a-m"><span>Bitfinex</span></td>                                   
-                                    <td class="v-a-m text-right">
-                                        <a href="#">View <i class="fa fa-angle-right"></i></a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="v-a-m"><span>0e5592a99510212143c7a1e47d...</span></td>
-                                    <td class="v-a-m"><span class="text-white">2636246</span></td>
-                                    <td class="v-a-m"><span>Jun 26, 2018, 1:25:06 AM</span></td>
-                                    <td class="v-a-m"><span>Jun 26, 2018, 1:29:06 AM</span></td>
-                                    <td class="v-a-m"><span>Bitfinex</span></td>                                   
-                                    <td class="v-a-m text-right">
-                                        <a href="#">View <i class="fa fa-angle-right"></i></a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="v-a-m"><span>0e5592a99510212143c7a1e47d...</span></td>
-                                    <td class="v-a-m"><span class="text-white">2636246</span></td>
-                                    <td class="v-a-m"><span>Jun 26, 2018, 1:25:06 AM</span></td>
-                                    <td class="v-a-m"><span>Jun 26, 2018, 1:29:06 AM</span></td>
-                                    <td class="v-a-m"><span>Bitfinex</span></td>                                   
-                                    <td class="v-a-m text-right">
-                                        <a href="#">View <i class="fa fa-angle-right"></i></a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="v-a-m"><span>0e5592a99510212143c7a1e47d...</span></td>
-                                    <td class="v-a-m"><span class="text-white">2636246</span></td>
-                                    <td class="v-a-m"><span>Jun 26, 2018, 1:25:06 AM</span></td>
-                                    <td class="v-a-m"><span>Jun 26, 2018, 1:29:06 AM</span></td>
-                                    <td class="v-a-m"><span>Bitfinex</span></td>                                   
-                                    <td class="v-a-m text-right">
-                                        <a href="#">View <i class="fa fa-angle-right"></i></a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="v-a-m"><span>0e5592a99510212143c7a1e47d...</span></td>
-                                    <td class="v-a-m"><span class="text-white">2636246</span></td>
-                                    <td class="v-a-m"><span>Jun 26, 2018, 1:25:06 AM</span></td>
-                                    <td class="v-a-m"><span>Jun 26, 2018, 1:29:06 AM</span></td>
-                                    <td class="v-a-m"><span>Bitfinex</span></td>                                   
-                                    <td class="v-a-m text-right">
-                                        <a href="#">View <i class="fa fa-angle-right"></i></a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="v-a-m"><span>0e5592a99510212143c7a1e47d...</span></td>
-                                    <td class="v-a-m"><span class="text-white">2636246</span></td>
-                                    <td class="v-a-m"><span>Jun 26, 2018, 1:25:06 AM</span></td>
-                                    <td class="v-a-m"><span>Jun 26, 2018, 1:29:06 AM</span></td>
-                                    <td class="v-a-m"><span>Bitfinex</span></td>                                   
-                                    <td class="v-a-m text-right">
-                                        <a href="#">View <i class="fa fa-angle-right"></i></a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="v-a-m"><span>0e5592a99510212143c7a1e47d...</span></td>
-                                    <td class="v-a-m"><span class="text-white">2636246</span></td>
-                                    <td class="v-a-m"><span>Jun 26, 2018, 1:25:06 AM</span></td>
-                                    <td class="v-a-m"><span>Jun 26, 2018, 1:29:06 AM</span></td>
-                                    <td class="v-a-m"><span>Bitfinex</span></td>                                   
-                                    <td class="v-a-m text-right">
-                                        <a href="#">View <i class="fa fa-angle-right"></i></a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="v-a-m"><span>0e5592a99510212143c7a1e47d...</span></td>
-                                    <td class="v-a-m"><span class="text-white">2636246</span></td>
-                                    <td class="v-a-m"><span>Jun 26, 2018, 1:25:06 AM</span></td>
-                                    <td class="v-a-m"><span>Jun 26, 2018, 1:29:06 AM</span></td>
-                                    <td class="v-a-m"><span>Bitfinex</span></td>                                   
-                                    <td class="v-a-m text-right">
-                                        <a href="#">View <i class="fa fa-angle-right"></i></a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="v-a-m"><span>0e5592a99510212143c7a1e47d...</span></td>
-                                    <td class="v-a-m"><span class="text-white">2636246</span></td>
-                                    <td class="v-a-m"><span>Jun 26, 2018, 1:25:06 AM</span></td>
-                                    <td class="v-a-m"><span>Jun 26, 2018, 1:29:06 AM</span></td>
-                                    <td class="v-a-m"><span>Bitfinex</span></td>                                   
-                                    <td class="v-a-m text-right">
-                                        <a href="#">View <i class="fa fa-angle-right"></i></a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="v-a-m"><span>0e5592a99510212143c7a1e47d...</span></td>
-                                    <td class="v-a-m"><span class="text-white">2636246</span></td>
-                                    <td class="v-a-m"><span>Jun 26, 2018, 1:25:06 AM</span></td>
-                                    <td class="v-a-m"><span>Jun 26, 2018, 1:29:06 AM</span></td>
-                                    <td class="v-a-m"><span>Bitfinex</span></td>                                   
-                                    <td class="v-a-m text-right">
-                                        <a href="#">View <i class="fa fa-angle-right"></i></a>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-
-                    </div>
-                </div>
-                <!-- END ROW "Transactions" -->
-
-            </div>
-            <!-- END ROW "Transactions" -->
-
-
-            <!-- START ROW "Price Performance" & "Dashboard Settings" -->
-            <div class="row">
-
-                <!-- START ROW "Price Performance" -->
-                <div class="col-lg-9">
-                    <!-- START ROW "Price Performance" Header -->
-                    <div class="row m-b-2">
-                        <div class="col-md-4">
-                            <h4 class="m-b-0 f-w-300">Price Performance</h4></div>
-                        <div class="col-md-4 col-md-offset-4 text-right">
-                        </div>
-                    </div>
-                    <!-- END ROW "Price Performance" Header -->
-                    <div class="panel panel-default b-a-2 b-gray-dark no-bg">
-                        <div class="panel-body">
-                            <div class="highcharts-area-with-missing-points"></div>
-                        </div>
-                    </div>
-                </div>
-                <!-- END ROW "Price Performance" -->
-
-                <!-- START ROW "Dashboard Settings" -->
-                <div class="col-lg-3">
-                    <!-- START ROW "Your Cash" Header -->
-                    <!-- <div class="row m-b-2">
-                        <div class="col-md-9">
-                            <h4 class="m-b-0 f-w-300">Dashboard Settings</h4></div>
-                        <div class="col-md-2 col-md-offset-2 text-right">
-                        </div>
-                    </div> -->
-                    <!-- END ROW "Your Cash" Header -->
-                    <div class="panel panel-default b-a-2 b-gray-dark no-bg">
-
-                        <!-- START Table -->
-                        <!-- <table class="table">
-                            <tbody>
-                                <tr>
-                                    <td class="v-a-m">My Cash
-                                        </td><td class="v-a-m text-right">
-                                            <input type="checkbox" class="js-switch-small" checked>
-                                        </td>
-                                </tr>
-                                <tr>
-                                    <td class="v-a-m">My Cap
-                                        </td><td class="v-a-m text-right">
-                                            <input type="checkbox" class="js-switch-small" checked>
-                                        </td>
-                                </tr>
-                                <tr>
-                                    <td class="v-a-m">Recent Fundings
-                                        </td><td class="v-a-m text-right">
-                                            <input type="checkbox" class="js-switch-small" checked>
-                                        </td>
-                                </tr>
-                                <tr>
-                                    <td class="v-a-m">Client List
-                                        </td><td class="v-a-m text-right">
-                                            <input type="checkbox" class="js-switch-small" checked>
-                                        </td>
-                                </tr>
-                                <tr>
-                                    <td class="v-a-m">Invoice Creator
-                                        </td><td class="v-a-m text-right">
-                                            <input type="checkbox" class="js-switch-small" checked>
-                                        </td>
-                                </tr>
-                                <tr>
-                                    <td class="v-a-m">Invoice Generator
-                                        </td><td class="v-a-m text-right">
-                                            <input type="checkbox" class="js-switch-small" checked>
-                                        </td>
-                                </tr>
-                                <tr>
-                                    <td class="v-a-m">Sales Lead
-                                        </td><td class="v-a-m text-right">
-                                            <input type="checkbox" class="js-switch-small" checked>
-                                        </td>
-                                </tr>
-                                <tr>
-                                    <td class="v-a-m">Q &amp; A
-                                        </td><td class="v-a-m text-right">
-                                            <input type="checkbox" class="js-switch-small" checked>
-                                        </td>
-                                </tr>
-                                <tr>
-                                    <td class="v-a-m">Price Performance
-                                        </td><td class="v-a-m text-right">
-                                            <input type="checkbox" class="js-switch-small" checked>
-                                        </td>
-                                </tr>
-                            </tbody>
-                        </table> -->
-                        <!-- END Table -->
-
-                    </div>
-                </div>
-                <!-- END ROW "Dashboard Settings" -->
-
-            </div>
-            <!-- END ROW "Price Performance" & "Dashboard Settings" -->
-
         </div>
     </div>
-    <!-- END EDIT CONTENT -->
+</div> 
+<!-- END Sub-Navbar with Header and Breadcrumbs-->
 
+
+<div class="container">
+    <!-- START EDIT CONTENT -->
+
+    <div class="row">
+        <!-- START #3 Widgets -->
+
+        <!-- <div class="col-lg-12">
+            <p class="m-b-3"><span class="text-white">Lorem ipsum dolor sit amet</span>, consectetur adipisicing elit. Officia ipsum dolor adipisci ad libero sunt nostrum harum nam odit doloremque eum expedita dolore dolores consectetur, maxime, obcaecati, repellat quibusdam. Sapiente, vitae. Aliquid velit voluptate perspiciatis omnis repudiandae obcaecati laborum nihil, culpa, voluptatibus. Excepturi, eaque perferendis.</p>
+        </div> -->
+
+        <!-- START Traffic by Day -->
+        <div class="col-lg-12">
+            <div class="panel panel-default bg-primary b-a-0">
+
+                <!-- START Heading -->
+                <div class="panel-heading b-b-0">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6"><i class="fa fa-fw fa-ellipsis-v text-white"></i> Price </div>
+                        <div class="col-lg-6 col-md-6 text-right">
+                            <i class="fa fa-fw fa-chevron-up text-white"></i>
+                            <i class="fa fa-fw fa-gear text-white"></i>
+                            <i class="fa fa-fw fa-close text-white"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- END Heading -->
+
+                <!-- START Content -->
+                <div class="panel-body">
+                    <div class="highcharts-area-with-missing-points-storages"></div>
+                </div>
+                <!-- END Content -->
+
+                <!-- START Footer -->
+                <div class="panel-footer">
+
+                    <!-- START Visits Summary -->
+                    <div class="row">
+
+                        <!-- START Total Visits -->
+                        <!-- <div class="col-lg-3 m-b-2">
+
+                            <small class="text-muted">Yearly Change</small>
+                            <h2 class="m-t-0 m-b-0 f-w-300">+ 233,19 </h2>
+
+                            <div class="progress b-r-a-0 m-t-1 m-b-1 h-3">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"><span class="sr-only">60% Complete</span></div>
+                            </div>
+
+                        </div> -->
+                        <!-- END Total Visits -->
+
+                        <!-- START External Visits -->
+                        <div class="col-lg-3 m-b-2">
+                            <small class="text-muted">Shares Trade</small>
+                            <h2 class="m-t-0 m-b-0 f-w-300">+ 89,22 M </h2>
+
+                            <div class="progress b-r-a-0 m-t-1 m-b-1 h-3">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 20%;"><span class="sr-only">60% Complete</span></div>
+                            </div>
+                        </div>
+                        <!-- END External Visits -->
+
+                        <!-- START Unique Visits -->
+                        <div class="col-lg-3 m-b-2">
+                            <small class="text-muted">Today</small>
+                            <h2 class="m-t-0 m-b-0 f-w-300">21,01 </h2>
+
+                            <div class="progress b-r-a-0 m-t-1 m-b-1 h-3">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 30%;"><span class="sr-only">60% Complete</span></div>
+                            </div>
+                        </div>
+                        <!-- END Unique Visits -->
+
+                        <!-- START Impressions -->
+                        <div class="col-lg-3 m-b-2">
+                            <small class="text-muted">Last Month</small>
+                            <h2 class="m-t-0 m-b-0 f-w-300">- 9,19 </h2>
+
+                            <div class="progress b-r-a-0 m-t-1 m-b-1 h-3">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 10%;"><span class="sr-only">60% Complete</span></div>
+                            </div>
+                        </div>
+                        <!-- END Impressions -->
+
+                    </div>
+                    <!-- END Visits Summary -->
+
+                </div>
+                <!-- END Footer -->
+
+            </div>
+        </div>
+        <!-- END Traffic by Day -->
+
+        <!-- START Results -->
+        <div class="col-lg-4">
+
+            <div class="panel panel-default no-bg b-a-2 b-gray-dark">
+
+                <!-- START Heading -->
+                <!-- <div class="panel-heading">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3"><i class="fa fa-fw fa-ellipsis-v text-muted"></i></div>
+                        <div class="col-lg-6 col-md-6 text-center">Results</div>
+                        <div class="col-lg-3 col-md-3 text-right">
+                            <i class="fa fa-fw fa-chevron-up text-muted"></i>
+
+                            <i class="fa fa-fw fa-close text-muted"></i>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- END Heading -->
+
+                <!-- START Content -->
+                <!-- <div class="panel-body">
+                    <h4 class="display-4 m-t-0 m-b-0">65 %</h4>
+                    <p class="m-t-0">981 Companies</p>
+                    <div class="highcharts-area-with-missing-points-results m-t-0"></div>
+                </div> -->
+                <!-- END Content -->              
+
+            </div>
+        </div>
+        <!-- END Results -->
+
+        <!-- START Customer Overview -->
+     
+        <!-- END Customer Overview -->
+
+        <!-- END #3 Widgets -->
+    </div>
+
+    <div class="row m-t-1">
+
+        <!-- START ROW #1 Widgets -->
+        <div class="col-lg-4">
+
+
+        <!-- END ROW #1 Widgets -->
+
+        <!-- START ROW #2 Widgets -->
+        <div class="col-lg-4">
+
+        </div>
+        <!-- END #3 Widgets -->
+    </div>
+
+
+
+    <!-- END EDIT CONTENT -->
 </div>
+
+<script src="..//assets/vendor/js/jquery.sparkline.min.js"></script>
 <script src="..//assets/vendor/js/highstock.min.js"></script>
+<script src="..//assets/vendor/js/highcharts-more.min.js"></script>
+<script src="..//assets/vendor/js/data.min.js"></script>
+<script src="..//assets/javascript/peity-settings.js"></script>
+<script src="..//assets/javascript/sparklines-settings.js"></script>
 <script src="..//assets/javascript/highchart-themes/highcharts&amp;highstock-theme.js"></script>
 <script src="..//assets/javascript/highchart-themes/highcharts-settings.js"></script>
+<script src="..//assets/javascript/highchart-themes/highstock-settings.js"></script>
 
         </div>
 
         <!-- START Layout Options (Right Side) -->
 <div class="layout-options">
-    <!-- <button type="button" class="btn btn-primary action-toggle-layout-options" data-toggle="tooltip" data-placement="left" title="Show/Hide Layout settings"><i class="fa fa-gear"></i></button>
-    <button type="button" class="btn btn-primary action-toggle-layout-options disabled" data-toggle="tooltip" data-placement="left" title="Layout settings disabled on this page"><i class="fa fa-gear"></i></button> -->
+    <button type="button" class="btn btn-primary action-toggle-layout-options" data-toggle="tooltip" data-placement="left" title="Show/Hide Layout settings"><i class="fa fa-gear"></i></button>
+    <button type="button" class="btn btn-primary action-toggle-layout-options disabled" data-toggle="tooltip" data-placement="left" title="Layout settings disabled on this page"><i class="fa fa-gear"></i></button>
 
     <div class="panel panel-default">
 
         <div class="panel-body">
             <!-- START Tabs: Options | Skins -->
-            <!-- <ul class="nav nav-tabs nav-justified tab-color-panel-bg">
+            <ul class="nav nav-tabs nav-justified tab-color-panel-bg">
                 <li role="presentation" class="active">
                     <a aria-expanded="true" data-toggle="tab" href="#tab-options" role="tab">Options</a>
                 </li>
                 <li role="presentation">
                     <a aria-expanded="true" data-toggle="tab" href="#tab-skins" role="tab">Skins</a>
                 </li>
-            </ul> -->
+            </ul>
             <!-- END Tabs: Options | Skins -->
 
             <!-- START Tabs Content: Options & Skins -->
@@ -1735,7 +1149,10 @@
                         </div>
 
                         <select class="form-control" id="layout-sidebar-style">
-                            <i class="fas fa-bars"></i>
+                            <option selected value="">Default Sidebar</option>
+                            <option value="sidebar-slim">Slim Sidebar</option>
+                            <option value="sidebar-big-icons">Big Icons Sidebar</option>
+                            <option value="sidebar-big-icons sidebar-with-avatar">Big Icons with Avatar</option>
                         </select>
 
                         <div class="input-group p-t-1">
@@ -1926,19 +1343,19 @@
             <div class="tab-content vertical-scroll-container" id="myTabContent">
                 <div class="tab-pane fade in active p-r-1" id="tab-calendar" role="tabpanel">
 
-                   <!-- <p class="small text-uppercase m-b-0 m-t-1"><strong>Weather</strong></p> -->
+                   <p class="small text-uppercase m-b-0 m-t-1"><strong>Weather</strong></p>
                     <!-- START Widget - Weather Current -->
-                    <!-- <div class="m-t-0 m-b-3">
+                    <div class="m-t-0 m-b-3">
                         <p class="display-4 text-white m-t-0 m-b-0">
-                            <span>Monday</span>
+                            <span>Friday</span>
                         </p>
-                        <span class="lead text-white m-t-0 m-b-0">30 March</span>
+                        <span class="lead text-white m-t-0 m-b-0">30 June</span>
                         <p class="m-t-2">Partly cloudy today, temperature minimum 11&#xBA;, maximum 15&#xBA;</p>
                         <a href="../start/weather.html">More Details <i class="fa fa-angle-right"></i></a>
-                    </div> -->
+                    </div>
                     <!-- END Widget - Weather Current -->
                     <!-- START Widget - Stock -->
-                    <!-- <table class="table table-condensed table-hover">
+                    <table class="table table-condensed table-hover">
                         <thead>
                             <tr>
                                 <th class="small text-muted text-uppercase">
@@ -1974,11 +1391,11 @@
                                 </td>
                             </tr>
                         </tbody>
-                    </table> -->
+                    </table>
 
                     <!-- END Widget - Stock -->
                     <!-- START Widget - Emails Today -->
-                    <!-- <table class="table m-t-2 m-b-3">
+                    <table class="table m-t-2 m-b-3">
                         <thead>
                             <tr>
                                 <th class="small text-muted text-uppercase">
@@ -1992,12 +1409,12 @@
         <div class="media">
             <div class="media-left media-middle">
                 <a href="../apps/email-details.html">
-                    <div class="avatar"> <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/kapaluccio/128.jpg" alt="Avatar"><i class="avatar-status avatar-status-bottom bg-success b-gray-darker"></i> </div>
+                    <div class="avatar"> <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/msveet/128.jpg" alt="Avatar"><i class="avatar-status avatar-status-bottom bg-success b-gray-darker"></i> </div>
                 </a>
             </div>
             <div class="media-body media-auto">
-                <h5 class="m-b-0"><span>Russ Franecki</span> <small><span>04:23</span></small></h5>
-                <p class="m-t-0 m-b-0"><span>Dicta iure quas veritatis quia rerum odit perspiciatis molestiae dicta.</span></p>
+                <h5 class="m-b-0"><span>Ron Gorczany</span> <small><span>11:08</span></small></h5>
+                <p class="m-t-0 m-b-0"><span>Facilis repudiandae non excepturi optio nam est et voluptas quia.</span></p>
                                     <div class="btn-group" role="group">
   <a role="button" class="btn btn-link btn-xs" href="../apps/email-details.html"><i class="fa fa-reply text-gray-light"></i></a>
   <a role="button" class="btn btn-link btn-xs" href="../apps/email-details.html"><i class="fa fa-archive text-gray-light"></i></a>
@@ -2012,12 +1429,12 @@
         <div class="media">
             <div class="media-left media-middle">
                 <a href="../apps/email-details.html">
-                    <div class="avatar"> <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/guiiipontes/128.jpg" alt="Avatar"><i class="avatar-status avatar-status-bottom bg-danger b-gray-darker"></i> </div>
+                    <div class="avatar"> <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/damenleeturks/128.jpg" alt="Avatar"><i class="avatar-status avatar-status-bottom bg-danger b-gray-darker"></i> </div>
                 </a>
             </div>
             <div class="media-body media-auto">
-                <h5 class="m-b-0"><span>Ceasar McLaughlin</span> <small><span>09:22</span></small></h5>
-                <p class="m-t-0 m-b-0"><span>Repudiandae qui voluptas facilis.</span></p>
+                <h5 class="m-b-0"><span>Vidal Douglas</span> <small><span>11:12</span></small></h5>
+                <p class="m-t-0 m-b-0"><span>Est culpa illum iusto architecto quis veniam omnis unde nihil.</span></p>
                                     <div class="btn-group" role="group">
   <a role="button" class="btn btn-link btn-xs" href="../apps/email-details.html"><i class="fa fa-reply text-gray-light"></i></a>
   <a role="button" class="btn btn-link btn-xs" href="../apps/email-details.html"><i class="fa fa-archive text-gray-light"></i></a>
@@ -2033,12 +1450,12 @@
         <div class="media">
             <div class="media-left media-middle">
                 <a href="../apps/email-details.html">
-                    <div class="avatar"> <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/ah_lice/128.jpg" alt="Avatar"><i class="avatar-status avatar-status-bottom bg-warning b-gray-darker"></i> </div>
+                    <div class="avatar"> <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/megdraws/128.jpg" alt="Avatar"><i class="avatar-status avatar-status-bottom bg-warning b-gray-darker"></i> </div>
                 </a>
             </div>
             <div class="media-body media-auto">
-                <h5 class="m-b-0"><span>Connie Carter</span> <small><span>06:45</span></small></h5>
-                <p class="m-t-0 m-b-0"><span>Voluptatem iure est quam quae adipisci illo.</span></p>
+                <h5 class="m-b-0"><span>Desiree Pacocha</span> <small><span>07:55</span></small></h5>
+                <p class="m-t-0 m-b-0"><span>Dolore at quis eos rerum et distinctio sint et.</span></p>
                                     <div class="btn-group" role="group">
   <a role="button" class="btn btn-link btn-xs" href="../apps/email-details.html"><i class="fa fa-reply text-gray-light"></i></a>
   <a role="button" class="btn btn-link btn-xs" href="../apps/email-details.html"><i class="fa fa-archive text-gray-light"></i></a>
@@ -2051,12 +1468,12 @@
 
 
                         </tbody>
-                    </table> -->
+                    </table>
 
 
                     <!-- END Widget - Emails Today -->
                     <!-- START Widget - Tasks -->
-                    <!-- <table class="table table-condensed m-t-2 m-b-0">
+                    <table class="table table-condensed m-t-2 m-b-0">
                         <thead>
                             <tr>
                                 <th class="small text-muted text-uppercase">
@@ -2070,8 +1487,8 @@
                                     <div class="checkbox">
                                         <label>
                                             <input type="checkbox" value="">
-                                            <a href="../apps/tasks-details.html"><span>The TCP matrix is down, parse the optical interface so we can program the SQL pixel!</span></a>
-                                            <span class="m-t-1 small"><i class="fa fa-history small text-gray-light"></i> <span>10-Nov-2015, 02:36</span> </span>
+                                            <a href="../apps/tasks-details.html"><span>synthesizing the firewall won&apos;t do anything, we need to generate the solid state PNG interface!</span></a>
+                                            <span class="m-t-1 small"><i class="fa fa-history small text-gray-light"></i> <span>16-Oct-2013, 03:40</span> </span>
                                         </label>
                                     </div>
                                 </td>
@@ -2081,8 +1498,8 @@
                                     <div class="checkbox">
                                         <label>
                                             <input type="checkbox" value="" checked>
-                                            <del> <a href="../apps/tasks-details.html" class="text-muted"><span>You can&apos;t calculate the circuit without calculating the auxiliary SMS system!</span></a></del>
-                                            <span class="m-t-1 small"><i class="fa fa-history small text-gray-light"></i> <span>25-Jun-2015, 09:44</span> </span>
+                                            <del> <a href="../apps/tasks-details.html" class="text-muted"><span>Try to calculate the CSS protocol, maybe it will parse the neural bus!</span></a></del>
+                                            <span class="m-t-1 small"><i class="fa fa-history small text-gray-light"></i> <span>24-Jan-2015, 07:50</span> </span>
                                         </label>
                                     </div>
                                 </td>
@@ -2092,14 +1509,14 @@
                                     <div class="checkbox">
                                         <label>
                                             <input type="checkbox" value="" checked>
-                                            <del> <a href="../apps/tasks-details.html" class="text-muted"><span>We need to calculate the open-source USB driver!</span></a></del>
-                                            <span class="m-t-1 small"><i class="fa fa-history small text-gray-light"></i> <span>16-Dec-2012, 03:11</span> </span>
+                                            <del> <a href="../apps/tasks-details.html" class="text-muted"><span>We need to calculate the online SDD feed!</span></a></del>
+                                            <span class="m-t-1 small"><i class="fa fa-history small text-gray-light"></i> <span>27-Feb-2012, 02:25</span> </span>
                                         </label>
                                     </div>
                                 </td>
                             </tr>
                         </tbody>
-                    </table> -->
+                    </table>
                     <!-- END Widget - Emails Today -->
 
                 </div>
@@ -2160,7 +1577,7 @@
                                 </tr>
                                 <tr class="small v-a-m">
                                     <td> Processing </td>
-                                    <td class="text-right v-a-m text-white"><span>73920</span></td>
+                                    <td class="text-right v-a-m text-white"><span>63704</span></td>
                                 </tr>
                                 <tr class="small v-a-m">
                                     <td> CPU User </td>
@@ -2193,26 +1610,26 @@
                                     </tr>
                                     <tr class="small v-a-m">
                                         <td>IP</td>
-                                        <td class="text-right v-a-m text-white"><samp><span>7.239.176.0</span></samp></td>
+                                        <td class="text-right v-a-m text-white"><samp><span>88.117.190.233</span></samp></td>
                                     </tr>
                                     <tr class="small v-a-m">
                                         <td>MAC</td>
-                                        <td class="text-right v-a-m text-white"><samp><span>9b:1b:eb:d6:bd:71</span></samp></td>
+                                        <td class="text-right v-a-m text-white"><samp><span>d4:78:75:0c:7f:8f</span></samp></td>
                                     </tr>
                                     <tr class="small v-a-m">
                                         <td>
                                             <i class="fa fa-long-arrow-down"></i>
                                         </td>
-                                        <td class="text-right v-a-m text-white"><span class="m-r-1">207.00  KB/s</span>
-                                            <span>122.00 MB</span>
+                                        <td class="text-right v-a-m text-white"><span class="m-r-1">586.00  KB/s</span>
+                                            <span>769.00 MB</span>
                                         </td>
                                     </tr>
                                     <tr class=" small v-a-m">
                                         <td>
                                             <i class="fa fa-long-arrow-up text-white"></i>
                                         </td>
-                                        <td class="text-right v-a-m text-white"><span class="m-r-1">933.00  KB/s</span>
-                                            <span>193.00 MB</span>
+                                        <td class="text-right v-a-m text-white"><span class="m-r-1">379.00  KB/s</span>
+                                            <span>526.00 MB</span>
                                         </td>
                                     </tr>
                                 </tbody>
@@ -2221,39 +1638,39 @@
                             <!-- START Widget - Usage -->
                             <ul class="list-group b-a-0 m-t-3">
                                 <li class="list-group-item">
-                                    <i class="fa fa-hdd-o small  m-r-1"></i> <span class="text-uppercase small m-t-0"><strong>Macintosh</strong> <span class="pull-right text-right text-white"><span>247.00</span></span>
+                                    <i class="fa fa-hdd-o small  m-r-1"></i> <span class="text-uppercase small m-t-0"><strong>Macintosh</strong> <span class="pull-right text-right text-white"><span>251.00</span></span>
                                 </span>
                                 <div class="progress b-r-a-0 m-t-1 m-b-1 h-3">
                                     <div class="progress-bar" role="progressbar" style="width: 60%;">
                                         <span class="sr-only">60% Complete</span>
                                     </div>
                                 </div>
-                                <span class="text-uppercase small m-t-0"><strong class="text-white"><span>111.00 GB</span></strong>
-                                    <span class="small"> / 259.00 GB</span></span>
+                                <span class="text-uppercase small m-t-0"><strong class="text-white"><span>783.00 GB</span></strong>
+                                    <span class="small"> / 145.00 GB</span></span>
                             </li>
                             <li class="list-group-item">
                                 <i class="fa fa-hdd-o small m-r-1"></i> <span class="text-uppercase small m-t-2"><strong>Windows</strong>
-                                    <span class="pull-right text-right text-white"><span>985.00</span></span>
+                                    <span class="pull-right text-right text-white"><span>305.00</span></span>
                                 </span>
                                 <div class="progress b-r-a-0 m-t-1 m-b-1 h-3">
                                     <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
                                         <span class="sr-only">60% Complete</span>
                                     </div>
                                 </div>
-                                <span class="text-uppercase small m-t-0"><strong class="text-white"><span>901.00 GB</span></strong>
-                                    <span class="small"> / 309.00 GB</span></span>
+                                <span class="text-uppercase small m-t-0"><strong class="text-white"><span>108.00 GB</span></strong>
+                                    <span class="small"> / 23.00 GB</span></span>
                             </li>
                             <li class="list-group-item">
                                 <i class="fa fa-hdd-o small m-r-1"></i> <span class="text-uppercase small m-t-2"><strong>Linux</strong>
-                                    <span class="pull-right text-right text-white"><span>261.00</span></span>
+                                    <span class="pull-right text-right text-white"><span>535.00</span></span>
                                 </span>
                                 <div class="progress b-r-a-0 m-t-1 m-b-1 h-3">
                                     <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 20%;">
                                         <span class="sr-only">60% Complete</span>
                                     </div>
                                 </div>
-                                <span class="text-uppercase small m-t-0"><strong class="text-white"><span>944.00 GB</span></strong>
-                                    <span class="small"> / 140.00 GB</span></span>
+                                <span class="text-uppercase small m-t-0"><strong class="text-white"><span>684.00 GB</span></strong>
+                                    <span class="small"> / 682.00 GB</span></span>
                             </li>
                         </ul>
                         <!-- END Widget - Usage -->
@@ -2267,7 +1684,7 @@
                         <div class="input-group">
                             <input type="text" class="form-control" placeholder="Search for...">
                             <span class="input-group-btn">
-                                <button class="btn btn-primary" type="button"><i class="fas fa-search"></i></i></button>
+                                <button class="btn btn-primary" type="button"><i class="fa fa-fw fa-search"></i></button>
                             </span>
                         </div>
                         <!-- END Search Input -->
@@ -2287,13 +1704,13 @@
                             <div class="media">
                                 <div class="media-left media-middle">
                                     <div class="avatar avatar-image avatar-sm ">
-                                        <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/chaabane_wail/128.jpg" alt="Avatar">
+                                        <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/levisan/128.jpg" alt="Avatar">
                                         <i class="avatar-status avatar-status-bottom  bg-success b-brand-gray-darker"></i>
                                     </div>
                                 </div>
                                 <div class="media-body">
-                                    <h5 class="m-t-0 m-b-0"><span>Austyn Mueller</span></h5>
-                                    <p class="small text-muted m-b-0"><span>Central Paradigm Assistant</span></p>
+                                    <h5 class="m-t-0 m-b-0"><span>Anika Bashirian</span></h5>
+                                    <p class="small text-muted m-b-0"><span>Central Research Specialist</span></p>
                                 </div>
                                 <div class="media-right media-middle">
                                     <span class="badge">4</span>
@@ -2309,13 +1726,13 @@
                             <div class="media">
                                 <div class="media-left  media-middle">
                                     <div class="avatar avatar-image avatar-sm ">
-                                        <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/_vojto/128.jpg" alt="Avatar">
+                                        <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/catarino/128.jpg" alt="Avatar">
                                         <i class="avatar-status avatar-status-bottom  bg-success b-brand-gray-darker"></i>
                                     </div>
                                 </div>
                                 <div class="media-body">
-                                    <h5 class="m-t-0 m-b-0"><span>Vivian Abernathy</span></h5>
-                                    <p class="small text-gray-lighter m-b-0"><span>Dynamic Usability Strategist</span></p>
+                                    <h5 class="m-t-0 m-b-0"><span>Margaretta Cormier</span></h5>
+                                    <p class="small text-gray-lighter m-b-0"><span>District Accountability Developer</span></p>
                                 </div>
 
                                 <div class="media-right  media-middle">
@@ -2333,13 +1750,13 @@
                             <div class="media">
                                 <div class="media-left  media-middle">
                                     <div class="avatar avatar-image avatar-sm ">
-                                        <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/abdots/128.jpg" alt="Avatar">
+                                        <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/karthipanraj/128.jpg" alt="Avatar">
                                         <i class="avatar-status avatar-status-bottom  bg-success b-brand-gray-darker"></i>
                                     </div>
                                 </div>
                                 <div class="media-body">
-                                    <h5 class="m-t-0 m-b-0"><span>Bonnie Heller</span></h5>
-                                    <p class="small text-gray-lighter m-b-0"><span>Legacy Functionality Associate</span></p>
+                                    <h5 class="m-t-0 m-b-0"><span>Ardith Bednar</span></h5>
+                                    <p class="small text-gray-lighter m-b-0"><span>Global Implementation Producer</span></p>
                                 </div>
 
                                 <div class="media-right media-middle">
@@ -2362,13 +1779,13 @@
                             <div class="media">
                                 <div class="media-left media-middle">
                                     <div class="avatar avatar-image avatar-sm ">
-                                        <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/millinet/128.jpg" alt="Avatar">
+                                        <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/mrmartineau/128.jpg" alt="Avatar">
                                         <i class="avatar-status avatar-status-bottom  bg-danger b-brand-gray-darker"></i>
                                     </div>
                                 </div>
                                 <div class="media-body">
-                                    <h5 class="m-t-0 m-b-0"><span>Ines Bogan</span></h5>
-                                    <p class="small text-muted m-b-0"><span>Product Interactions Associate</span></p>
+                                    <h5 class="m-t-0 m-b-0"><span>Linnie Kiehn</span></h5>
+                                    <p class="small text-muted m-b-0"><span>Global Paradigm Producer</span></p>
                                 </div>
 
                                 <div class="media-right  media-middle">
@@ -2386,13 +1803,13 @@
                             <div class="media">
                                 <div class="media-left media-middle">
                                     <div class="avatar avatar-image avatar-sm ">
-                                        <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/paulfarino/128.jpg" alt="Avatar">
+                                        <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/mighty55/128.jpg" alt="Avatar">
                                         <i class="avatar-status avatar-status-bottom  bg-danger b-brand-gray-darker"></i>
                                     </div>
                                 </div>
                                 <div class="media-body">
-                                    <h5 class="m-t-0 m-b-0"><span>Chester Weber</span></h5>
-                                    <p class="small text-muted m-b-0"><span>Senior Communications Facilitator</span></p>
+                                    <h5 class="m-t-0 m-b-0"><span>Lane Blanda</span></h5>
+                                    <p class="small text-muted m-b-0"><span>Legacy Tactics Coordinator</span></p>
                                 </div>
 
                                 <div class="media-right  media-middle">
@@ -2410,13 +1827,13 @@
                             <div class="media">
                                 <div class="media-left media-middle">
                                     <div class="avatar avatar-image avatar-sm ">
-                                        <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/shinze/128.jpg" alt="Avatar">
+                                        <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/joe_black/128.jpg" alt="Avatar">
                                         <i class="avatar-status avatar-status-bottom  bg-danger b-brand-gray-darker"></i>
                                     </div>
                                 </div>
                                 <div class="media-body">
-                                    <h5 class="m-t-0 m-b-0"><span>Eloy Pfeffer</span></h5>
-                                    <p class="small text-muted m-b-0"><span>Customer Research Consultant</span></p>
+                                    <h5 class="m-t-0 m-b-0"><span>Newton Crist</span></h5>
+                                    <p class="small text-muted m-b-0"><span>Lead Marketing Assistant</span></p>
                                 </div>
 
                                 <div class="media-right  media-middle">
@@ -2438,13 +1855,13 @@
                             <div class="media">
                                 <div class="media-left media-middle">
                                     <div class="avatar avatar-image avatar-sm ">
-                                        <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/caseycavanagh/128.jpg" alt="Avatar">
+                                        <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/herbigt/128.jpg" alt="Avatar">
                                         <i class="avatar-status avatar-status-bottom  bg-warning b-brand-gray-darker"></i>
                                     </div>
                                 </div>
                                 <div class="media-body">
-                                    <h5 class="m-t-0 m-b-0"><span>Clemens Kerluke</span></h5>
-                                    <p class="small text-muted m-b-0"><span>International Program Producer</span></p>
+                                    <h5 class="m-t-0 m-b-0"><span>Paul Durgan</span></h5>
+                                    <p class="small text-muted m-b-0"><span>Chief Marketing Engineer</span></p>
                                 </div>
 
                                 <div class="media-right  media-middle">
@@ -2462,13 +1879,13 @@
                             <div class="media">
                                 <div class="media-left media-middle">
                                     <div class="avatar avatar-image avatar-sm ">
-                                        <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/andysolomon/128.jpg" alt="Avatar">
+                                        <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/diesellaws/128.jpg" alt="Avatar">
                                         <i class="avatar-status avatar-status-bottom  bg-warning b-brand-gray-darker"></i>
                                     </div>
                                 </div>
                                 <div class="media-body">
-                                    <h5 class="m-t-0 m-b-0"><span>Dortha Kilback</span></h5>
-                                    <p class="small text-muted m-b-0"><span>Corporate Directives Associate</span></p>
+                                    <h5 class="m-t-0 m-b-0"><span>Axel Morissette</span></h5>
+                                    <p class="small text-muted m-b-0"><span>Product Tactics Producer</span></p>
                                 </div>
 
                                 <div class="media-right  media-middle">
@@ -2486,13 +1903,13 @@
                             <div class="media">
                                 <div class="media-left media-middle">
                                     <div class="avatar avatar-image avatar-sm ">
-                                        <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/vonachoo/128.jpg" alt="Avatar">
+                                        <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/naitanamoreno/128.jpg" alt="Avatar">
                                         <i class="avatar-status avatar-status-bottom  bg-warning b-brand-gray-darker"></i>
                                     </div>
                                 </div>
                                 <div class="media-body">
-                                    <h5 class="m-t-0 m-b-0"><span>Jude Russel</span></h5>
-                                    <p class="small text-muted m-b-0"><span>Dynamic Metrics Associate</span></p>
+                                    <h5 class="m-t-0 m-b-0"><span>Marcia Schmidt</span></h5>
+                                    <p class="small text-muted m-b-0"><span>Corporate Communications Orchestrator</span></p>
                                 </div>
 
                                 <div class="media-right  media-middle">
@@ -2514,13 +1931,13 @@
                             <div class="media">
                                 <div class="media-left media-middle">
                                     <div class="avatar avatar-image avatar-sm ">
-                                        <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/joe_black/128.jpg" alt="Avatar">
+                                        <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/byrnecore/128.jpg" alt="Avatar">
                                         <i class="avatar-status avatar-status-bottom  bg-gray-lighter b-brand-gray-darker"></i>
                                     </div>
                                 </div>
                                 <div class="media-body">
-                                    <h5 class="m-t-0 m-b-0"><span>Jose Hoeger</span></h5>
-                                    <p class="small text-muted m-b-0"><span>Chief Interactions Facilitator</span></p>
+                                    <h5 class="m-t-0 m-b-0"><span>Manuela Effertz</span></h5>
+                                    <p class="small text-muted m-b-0"><span>Direct Functionality Administrator</span></p>
                                 </div>
 
                                 <div class="media-right  media-middle">
@@ -2538,13 +1955,13 @@
                             <div class="media">
                                 <div class="media-left media-middle">
                                     <div class="avatar avatar-image avatar-sm ">
-                                        <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/the_purplebunny/128.jpg" alt="Avatar">
+                                        <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/r_garcia/128.jpg" alt="Avatar">
                                         <i class="avatar-status avatar-status-bottom  bg-gray-lighter  b-brand-gray-darker"></i>
                                     </div>
                                 </div>
                                 <div class="media-body">
-                                    <h5 class="m-t-0 m-b-0"><span>Ricky Kuhic</span></h5>
-                                    <p class="small text-muted m-b-0"><span>Human Marketing Consultant</span></p>
+                                    <h5 class="m-t-0 m-b-0"><span>Kristian Howell</span></h5>
+                                    <p class="small text-muted m-b-0"><span>Customer Factors Facilitator</span></p>
                                 </div>
 
                                 <div class="media-right  media-middle">
@@ -2562,13 +1979,13 @@
                             <div class="media">
                                 <div class="media-left media-middle">
                                     <div class="avatar avatar-image avatar-sm ">
-                                        <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/gregsqueeb/128.jpg" alt="Avatar">
+                                        <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/0therplanet/128.jpg" alt="Avatar">
                                         <i class="avatar-status avatar-status-bottom  bg-gray-lighter  b-brand-gray-darker"></i>
                                     </div>
                                 </div>
                                 <div class="media-body">
-                                    <h5 class="m-t-0 m-b-0"><span>Bonita Bruen</span></h5>
-                                    <p class="small text-muted m-b-0"><span>Central Paradigm Facilitator</span></p>
+                                    <h5 class="m-t-0 m-b-0"><span>Major Howell</span></h5>
+                                    <p class="small text-muted m-b-0"><span>Central Operations Planner</span></p>
                                 </div>
 
                                 <div class="media-right  media-middle">
@@ -2591,7 +2008,7 @@
     <div class="panel-heading">
         <div class="row">
             <div class="col-xs-3"><a class="extra-content-close small" href="javascript:void(0);"><i class="fa fa-fw fa-chevron-left"></i></a></div>
-            <div class="col-xs-6 text-center"><span>G. Lehner</span></div>
+            <div class="col-xs-6 text-center"><span>G. Herman</span></div>
             <div class="col-xs-3 text-right"><a href="#" class="text-gray-lighter"><i class="fa fa-fw fa-circle text-success"></i></a></div>
         </div>
     </div>
@@ -2602,17 +2019,17 @@
 <div class="media">
     <div class="media-left">
         <div class="avatar avatar-image avatar-sm">
-            <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/buzzusborne/128.jpg" alt="Avatar">
+            <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/mactopus/128.jpg" alt="Avatar">
             <i class="avatar-status avatar-status-bottom  bg-warning b-brand-gray-darker"></i>
         </div>
     </div>
     <div class="media-body">
         <div class="panel-default">
             <div class="panel-body bg-gray-dark text-white b-r-a-3">
-                <span>Nam quos et.</span>
+                <span>Dolorum quibusdam dolore sint.</span>
             </div>
         </div>
-        <h6 class="m-t-1"><span>Rylan Mohr</span>   <small><span> 09:27</span></small></h6>
+        <h6 class="m-t-1"><span>Matilda Bayer</span>   <small><span> 04:27</span></small></h6>
     </div>
 </div>
 <!-- END Left Chat -->
@@ -2622,14 +2039,14 @@
     <div class="media-body">
         <div class="panel-default">
             <div class="panel-body bg-primary text-white b-r-a-3">
-                <span>Qui iure itaque facere natus incidunt molestiae nam voluptate.</span>
+                <span>Sequi numquam et dolores nemo ut est at suscipit.</span>
             </div>
         </div>
-        <h6 class="m-t-1"><span>Germaine Wuckert</span>   <small><span> 06:52</span></small></h6>
+        <h6 class="m-t-1"><span>Sallie Fritsch</span>   <small><span> 08:16</span></small></h6>
     </div>
     <div class="media-right">
         <div class="avatar avatar-image avatar-sm">
-            <img class="media-object img-circle" alt="Avatar" src="https://s3.amazonaws.com/uifaces/faces/twitter/buryaknick/128.jpg">
+            <img class="media-object img-circle" alt="Avatar" src="https://s3.amazonaws.com/uifaces/faces/twitter/mtolokonnikov/128.jpg">
             <i class="avatar-status avatar-status-bottom  bg-danger b-brand-gray-darker"></i>
         </div>
     </div>
@@ -2640,17 +2057,17 @@
 <div class="media">
     <div class="media-left">
         <div class="avatar avatar-image avatar-sm">
-            <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/madebyvadim/128.jpg" alt="Avatar">
+            <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/caseycavanagh/128.jpg" alt="Avatar">
             <i class="avatar-status avatar-status-bottom  bg-success b-brand-gray-darker"></i>
         </div>
     </div>
     <div class="media-body">
         <div class="panel-default">
             <div class="panel-body bg-gray-dark text-white b-r-a-3">
-                <span>Hic odio cum excepturi commodi qui omnis id. Iusto omnis ut est iure.</span>
+                <span>Possimus non rerum natus quam rerum quis a doloremque. Laborum laboriosam unde voluptatum possimus aspernatur in debitis.</span>
             </div>
         </div>
-        <h6 class="m-t-1"><span>Savion Tromp</span>   <small><span>03:17</span></small></h6>
+        <h6 class="m-t-1"><span>Katelyn Wiegand</span>   <small><span>06:12</span></small></h6>
     </div>
 </div>
 <!-- END Left Chat -->
@@ -2660,14 +2077,14 @@
     <div class="media-body">
         <div class="panel-default">
             <div class="panel-body bg-gray-dark text-white b-r-a-3">
-                <span>Et dolore expedita quaerat rerum sed et.</span>
+                <span>Eum dignissimos consequatur eaque.</span>
             </div>
         </div>
-        <h6 class="m-t-1"><span>Vaughn Mueller</span>   <small><span> 05:19</span></small></h6>
+        <h6 class="m-t-1"><span>Dedric Windler</span>   <small><span> 01:12</span></small></h6>
     </div>
     <div class="media-right">
         <div class="avatar avatar-image avatar-sm">
-            <img class="media-object img-circle" alt="Avatar" src="https://s3.amazonaws.com/uifaces/faces/twitter/kaspernordkvist/128.jpg">
+            <img class="media-object img-circle" alt="Avatar" src="https://s3.amazonaws.com/uifaces/faces/twitter/namankreative/128.jpg">
             <i class="avatar-status avatar-status-bottom  bg-danger b-brand-gray-darker"></i>
         </div>
     </div>
@@ -2759,8 +2176,8 @@
 
                     <span class="label label-danger label-outline">Alert</span>
                     <br>
-                    <p class="text-white m-t-1"><span>If we compress the bus, we can get to the ADP transmitter through the solid state SMTP bus!</span></p>
-                    <p class="text-nowrap small"><span>03-Mar-2014, 03:06</span>
+                    <p class="text-white m-t-1"><span>We need to index the wireless XSS system!</span></p>
+                    <p class="text-nowrap small"><span>10-Nov-2015, 02:06</span>
                     </p>
                 </div>
             </div>
@@ -2790,8 +2207,8 @@
 
                     <span class="label label-warning label-outline">Warning</span>
                     <br>
-                    <p class="text-white m-t-1"><span>You can&apos;t copy the bus without backing up the online RAM firewall!</span></p>
-                    <p class="text-nowrap small"><span>15-Nov-2011, 02:52</span>
+                    <p class="text-white m-t-1"><span>You can&apos;t bypass the array without navigating the cross-platform FTP driver!</span></p>
+                    <p class="text-nowrap small"><span>07-Sep-2014, 10:50</span>
                     </p>
                 </div>
             </div>
@@ -2822,7 +2239,7 @@
                     <span class="label label-info label-outline">Info</span>
                     <br>
                     <p class="text-white m-t-1">15 Files Uploaded</p>
-                    <p class="text-nowrap small"><span>26-Dec-2015, 12:60</span>
+                    <p class="text-nowrap small"><span>17-Dec-2012, 03:13</span>
                      </p>
                     <i class="m-l-1 fa fa-file-text-o fa-fw"></i> read_me.txt<br>
                     <i class="m-l-1 fa fa-file-zip-o fa-fw"></i> all-files.zip<br>
@@ -2859,15 +2276,15 @@
                     <span class="label label-primary label-outline">Message</span>
                     <br>
                     <p class="text-white m-t-1">6 users have been accepted by the Admin</p>
-                    <p class="text-nowrap small"><span>08-May-2015, 07:35</span>
+                    <p class="text-nowrap small"><span>13-Feb-2015, 02:41</span>
                      </p>
                                <div class="m-b-1">
-                                <img class="img-circle avatar avatar-sm" src="https://s3.amazonaws.com/uifaces/faces/twitter/1markiz/128.jpg" alt="Avatar">
-                                <img class="img-circle avatar avatar-sm" src="https://s3.amazonaws.com/uifaces/faces/twitter/lokesh_coder/128.jpg" alt="Avatar">
-                                <img class="img-circle avatar avatar-sm" src="https://s3.amazonaws.com/uifaces/faces/twitter/incubo82/128.jpg" alt="Avatar">
-                                <img class="img-circle avatar avatar-sm" src="https://s3.amazonaws.com/uifaces/faces/twitter/jodytaggart/128.jpg" alt="Avatar">
-                                <img class="img-circle avatar avatar-sm" src="https://s3.amazonaws.com/uifaces/faces/twitter/kurafire/128.jpg" alt="Avatar">
-                                <img class="img-circle avatar avatar-sm" src="https://s3.amazonaws.com/uifaces/faces/twitter/fotomagin/128.jpg" alt="Avatar">
+                                <img class="img-circle avatar avatar-sm" src="https://s3.amazonaws.com/uifaces/faces/twitter/buleswapnil/128.jpg" alt="Avatar">
+                                <img class="img-circle avatar avatar-sm" src="https://s3.amazonaws.com/uifaces/faces/twitter/rickyyean/128.jpg" alt="Avatar">
+                                <img class="img-circle avatar avatar-sm" src="https://s3.amazonaws.com/uifaces/faces/twitter/cofla/128.jpg" alt="Avatar">
+                                <img class="img-circle avatar avatar-sm" src="https://s3.amazonaws.com/uifaces/faces/twitter/alek_djuric/128.jpg" alt="Avatar">
+                                <img class="img-circle avatar avatar-sm" src="https://s3.amazonaws.com/uifaces/faces/twitter/a_harris88/128.jpg" alt="Avatar">
+                                <img class="img-circle avatar avatar-sm" src="https://s3.amazonaws.com/uifaces/faces/twitter/overcloacked/128.jpg" alt="Avatar">
                                 </div>
                 </div>
             </div>
@@ -2901,11 +2318,11 @@
 
                     <span class="label label-success label-outline">Success</span>
                     <br>
-                    <p class="text-white m-t-1"><span>backing up the capacitor won&apos;t do anything, we need to input the multi-byte COM pixel!</span></p>
-                    <p class="text-nowrap small"><span>12-Dec-2013, 08:10</span>
+                    <p class="text-white m-t-1"><span>Use the mobile IB alarm, then you can program the digital application!</span></p>
+                    <p class="text-nowrap small"><span>28-May-2012, 07:42</span>
                     </p>
 
-                    <p><span>Aspernatur tempora qui.</span></p>
+                    <p><span>Quidem aut delectus nemo earum hic deleniti nisi numquam.</span></p>
                 </div>
             </div>
             <!-- END Avatar, Message & Time -->
@@ -2915,37 +2332,37 @@
 </div>
 <!-- END Timeline - Active Entry (Day) -->
 
-    <!-- START Timeline - Active Entry -->
-    <div class="timeline">
+ <!-- START Timeline - Active Entry -->
+<div class="timeline">
 
-        <div class="timeline-item p-r-1">
-            <!-- Timeline - Mini Icon -->
-            <div class="timeline-icon">
-                <i class="fa fa-fw fa-circle text-gray"></i>
-            </div>
+    <div class="timeline-item p-r-1">
+        <!-- Timeline - Mini Icon -->
+        <div class="timeline-icon">
+            <i class="fa fa-fw fa-circle text-gray"></i>
+        </div>
 
-            <!-- Timeline - Icon  -->
-            <div class="timeline-item-head clearfix m-b-0">
-                <!-- Timeline - Header & Subtitle -->
+        <!-- Timeline - Icon  -->
+        <div class="timeline-item-head clearfix m-b-0">
+            <!-- Timeline - Header & Subtitle -->
 
-                <!-- START Avatar, Message & Time -->
-                <div class="row">
+            <!-- START Avatar, Message & Time -->
+            <div class="row">
 
-                    <div class="col-lg-12 m-l-1">
+                <div class="col-lg-12 m-l-1">
 
-                        <span class="label label-gray label-outline">Obsolete</span>
-                        <br>
-                        <del><p class="m-t-1"><span>I&apos;ll override the 1080p EXE firewall, that should system the USB card!</span></p></del>
-                        <p class="text-nowrap small"><span>23-Aug-2015, 05:13</span>
-                        </p>
-                    </div>
+                    <span class="label label-gray label-outline">Obsolete</span>
+                    <br>
+                    <del><p class="m-t-1"><span>The SMS pixel is down, quantify the haptic port so we can parse the XML panel!</span></p></del>
+                    <p class="text-nowrap small"><span>25-Dec-2011, 04:32</span>
+                    </p>
                 </div>
-                <!-- END Avatar, Message & Time -->
-
             </div>
+            <!-- END Avatar, Message & Time -->
+
         </div>
     </div>
-    <!-- END Timeline - Active Entry  -->
+</div>
+<!-- END Timeline - Active Entry  -->
                         </div>
                         <!-- END Tab: Timeline -->
                     </div>
@@ -2959,17 +2376,17 @@
     </div>
     <!-- END Content Show in Full-Height -->
 </div>
-    <!-- START Footer -->
-    <footer>
-        <div class="container-fluid" id="thefoot">
-            <p class="text-gray-dark">
-                <strong class="m-r-1"><a href="http://www.eosnairobi.io/"> EOSNairobi </a></strong> 
-                <span class="text-gray-dark">&#xA9; 2018. Made by 
-                <a href="https://github.com/joelmachango"> J M </a>           
-            </p>
-        </div>
-    </footer>
-    <!-- END Footer -->
+ <!-- START Footer -->
+<footer>
+    <div class="container-fluid">
+        <p class="text-gray-dark">
+            <strong class="m-r-1">EOS Nairobi</strong> 
+            <span class="text-gray-dark">&#xA9; 2018. Made by 
+            <i class="fa fa-fw fa-heart text-danger"></i> New York, US</span>
+        </p>
+    </div>
+</footer>
+<!-- END Footer -->
 
     </div>
     <script>
