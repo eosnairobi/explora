@@ -53,7 +53,7 @@
     <div id="initial-loader">
     <div>
         <div class="initial-loader-top">
-            <img class="initial-loader-logo" src="../assets/images/spin-logo-inverted.png" alt="Loader">
+            <!-- <img class="initial-loader-logo" src="../assets/images/spin-logo-inverted.png" alt="Loader"> -->
             <div class="loader loader--style1">
                 <svg version="1.1" id="loader-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="30px" height="30px" viewbox="0 0 40 40" enable-background="new 0 0 40 40" xml:space="preserve">
                     <g>
@@ -81,7 +81,8 @@
 
            <div class="navbar-header">
             <a class="current navbar-brand" href="../index.html">
-                <img alt="Spin Logo Inverted" class="h-20" src="../assets/images/spin-logo-inverted-@2X.png">
+                EOS | BlockExplorer
+                <!-- <img alt="Spin Logo Inverted" class="h-20" src="../assets/images/spin-logo-inverted-@2X.png"> -->
             </a>
             <button class="action-right-sidebar-toggle navbar-toggle collapsed" data-target="#navdbar" data-toggle="collapse" type="button">
                 <i class="fa fa-fw fa-align-right text-white"></i>
@@ -113,7 +114,7 @@
                 <!-- START Switch Sidebar ON/OFF -->
                 <li id="sidebar-switch" class="hidden-xs">
                     <a class="action-toggle-sidebar-slim" data-placement="bottom" data-toggle="tooltip" href="#" title="Slim sidebar on/off">
-                        <i class="fa fa-lg fa-bars fa-fw"></i>
+                        <i class="fas fa-bars"></i>
                     </a>
                 </li>
                 <!-- END Switch Sidebar ON/OFF -->
@@ -725,14 +726,13 @@
 
                 <li class="spin-search-box clearfix hidden-xs">
                     <a href="#" class="pull-left">
-                        <i class="fa fa-search fa-lg icon-inactive"></i>
-                        <i class="fa fa-close fa-lg icon-active"></i>
+                        <i class="fas fa-search"></i>
                     </a>
                     <div class="input-group input-group-sm pull-left p-10">
                         <input type="text" class="form-control" placeholder="Search for...">
                         <span class="input-group-btn">
                             <button class="btn btn-primary" type="button">
-                                <i class="fa fa-search"></i>
+                                <i class="fas fa-search"></i>
                             </button>
                         </span>
                     </div>
@@ -751,14 +751,12 @@
                 <!-- START Notification -->
                 <li class="dropdown">
 
-                    <!-- START Icon Notification with Badge (10)-->
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button">
-                        <i class="fa fa-lg fa-fw fa-bell hidden-xs"></i>
-                            <span class="hidden-sm hidden-md hidden-lg">
-                                Notifications <span class="badge badge-primary m-l-1">10</span>
-                            </span>
-                            <span class="label label-primary label-pill label-with-icon hidden-xs">10</span>
-                            <span class="fa fa-fw fa-angle-down hidden-lg hidden-md hidden-sm"></span>
+                     <!-- START Icon Notification with Badge (10)-->
+                     <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button">
+                        <i class="fas fa-bell"></i>
+                        <span class="hidden-sm hidden-md hidden-lg">                                
+                        </span>
+                        <span  class="label label-primary label-pill label-with-icon hidden-xs">10</span>                            
                     </a>
                     <!-- END Icon Notification with Badge (10)-->
 
@@ -870,13 +868,7 @@
                 </li>
                 <!-- END Notification -->
 
-                <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button">
-                        <i class="fa fa-lg fa-fw fa-envelope hidden-xs"></i>
-                            <span class="hidden-sm hidden-md hidden-lg">Messages <span class="badge badge-info m-l-1">3</span></span>
-                        <span class="label label-info label-pill label-with-icon hidden-xs">3</span>
-                        <span class="fa fa-fw fa-angle-down hidden-lg hidden-md hidden-sm"></span>
-                    </a>
+                <li class="dropdown">                  
 
                     <!-- START Messages Dropdown Menu -->
                     <ul class="dropdown-menu dropdown-menu-right p-t-0 b-t-0 p-b-0 b-b-0 b-a-0">
@@ -1028,48 +1020,11 @@
                                 </ul>
                             </div>
                         </li>
-                    </ul>
-                    <!-- END Messages Dropdown Menu -->
-
-                </li>
-
-                <li class="dropdown">
-                    <a class="dropdown-toggle user-dropdown" data-toggle="dropdown" href="#" role="button">
-                        <span class="m-r-1">Cicero Runolfsson</span>
-                        <div class="avatar avatar-image avatar-sm avatar-inline">
-                            <img alt="User" src="https://s3.amazonaws.com/uifaces/faces/twitter/ademilter/128.jpg">
-                        </div>
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li class="dropdown-header text-gray-lighter">
-                            <strong class="text-uppercase">Account</strong>
-                        </li>
-                        <li role="separator" class="divider"></li>
-                        <li>
-                            <a href="../apps/profile-details.html">Your Profile</a>
-                        </li>
-                        <li>
-                            <a href="../apps/profile-edit.html">Settings</a>
-                        </li>
-                        <li>
-                            <a href="../apps/faq.html">Faq</a>
-                        </li>
-                        <li role="separator" class="divider"></li>
-                        <li>
-                            <a href="../pages/login.html">Sign Out</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="hidden-xs">
-                    <a class="action-right-sidebar-toggle" title="Right sidebar on/off">
-                        <i class="fa fa-lg fa-align-right"></i>
-                    </a>
-                </li>
+                    </ul> 
+                </li>           
             </ul>
             <!-- END Right Side Navbar -->
-        </div>
-
-        
+        </div>        
     </div>
 </div>
 <!-- END Navbar -->
@@ -1646,9 +1601,7 @@
         </div>
 
         <!-- START Layout Options (Right Side) -->
-<div class="layout-options">
-    <button type="button" class="btn btn-primary action-toggle-layout-options" data-toggle="tooltip" data-placement="left" title="Show/Hide Layout settings"><i class="fa fa-gear"></i></button>
-    <button type="button" class="btn btn-primary action-toggle-layout-options disabled" data-toggle="tooltip" data-placement="left" title="Layout settings disabled on this page"><i class="fa fa-gear"></i></button>
+<div class="layout-options">    
 
     <div class="panel panel-default">
 
