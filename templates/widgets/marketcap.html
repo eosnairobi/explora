@@ -7,8 +7,8 @@
     <!-- Enable responsiveness on mobile devices-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-    <title>
-         SPIN | E-Commerce 
+    <title>            
+         eos | BlockExplorer
     </title>
 
     <!--START Loader -->
@@ -20,23 +20,13 @@
     <!-- SCSS Output -->
     <link rel="stylesheet" href="../assets/stylesheets/app.min.e0bb64e7.css">
 
+    <!-- fonts-awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../assets/stylesheets/custom.css">
     <!-- START Favicon -->
-    <link rel="apple-touch-icon" sizes="57x57" href="../assets/images/favicons/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="../assets/images/favicons/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="../assets/images/favicons/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="../assets/images/favicons/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="../assets/images/favicons/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="../assets/images/favicons/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="../assets/images/favicons/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="../assets/images/favicons/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="../assets/images/favicons/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="../assets/images/favicons/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="../assets/images/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="../assets/images/favicons/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicons/favicon-16x16.png">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="../assets/images/favicons/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
+    <link rel="icon" type="image/png" sizes="192x192" href="../assets/images/favicons/eos-logo.png">
     <!-- END Favicon -->
 
     <!-- RSS -->
@@ -65,7 +55,7 @@
     <div id="initial-loader">
     <div>
         <div class="initial-loader-top">
-            <img class="initial-loader-logo" src="../assets/images/spin-logo-inverted.png" alt="Loader">
+            <!-- <img class="initial-loader-logo" src="../assets/images/favicon.png" alt="Loader"> -->
             <div class="loader loader--style1">
                 <svg version="1.1" id="loader-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="30px" height="30px" viewbox="0 0 40 40" enable-background="new 0 0 40 40" xml:space="preserve">
                     <g>
@@ -91,9 +81,9 @@
 <div class="navbar-inverse navbar navbar-fixed-top">
        <div class="container-fluid">
 
-           <div class="navbar-header">
-            <a class="current navbar-brand" href="../index.html">
-                <img alt="Spin Logo Inverted" class="h-20" src="../assets/images/spin-logo-inverted-@2X.png">
+           <div class="navbar-header" id="logo">
+            <a class="current navbar-brand" href="../index.html">                
+                EOS | BlockExplorer
             </a>
             <button class="action-right-sidebar-toggle navbar-toggle collapsed" data-target="#navdbar" data-toggle="collapse" type="button">
                 <i class="fa fa-fw fa-align-right text-white"></i>
@@ -109,14 +99,14 @@
         <div class="collapse navbar-collapse" id="navbar">
 
             <!-- START Search Mobile -->
-            <div class="form-group hidden-lg hidden-md hidden-sm">
+            <!-- <div class="form-group hidden-lg hidden-md hidden-sm">
                 <div class="input-group hidden-lg hidden-md">
                     <input type="text" class="form-control" placeholder="Search for...">
                     <span class="input-group-btn">
                         <button class="btn btn-primary" type="button"><i class="fa fa-fw fa-search"></i></button>
                     </span>
                 </div>
-            </div>
+            </div> -->
             <!-- END Search Mobile -->
 
             <!-- START Left Side Navbar -->
@@ -125,10 +115,10 @@
                 <!-- START Switch Sidebar ON/OFF -->
                 <li id="sidebar-switch" class="hidden-xs">
                     <a class="action-toggle-sidebar-slim" data-placement="bottom" data-toggle="tooltip" href="#" title="Slim sidebar on/off">
-                        <i class="fa fa-lg fa-bars fa-fw"></i>
-                    </a>
+                        <i class="fas fa-bars"></i>
+                    </a> 
                 </li>
-                <!-- END Switch Sidebar ON/OFF -->
+                <!-- <END Switch Sidebar ON/OFF -->
 
                 <!-- START Menu Only Visible on Navbar -->
                 <li id="top-menu-switch" class="dropdown">
@@ -171,8 +161,8 @@
                                                 </a>
                                             </li>
                                             <li class="m-l-1 ">
-                                                <a href="../start/financial.html" class="text-gray-lighter">
-                                                    <span class="nav-label">Financial</span>
+                                                <a href="../start/home.html" class="text-gray-lighter">
+                                                    <span class="nav-label">home</span>
                                                 </a>
                                             </li>
                                             <li class="m-l-1 ">
@@ -737,14 +727,14 @@
 
                 <li class="spin-search-box clearfix hidden-xs">
                     <a href="#" class="pull-left">
-                        <i class="fa fa-search fa-lg icon-inactive"></i>
-                        <i class="fa fa-close fa-lg icon-active"></i>
+                        <i class="fas fa-search"></i>                        
                     </a>
+                   
                     <div class="input-group input-group-sm pull-left p-10">
                         <input type="text" class="form-control" placeholder="Search for...">
                         <span class="input-group-btn">
                             <button class="btn btn-primary" type="button">
-                                <i class="fa fa-search"></i>
+                                <i class="fas fa-search"></i>
                             </button>
                         </span>
                     </div>
@@ -765,12 +755,10 @@
 
                     <!-- START Icon Notification with Badge (10)-->
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button">
-                        <i class="fa fa-lg fa-fw fa-bell hidden-xs"></i>
-                            <span class="hidden-sm hidden-md hidden-lg">
-                                Notifications <span class="badge badge-primary m-l-1">10</span>
+                        <i class="fas fa-bell"></i>
+                            <span class="hidden-sm hidden-md hidden-lg">                                
                             </span>
-                            <span class="label label-primary label-pill label-with-icon hidden-xs">10</span>
-                            <span class="fa fa-fw fa-angle-down hidden-lg hidden-md hidden-sm"></span>
+                           <span  class="label label-primary label-pill label-with-icon hidden-xs">10</span>                            
                     </a>
                     <!-- END Icon Notification with Badge (10)-->
 
@@ -801,10 +789,10 @@
                                             </div>
                                             <div class="media-body">
                                                 <h5 class="m-t-0">
-                                                    <span>We need to reboot the solid state JSON protocol!</span>
+                                                    <span>If we bypass the alarm, we can get to the FTP feed through the solid state FTP microchip!</span>
                                                 </h5>
                                                 <p class="text-nowrap small m-b-0">
-                                                    <span>06-Feb-2014, 09:41</span>
+                                                    <span>04-Oct-2015, 07:10</span>
                                                 </p>
                                             </div>
                                         </div>
@@ -819,10 +807,10 @@
                                             </div>
                                             <div class="media-body">
                                                 <h5 class="m-t-0">
-                                                    <span>I&apos;ll generate the 1080p AI circuit, that should port the XSS firewall!</span>
+                                                    <span>If we hack the program, we can get to the IB pixel through the 1080p SAS microchip!</span>
                                                 </h5>
                                                 <p class="text-nowrap small m-b-0">
-                                                    <span>22-Apr-2013, 05:06</span>
+                                                    <span>03-Nov-2012, 12:20</span>
                                                 </p>
                                             </div>
                                         </div>
@@ -837,10 +825,10 @@
                                             </div>
                                             <div class="media-body">
                                                 <h5 class="m-t-0">
-                                                    <span>Use the bluetooth JBOD firewall, then you can back up the solid state card!</span>
+                                                    <span>Use the mobile THX feed, then you can program the back-end protocol!</span>
                                                 </h5>
                                                 <p class="text-nowrap small m-b-0">
-                                                    <span>09-Jan-2015, 12:29</span>
+                                                    <span>02-Sep-2011, 02:14</span>
                                                 </p>
                                             </div>
                                         </div>
@@ -855,10 +843,10 @@
                                             </div>
                                             <div class="media-body">
                                                 <h5 class="m-t-0">
-                                                    <span>If we input the program, we can get to the SMS feed through the online RAM port!</span>
+                                                    <span>I&apos;ll connect the primary SCSI matrix, that should hard drive the RAM bus!</span>
                                                 </h5>
                                                 <p class="text-nowrap small m-b-0">
-                                                    <span>08-Feb-2016, 10:50</span>
+                                                    <span>16-May-2013, 04:24</span>
                                                 </p>
                                             </div>
                                         </div>
@@ -883,12 +871,12 @@
                 <!-- END Notification -->
 
                 <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button">
+                    <!-- <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button">
                         <i class="fa fa-lg fa-fw fa-envelope hidden-xs"></i>
                             <span class="hidden-sm hidden-md hidden-lg">Messages <span class="badge badge-info m-l-1">3</span></span>
                         <span class="label label-info label-pill label-with-icon hidden-xs">3</span>
                         <span class="fa fa-fw fa-angle-down hidden-lg hidden-md hidden-sm"></span>
-                    </a>
+                    </a> -->
 
                     <!-- START Messages Dropdown Menu -->
                     <ul class="dropdown-menu dropdown-menu-right p-t-0 b-t-0 p-b-0 b-b-0 b-a-0">
@@ -912,17 +900,17 @@
                                                 <div class="media">
                                                     <div class="media-left media-middle">
                                                         <div class="avatar">
-                                                            <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/mashaaaaal/128.jpg" alt="Avatar">
+                                                            <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/marlinjayakody/128.jpg" alt="Avatar">
                                                                 <i class="avatar-status avatar-status-bottom bg-danger b-gray-darker"></i>
                                                         </div>
                                                     </div>
                                                     <div class="media-body media-auto">
                                                         <h5 class="m-b-0 m-t-0">
-                                                            <span>Delta Kuvalis</span>
-                                                            <small><span>10:52</span></small>
+                                                            <span>Darrin Brekke</span>
+                                                            <small><span>01:12</span></small>
                                                         </h5>
                                                         <p class="m-t-0 m-b-0">
-                                                            <span>Ut eum perferendis labore sit repellendus animi nihil.</span>
+                                                            <span>Nisi consequuntur quia officia.</span>
                                                         </p>
                                                     </div>
                                                 </div>
@@ -932,17 +920,17 @@
                                                 <div class="media">
                                                     <div class="media-left media-middle">
                                                         <div class="avatar">
-                                                            <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/dss49/128.jpg" alt="Avatar">
+                                                            <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/lebronjennan/128.jpg" alt="Avatar">
                                                                 <i class="avatar-status avatar-status-bottom bg-warning b-gray-darker"></i>
                                                         </div>
                                                     </div>
                                                     <div class="media-body media-auto">
                                                         <h5 class="m-b-0 m-t-0">
-                                                            <span>Jonathon Kling</span>
-                                                            <small><span>01:30</span></small>
+                                                            <span>Bria Larkin</span>
+                                                            <small><span>08:34</span></small>
                                                         </h5>
                                                         <p class="m-t-0 m-b-0">
-                                                            <span>Atque temporibus quisquam est at tenetur delectus voluptatem.</span>
+                                                            <span>Atque labore corrupti iste eum explicabo.</span>
                                                         </p>
                                                     </div>
                                                 </div>
@@ -952,17 +940,17 @@
                                                 <div class="media">
                                                     <div class="media-left media-middle">
                                                         <div class="avatar">
-                                                            <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/scott_riley/128.jpg" alt="Avatar">
+                                                            <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/andrea211087/128.jpg" alt="Avatar">
                                                             <i class="avatar-status avatar-status-bottom bg-success b-gray-darker"></i>
                                                         </div>
                                                     </div>
                                                     <div class="media-body media-auto">
                                                         <h5 class="m-b-0 m-t-0">
-                                                            <span>Adriana McDermott</span>
-                                                            <small><span>05:09</span></small>
+                                                            <span>Citlalli Nitzsche</span>
+                                                            <small><span>12:57</span></small>
                                                         </h5>
                                                         <p class="m-t-0 m-b-0">
-                                                            <span>Minima eligendi dignissimos dolores quia.</span>
+                                                            <span>Illo asperiores consequatur.</span>
                                                         </p>
                                                     </div>
                                                 </div>
@@ -972,17 +960,17 @@
                                                 <div class="media">
                                                     <div class="media-left media-middle">
                                                         <div class="avatar">
-                                                            <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/bassamology/128.jpg" alt="Avatar">
+                                                            <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/syropian/128.jpg" alt="Avatar">
                                                             <i class="avatar-status avatar-status-bottom bg-danger b-gray-darker"></i>
                                                         </div>
                                                     </div>
                                                     <div class="media-body media-auto">
                                                         <h5 class="m-b-0 m-t-0">
-                                                            <span>Porter Rowe</span>
-                                                            <small><span>07:08</span></small>
+                                                            <span>Dillan Boyer</span>
+                                                            <small><span>09:51</span></small>
                                                         </h5>
                                                         <p class="m-t-0 m-b-0">
-                                                            <span>Placeat et error nihil ea suscipit.</span>
+                                                            <span>Temporibus assumenda nisi corporis officia maiores fuga enim aut esse.</span>
                                                         </p>
                                                     </div>
                                                 </div>
@@ -992,17 +980,17 @@
                                                 <div class="media">
                                                     <div class="media-left media-middle">
                                                         <div class="avatar">
-                                                            <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/ovall/128.jpg" alt="Avatar">
+                                                            <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/lisovsky/128.jpg" alt="Avatar">
                                                             <i class="avatar-status avatar-status-bottom bg-warning b-gray-darker"></i>
                                                         </div>
                                                     </div>
                                                     <div class="media-body media-auto">
                                                         <h5 class="m-b-0 m-t-0">
-                                                            <span>Bulah Hauck</span>
-                                                            <small><span>04:37</span></small>
+                                                            <span>Darryl Lowe</span>
+                                                            <small><span>06:13</span></small>
                                                         </h5>
                                                         <p class="m-t-0 m-b-0">
-                                                            <span>Enim accusamus enim consectetur.</span>
+                                                            <span>Eius quae qui non aut omnis accusamus.</span>
                                                         </p>
                                                     </div>
                                                 </div>
@@ -1012,17 +1000,17 @@
                                                 <div class="media">
                                                     <div class="media-left media-middle">
                                                         <div class="avatar">
-                                                            <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/wiljanslofstra/128.jpg" alt="Avatar">
+                                                            <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/andrewofficer/128.jpg" alt="Avatar">
                                                             <i class="avatar-status avatar-status-bottom bg-success b-gray-darker"></i>
                                                         </div>
                                                     </div>
                                                     <div class="media-body media-auto">
                                                         <h5 class="m-b-0 m-t-0">
-                                                            <span>Elwyn Stracke</span>
-                                                            <small><span>08:54</span></small>
+                                                            <span>Abigail Braun</span>
+                                                            <small><span>01:49</span></small>
                                                         </h5>
                                                         <p class="m-t-0 m-b-0">
-                                                            <span>Eos numquam enim est est qui qui non.</span>
+                                                            <span>Facere atque doloribus fuga voluptas.</span>
                                                         </p>
                                                     </div>
                                                 </div>
@@ -1045,13 +1033,7 @@
 
                 </li>
 
-                <li class="dropdown">
-                    <a class="dropdown-toggle user-dropdown" data-toggle="dropdown" href="#" role="button">
-                        <span class="m-r-1">Jaida Welch</span>
-                        <div class="avatar avatar-image avatar-sm avatar-inline">
-                            <img alt="User" src="https://s3.amazonaws.com/uifaces/faces/twitter/nerrsoft/128.jpg">
-                        </div>
-                    </a>
+                <li class="dropdown">                   
                     <ul class="dropdown-menu">
                         <li class="dropdown-header text-gray-lighter">
                             <strong class="text-uppercase">Account</strong>
@@ -1072,11 +1054,11 @@
                         </li>
                     </ul>
                 </li>
-                <li class="hidden-xs">
+                <!-- <li class="hidden-xs">
                     <a class="action-right-sidebar-toggle" title="Right sidebar on/off">
                         <i class="fa fa-lg fa-align-right"></i>
                     </a>
-                </li>
+                </li> -->
             </ul>
             <!-- END Right Side Navbar -->
         </div>
@@ -1089,7 +1071,7 @@
     <!-- START Sidebars -->
 <aside class="navbar-default sidebar">
     <div class="sidebar-overlay-head">
-        <img src="../assets/images/spin-logo-inverted.png" alt="Logo" width="90">
+        <img src="../assets/images/favicon.png" alt="Logo" width="90">
         <a href="#" class="sidebar-switch action-sidebar-close">
             <i class="fa fa-times"></i>
         </a>
@@ -1114,1075 +1096,109 @@
         <strong>Navigation</strong>
     </div>
 
+
     <!-- START Tree Sidebar Common -->
-<ul class="side-menu">
+    <ul class="side-menu">
 
-    <li class="Dashboards">
-    <a href="#" title="Dashboards">
-        <i class="fa fa-home fa-lg fa-fw"></i><span class="nav-label">Start</span><i class="fa arrow"></i>
-    </a>
-    <ul>
-            <li class="">
-            <a href="../start/financial.html">
-                <span class="nav-label">Financial</span>
+            <li class="Dashboards">
+            <a href="#" title="Dashboards">
+                <i class="fas fa-tachometer-alt"></i> <span class="nav-label">Dashboard</span>
             </a>
-        </li>
-        <li class="">
-            <a href="../start/projects.html">
-                <span class="nav-label">Projects</span>
-            </a>
-        </li>
-           <li class="">
-            <a href="../start/monitor.html">
-                <span class="nav-label">Monitor</span>
-            </a>
-        </li>
-        <li class="">
-            <a href="../start/system.html">
-                <span class="nav-label">System</span>
-            </a>
-        </li>
-        <li class="">
-            <a href="../start/activity-team.html">
-                <span class="nav-label">Activity Team</span>
-            </a>
-        </li>
-        <li class="active">
-            <a href="../start/e-commerce.html">
-                <span class="nav-label">E-Commerce</span>
-            </a>
-        </li>
-        <li class="">
-            <a href="../start/stock.html">
-                <span class="nav-label">Stock</span>
-            </a>
-        </li>
-        <li class="">
-            <a href="../start/performance.html">
-                <span class="nav-label">Performance</span>
-            </a>
-        </li>
-        <li class="">
-            <a href="../start/exchange&amp;trading.html">
-                <span class="nav-label">Exchange &amp; Trading</span>
-            </a>
-        </li>
-        <li class="">
-            <a href="../start/overview.html">
-                <span class="nav-label">Overview</span>
-            </a>
-        </li>
-         <li class="">
-            <a href="../start/analytics.html">
-                <span class="nav-label">Analytics</span>
-            </a>
-        </li>
-    </ul>
-    </li>
-
-    <li>
-        <a href="#" title="Dashboards">
-            <i class="fa fa-th fa-lg"></i><span class="nav-label">Widgets</span>
-            <span class="pull-right label label-primary label-outline text-uppercase">New</span>
-        </a>
-        <ul>
-            <li class="">
-                <a href="../widgets/widgets.html">
-                <span class="nav-label">Data Widgets</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../widgets/graphs-widgets.html">
-                <span class="nav-label">Graphs Widgets</span>
-                </a>
-            </li>
-        </ul>
-    </li>
-
-    <li>
-        <a href="#" title="Layouts">
-            <i class="fa fa-columns fa-lg fa-fw"></i><span class="nav-label">Layouts</span><i class="fa arrow"></i>
-        </a>
-        <ul>
-            <li class="">
-                <a href="../layouts/default.html">
-                    <span class="nav-label">Default Page</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../layouts/default-fixed.html">
-                    <span class="nav-label">Default Fixed</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../layouts/default-w-navbar.html">
-                    <span class="nav-label">Default w/ Navbar</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../layouts/default-w-footer.html">
-                    <span class="nav-label">Default w/ Footer</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../layouts/default-footer-fixed.html">
-                    <span class="nav-label">Default Footer Fixed</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../layouts/navbar.html">
-                    <span class="nav-label">Navbar</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../layouts/navbar-fixed.html">
-                    <span class="nav-label">Navbar Fixed</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../layouts/navbar-container.html">
-                    <span class="nav-label">Navbar Container</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../layouts/default-fullwidth.html">
-                    <span class="nav-label">Default FullWidth</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../layouts/empty-page.html">
-                    <span class="nav-label">Empty Page</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../layouts/boxed.html">
-                    <span class="nav-label">Boxed</span>
-                </a>
-            </li>
-        </ul>
-    </li>
-
-    <li>
-        <a href="#" title="Layouts">
-            <i class="fa fa-fw fa-lg fa-bars"></i><span class="nav-label">Sidebars</span><i class="fa arrow"></i>
-        </a>
-        <ul>
-            <li class="">
-                <a href="../sidebars/sidebar-default.html">
-                    <span class="nav-label">Sidebar Default</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../sidebars/sidebar-w-progress.html">
-                    <span class="nav-label">Sidebar w/ Progress</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../sidebars/sidebar-w-menu.html">
-                    <span class="nav-label">Sidebar w/ Menu</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../sidebars/sidebar-w-bars.html">
-                    <span class="nav-label">Sidebar w/ Bars</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../sidebars/sidebar-avatar-&amp;-bars.html">
-                    <span class="nav-label">Sidebar Avatar &amp; Bars</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../sidebars/sidebar-aside.html">
-                    <span class="nav-label">Sidebar ASide</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../sidebars/sidebar-avatar-numbers.html">
-                    <span class="nav-label">With Avatar &amp; Numbers</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../sidebars/sidebar-avatar-stats.html">
-                    <span class="nav-label">With Avatar &amp; Stats</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../sidebars/sidebar-slim.html">
-                    <span class="nav-label">Sidebar Slim</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../sidebars/sidebar-big-icons.html">
-                    <span class="nav-label">Sidebar Big Icons</span>
-                </a>
-            </li>
-        </ul>
-    </li>
-
-        <li>
-        <a href="#" title="Skins">
-            <i class="fa fa-google-wallet fa-lg"></i><span class="nav-label">Skins</span>
-            <span class="pull-right badge badge-info badge-outline text-uppercase">42</span>
-        </a>
-
-        <ul>
-            <li>
-                <a href="#">
-                <span class="nav-label">Dark &amp; Inverse</span> <i class="fa arrow"></i>
-                </a>
-
             <ul>
-                       <li class="">
-                            <a href="../skins/dark-inverse-primary.html">
-                                <span class="nav-label">Primary</span>
-                                <small><i class="fa fa-fw fa-circle text-primary pull-right"></i></small>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="../skins/dark-inverse-info.html">
-                                <span class="nav-label">Info</span>
-                                <small><i class="fa fa-fw fa-circle text-info pull-right"></i></small>
-                            </a>
-                        </li>
-                         <li class="">
-                            <a href="../skins/dark-inverse-success.html">
-                                <span class="nav-label">Success</span>
-                                <small><i class="fa fa-fw fa-circle text-success pull-right"></i></small>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="../skins/dark-inverse-warning.html">
-                                <span class="nav-label">Warning</span>
-                                <small><i class="fa fa-fw fa-circle text-warning pull-right"></i></small>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="../skins/dark-inverse-danger.html">
-                                <span class="nav-label">Danger</span>
-                                <small><i class="fa fa-fw fa-circle text-danger pull-right"></i></small>
-                            </a>
-                        </li>
-                    </ul>
-            </li>
-
-            <li>
-                <a href="#">
-                <span class="nav-label">Dark &amp; White</span> <i class="fa arrow"></i>
+                <li class="">
+                <a href="../start/home.html">
+                    <span class="nav-label">Home</span>
                 </a>
-
-                <ul>
-                       <li class="">
-                            <a href="../skins/dark-default-primary.html">
-                                <span class="nav-label">Primary</span>
-                                <small><i class="fa fa-fw fa-circle text-primary pull-right"></i></small>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="../skins/dark-default-info.html">
-                                <span class="nav-label">Info</span>
-                                <small><i class="fa fa-fw fa-circle text-info pull-right"></i></small>
-                            </a>
-                        </li>
-                         <li class="">
-                            <a href="../skins/dark-default-success.html">
-                                <span class="nav-label">Success</span>
-                                <small><i class="fa fa-fw fa-circle text-success pull-right"></i></small>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="../skins/dark-default-warning.html">
-                                <span class="nav-label">Warning</span>
-                                <small><i class="fa fa-fw fa-circle text-warning pull-right"></i></small>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="../skins/dark-default-danger.html">
-                                <span class="nav-label">Danger</span>
-                                <small><i class="fa fa-fw fa-circle text-danger pull-right"></i></small>
-                            </a>
-                        </li>
-                    </ul>
-
-
-            </li>
-
-            <li>
-                <a href="#">
-                <span class="nav-label">Dark &amp; Color</span> <i class="fa arrow"></i>
+                </li>
+                <li class="">
+                <a href="../start/transactions.html">
+                    <span class="nav-label">Transactions</span>
                 </a>
-
-                <ul>
-                       <li class="">
-                            <a href="../skins/dark-primary.html">
-                                <span class="nav-label">Primary</span>
-                                <small><i class="fa fa-fw fa-circle text-primary pull-right"></i></small>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="../skins/dark-info.html">
-                                <span class="nav-label">Info</span>
-                                <small><i class="fa fa-fw fa-circle text-info pull-right"></i></small>
-                            </a>
-                        </li>
-                         <li class="">
-                            <a href="../skins/dark-success.html">
-                                <span class="nav-label">Success</span>
-                                <small><i class="fa fa-fw fa-circle text-success pull-right"></i></small>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="../skins/dark-warning.html">
-                                <span class="nav-label">Warning</span>
-                                <small><i class="fa fa-fw fa-circle text-warning pull-right"></i></small>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="../skins/dark-danger.html">
-                                <span class="nav-label">Danger</span>
-                                <small><i class="fa fa-fw fa-circle text-danger pull-right"></i></small>
-                            </a>
-                        </li>
-                    </ul>
-
-
-            </li>
-
-
-
-            <li>
-                <a href="#">
-                <span class="nav-label">Light &amp; Inverse</span> <i class="fa arrow"></i>
+                </li>
+                <li class="">
+                <a href="../start/blocks.html">
+                    <span class="nav-label">Blocks</span>
                 </a>
-                    <ul>
-                       <li class="">
-                            <a href="../skins/light-inverse-primary.html">
-                                <span class="nav-label">Primary</span>
-                                <small><i class="fa fa-fw fa-circle text-primary pull-right"></i></small>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="../skins/light-inverse-info.html">
-                                <span class="nav-label">Info</span>
-                                <small><i class="fa fa-fw fa-circle text-info pull-right"></i></small>
-                            </a>
-                        </li>
-                         <li class="">
-                            <a href="../skins/light-inverse-success.html">
-                                <span class="nav-label">Success</span>
-                                <small><i class="fa fa-fw fa-circle text-success pull-right"></i></small>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="../skins/light-inverse-warning.html">
-                                <span class="nav-label">Warning</span>
-                                <small><i class="fa fa-fw fa-circle text-warning pull-right"></i></small>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="../skins/light-inverse-danger.html">
-                                <span class="nav-label">Danger</span>
-                                <small><i class="fa fa-fw fa-circle text-danger pull-right"></i></small>
-                            </a>
-                        </li>
-                    </ul>
-            </li>
-
-            <li>
-                <a href="#">
-                <span class="nav-label">Light &amp; White</span> <i class="fa arrow"></i>
+                </li>  
+                <li class="">
+                <a href="../start/accounts.html">
+                    <span class="nav-label">Top Accounts</span>
                 </a>
-                    <ul>
-                       <li class="">
-                            <a href="../skins/light-default-primary.html">
-                                <span class="nav-label">Primary</span>
-                                <small><i class="fa fa-fw fa-circle text-primary pull-right"></i></small>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="../skins/light-default-info.html">
-                                <span class="nav-label">Info</span>
-                                <small><i class="fa fa-fw fa-circle text-info pull-right"></i></small>
-                            </a>
-                        </li>
-                         <li class="">
-                            <a href="../skins/light-default-success.html">
-                                <span class="nav-label">Success</span>
-                                <small><i class="fa fa-fw fa-circle text-success pull-right"></i></small>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="../skins/light-default-warning.html">
-                                <span class="nav-label">Warning</span>
-                                <small><i class="fa fa-fw fa-circle text-warning pull-right"></i></small>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="../skins/light-default-danger.html">
-                                <span class="nav-label">Danger</span>
-                                <small><i class="fa fa-fw fa-circle text-danger pull-right"></i></small>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="../skins/light-default-soft-purple.html">
-                                <span class="nav-label">Soft Purple</span>
-                                <small><i class="fa fa-fw fa-circle text-soft-purple pull-right"></i></small>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="../skins/light-default-lighting-yellow.html">
-                                <span class="nav-label">Lighting Yellow</span>
-                                <small><i class="fa fa-fw fa-circle text-lighting-yellow pull-right"></i></small>
-                            </a>
-                        </li>
-                    </ul>
+                </li>              
+            </ul>
             </li>
-
+        
             <li>
-                <a href="#">
-                <span class="nav-label">Light &amp; Color</span> <i class="fa arrow"></i>
+                <a href="#" title="Dashboards">
+                    <i class="far fa-chart-bar active"></i> <span class="nav-label">Charts & Graphs</span>
+                    <!-- <span class="pull-right label label-primary label-outline text-uppercase">New</span> -->
                 </a>
-
-                <ul>
-                       <li class="">
-                            <a href="../skins/light-primary.html">
-                                <span class="nav-label">Primary</span>
-                                <small><i class="fa fa-fw fa-circle text-primary pull-right"></i></small>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="../skins/light-info.html">
-                                <span class="nav-label">Info</span>
-                                <small><i class="fa fa-fw fa-circle text-info pull-right"></i></small>
-                            </a>
-                        </li>
-                         <li class="">
-                            <a href="../skins/light-success.html">
-                                <span class="nav-label">Success</span>
-                                <small><i class="fa fa-fw fa-circle text-success pull-right"></i></small>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="../skins/light-warning.html">
-                                <span class="nav-label">Warning</span>
-                                <small><i class="fa fa-fw fa-circle text-warning pull-right"></i></small>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="../skins/light-danger.html">
-                                <span class="nav-label">Danger</span>
-                                <small><i class="fa fa-fw fa-circle text-danger pull-right"></i></small>
-                            </a>
-                        </li>
+                <ul>           
+                    <li class="">
+                        <a href="../widgets/prices.html">
+                        <span class="nav-label">Token Price </span>
+                        </a>
+                    </li>
+                    <li class="active">
+                        <a href="../widgets/marketcap.html">
+                        <span class="nav-label">Market Capitalization</span>
+                        </a>
+                    </li> 
+                    <li class="">
+                        <a href="../widgets/prices.html">
+                        <span class="nav-label">Transactions History</span>
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="../widgets/prices.html">
+                        <span class="nav-label">Transactions Fees</span>
+                        </a>
+                    </li>                                         
+                    <li class="">
+                        <a href="../widgets/suply.html">
+                        <span class="nav-label">Total Supply Chart</span>
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="../widgets/prices.html">
+                        <span class="nav-label">Accounts growth rate</span>
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="../widgets/marketcap.html">
+                        <span class="nav-label">Top DEX Chart</span>
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="../widgets/marketcap.html">
+                        <span class="nav-label">Name Bids Chart</span>
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="../widgets/marketcap.html">
+                        <span class="nav-label">RAM Auction Chart</span>
+                        </a>
+                    </li>
                     </ul>
-
-
-            </li>
-
-
-
-            <li>
-                <a href="#">
-                <span class="nav-label">Color &amp; Inverse</span> <i class="fa arrow"></i>
-                </a>
-                    <ul>
-                       <li class="">
-                            <a href="../skins/primary-inverse.html">
-                                <span class="nav-label">Primary</span>
-                                <small><i class="fa fa-fw fa-circle text-primary pull-right"></i></small>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="../skins/info-inverse.html">
-                                <span class="nav-label">Info</span>
-                                <small><i class="fa fa-fw fa-circle text-info pull-right"></i></small>
-                            </a>
-                        </li>
-                         <li class="">
-                            <a href="../skins/success-inverse.html">
-                                <span class="nav-label">Success</span>
-                                <small><i class="fa fa-fw fa-circle text-success pull-right"></i></small>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="../skins/warning-inverse.html">
-                                <span class="nav-label">Warning</span>
-                                <small><i class="fa fa-fw fa-circle text-warning pull-right"></i></small>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="../skins/danger-inverse.html">
-                                <span class="nav-label">Danger</span>
-                                <small><i class="fa fa-fw fa-circle text-danger pull-right"></i></small>
-                            </a>
-                        </li>
-                    </ul>
-            </li>
-
-            <li>
-                <a href="#">
-                <span class="nav-label">Color &amp; White</span> <i class="fa arrow"></i>
-                </a>
-                    <ul>
-                       <li class="">
-                            <a href="../skins/primary-default.html">
-                                <span class="nav-label">Primary</span>
-                                <small><i class="fa fa-fw fa-circle text-primary pull-right"></i></small>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="../skins/info-default.html">
-                                <span class="nav-label">Info</span>
-                                <small><i class="fa fa-fw fa-circle text-info pull-right"></i></small>
-                            </a>
-                        </li>
-                         <li class="">
-                            <a href="../skins/success-default.html">
-                                <span class="nav-label">Success</span>
-                                <small><i class="fa fa-fw fa-circle text-success pull-right"></i></small>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="../skins/warning-default.html">
-                                <span class="nav-label">Warning</span>
-                                <small><i class="fa fa-fw fa-circle text-warning pull-right"></i></small>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="../skins/danger-default.html">
-                                <span class="nav-label">Danger</span>
-                                <small><i class="fa fa-fw fa-circle text-danger pull-right"></i></small>
-                            </a>
-                        </li>
-                    </ul>
-            </li>
-
-            <li>
-                <a href="#">
-                <span class="nav-label">Color &amp; Color</span> <i class="fa arrow"></i>
-                </a>
-
-                <ul>
-                       <li class="">
-                            <a href="../skins/primary-primary.html">
-                                <span class="nav-label">Primary</span>
-                                <small><i class="fa fa-fw fa-circle text-primary pull-right"></i></small>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="../skins/info-info.html">
-                                <span class="nav-label">Info</span>
-                                <small><i class="fa fa-fw fa-circle text-info pull-right"></i></small>
-                            </a>
-                        </li>
-                         <li class="">
-                            <a href="../skins/success-success.html">
-                                <span class="nav-label">Success</span>
-                                <small><i class="fa fa-fw fa-circle text-success pull-right"></i></small>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="../skins/warning-warning.html">
-                                <span class="nav-label">Warning</span>
-                                <small><i class="fa fa-fw fa-circle text-warning pull-right"></i></small>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="../skins/danger-danger.html">
-                                <span class="nav-label">Danger</span>
-                                <small><i class="fa fa-fw fa-circle text-danger pull-right"></i></small>
-                            </a>
-                        </li>
-                    </ul>
-
-
-            </li>
-
-
+                </li>    
         </ul>
-    </li>
-
-
-    <li>
-        <a href="#">
-            <i class="fa fa-toggle-on fa-lg"></i><span class="nav-label">Interface</span><i class="fa arrow"></i>
-        </a>
-        <ul>
-            <li class="">
-                <a href="../interface/colors.html">
-                    <span class="nav-label">Colors</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../interface/typography.html">
-                    <span class="nav-label">Typography</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../interface/buttons.html">
-                    <span class="nav-label">Buttons</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../interface/paginations&amp;pager.html">
-                    <span class="nav-label">Paginations &amp; Pager</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../interface/images&amp;thumbs.html">
-                    <span class="nav-label">Images &amp; Thumbs</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../interface/avatars.html">
-                    <span class="nav-label">Avatars</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../interface/navbars.html">
-                    <span class="nav-label">Navbars</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../interface/alerts.html">
-                    <span class="nav-label">Alerts</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../interface/toastr.html">
-                    <span class="nav-label">Toastr</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../interface/modals.html">
-                    <span class="nav-label">Modals</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../interface/progress-bars.html">
-                    <span class="nav-label">Progress Bars</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../interface/badges&amp;labels.html">
-                    <span class="nav-label">Badges &amp; Labels</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../interface/breadcrumps.html">
-                    <span class="nav-label">Breadcrumbs</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../interface/tabs&amp;pills.html">
-                    <span class="nav-label">Tabs &amp; Pills</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../interface/tooltips&amp;popovers.html">
-                    <span class="nav-label">Tooltips &amp; Popovers</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../interface/list-groups.html">
-                    <span class="nav-label">List Groups</span>
-                </a>
-            </li>
-        </ul>
-    </li>
-
-    <li>
-        <a href="#" title="Graphs">
-            <i class="fa fa-pie-chart  fa-lg"></i><span class="nav-label">Graphs</span> <i class="fa arrow"></i>
-        </a>
-        <ul>
-             <li class="">
-                <a href="../graphs/peity.html">
-                    <span class="nav-label">Peity</span>
-                </a>
-            </li>
-            <li class="" id="sidebar-link-highstock">
-                <a href="../graphs/highstock.html">
-                    <span class="nav-label">Highstock</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../graphs/sparklines.html">
-                    <span class="nav-label">Sparklines</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../graphs/chartist.html">
-                    <span class="nav-label">Chartist</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../graphs/highcharts.html">
-                    <span class="nav-label">Highcharts</span>
-                </a>
-            </li>
-        </ul>
-    </li>
-
-    <li>
-        <a href="#" title="Tables">
-            <i class="fa fa-trello fa-lg"></i><span class="nav-label">Tables</span> <i class="fa arrow"></i>
-        </a>
-        <ul>
-            <li class="">
-                <a href="../tables/pricing-tables.html">
-                    <span class="nav-label">Pricing Tables</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../tables/tables.html">
-                    <span class="nav-label">Tables</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../tables/datatables.html">
-                    <span class="nav-label">Datatables</span>
-                </a>
-            </li>
-        </ul>
-    </li>
-
-    <li>
-        <a href="#" title="Forms">
-            <i class="fa fa-check-square-o fa-fw fa-lg"></i><span class="nav-label">Forms</span> <i class="fa arrow"></i>
-        </a>
-        <ul>
-            <li class="">
-                <a href="../forms/forms.html">
-                    <span class="nav-label">Forms</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../forms/forms-layouts.html">
-                    <span class="nav-label">Forms Layouts</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../forms/date-range-picker.html">
-                    <span class="nav-label">Date Range Picker</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../forms/forms-extended.html">
-                    <span class="nav-label">Forms Extended</span>
-                </a>
-            </li>
-        </ul>
-    </li>
-
-    <li class="">
-        <a href="../grids/grids.html" title="Grids">
-            <i class="fa fa-lg fa-th-list fa-fw"></i><span class="nav-label">Grids</span>
-        </a>
-    </li>
-
-    <li>
-        <a href="#" title="Pages">
-            <i class="fa fa-clone fa-lg"></i><span class="nav-label">Pages</span> <i class="fa arrow"></i>
-        </a>
-        <ul>
-            <li class="">
-                <a href="../pages/register.html">
-                    <span class="nav-label">Register</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../pages/login.html">
-                    <span class="nav-label">login</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../pages/forgot-password.html">
-                    <span class="nav-label">Forgot Password</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../pages/lock-screen.html">
-                    <span class="nav-label">Lock Screen</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../pages/error-404.html">
-                    <span class="nav-label">Error 404</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../pages/invoice.html">
-                    <span class="nav-label">Invoice</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../pages/timeline.html">
-                    <span class="nav-label">Timeline</span>
-                </a>
-            </li>
-        </ul>
-    </li>
-
-    <li>
-        <a href="#" title="Apps">
-            <i class="fa fa-suitcase fa-lg"></i><span class="nav-label">Apps</span> <i class="fa arrow"></i>
-        </a>
-
-        <ul>
-            <li>
-                <a href="#">
-                <span class="nav-label">Projects</span> <i class="fa arrow"></i>
-                </a>
-                    <ul>
-                        <li class="">
-                            <a href="../apps/projects-list.html">
-                                <span class="nav-label">Projects List</span>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="../apps/projects-grid.html">
-                                <span class="nav-label">Projects Grid</span>
-                            </a>
-                        </li>
-                    </ul>
-            </li>
-
-            <li>
-                <a href="#">
-                    <span class="nav-label">Tasks</span> <i class="fa arrow"></i>
-                </a>
-                    <ul>
-                        <li class="">
-                            <a href="../apps/tasks-list.html">
-                                <span class="nav-label">Tasks List</span>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="../apps/tasks-grid.html">
-                                <span class="nav-label">Tasks Grid</span>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="../apps/tasks-details.html">
-                                <span class="nav-label">Tasks Details</span>
-                            </a>
-                        </li>
-                    </ul>
-            </li>
-
-            <li>
-                <a href="#">
-                    <span class="nav-label">Files Manager</span> <i class="fa arrow"></i>
-                </a>
-                <ul>
-                    <li class="">
-                        <a href="../apps/files-list.html">
-                            <span class="nav-label">Files List</span>
-                        </a>
-                    </li>
-                    <li class="">
-                        <a href="../apps/files-grid.html">
-                            <span class="nav-label">Files Grid</span>
-                        </a>
-                    </li>
-                </ul>
-            </li>
-
-            <li>
-                <a href="#">
-                    <span class="nav-label">Search Results</span> <i class="fa arrow"></i>
-                </a>
-                <ul>
-                    <li class="">
-                        <a href="../apps/search-results.html">
-                            <span class="nav-label">Search Results</span>
-                        </a>
-                    </li>
-                    <li class="">
-                        <a href="../apps/images-results.html">
-                            <span class="nav-label">Images Results</span>
-                        </a>
-                    </li>
-                    <li class="">
-                        <a href="../apps/videos-results.html">
-                            <span class="nav-label">Videos Results</span>
-                        </a>
-                    </li>
-                    <li class="">
-                        <a href="../apps/users-results.html">
-                            <span class="nav-label">Users Results</span>
-                        </a>
-                    </li>
-                </ul>
-            </li>
-
-            <li class="">
-                <a href="../apps/faq.html">
-                    <span class="nav-label">FAQ</span>
-                </a>
-            </li>
-
-            <li>
-                <a href="#">
-                    <span class="nav-label">Users</span> <i class="fa arrow"></i>
-                </a>
-                <ul>
-                    <li class="">
-                        <a href="../apps/users-list.html">
-                            <span class="nav-label">Users List</span>
-                        </a>
-                    </li>
-                    <li class="">
-                        <a href="../apps/users-grid.html">
-                            <span class="nav-label">Users Grid</span>
-                        </a>
-                    </li>
-                </ul>
-            </li>
-
-            <li class="">
-                <a href="../apps/chat.html">
-                    <span class="nav-label">Chat</span>
-                </a>
-            </li>
-
-            <li class="">
-                <a href="../apps/calendar.html">
-                    <span class="nav-label">Calendar</span>
-                </a>
-            </li>
-
-            <li>
-                <a href="#">
-                    <span class="nav-label">Mailbox</span> <i class="fa arrow"></i>
-                </a>
-                <ul>
-                    <li class="">
-                        <a href="../apps/inbox.html">
-                            <span class="nav-label">Inbox</span>
-                        </a>
-                    </li>
-                    <li class="">
-                        <a href="../apps/email-details.html">
-                            <span class="nav-label">Email Details</span>
-                        </a>
-                    </li>
-                    <li class="">
-                        <a href="../apps/new-email.html">
-                            <span class="nav-label">New Email</span>
-                        </a>
-                    </li>
-                </ul>
-            </li>
-
-            <li class="">
-                <a href="../apps/clients.html">
-                    <span class="nav-label">Clients</span>
-                </a>
-            </li>
-
-            <li>
-                <a href="#">
-                    <span class="nav-label">Profile User</span> <i class="fa arrow"></i>
-                </a>
-                <ul>
-                    <li class="">
-                        <a href="../apps/profile-details.html">
-                            <span class="nav-label">Profile Details</span>
-                        </a>
-                    </li>
-                    <li class="">
-                        <a href="../apps/profile-edit.html">
-                            <span class="nav-label">Profile Edit</span>
-                        </a>
-                    </li>
-                    <li class="">
-                        <a href="../apps/account-edit.html">
-                            <span class="nav-label">Account Edit</span>
-                        </a>
-                    </li>
-                    <li class="">
-                        <a href="../apps/billing-edit.html">
-                            <span class="nav-label">Billing Edit</span>
-                        </a>
-                    </li>
-                    <li class="">
-                        <a href="../apps/settings-edit.html">
-                            <span class="nav-label">Settings Edit</span>
-                        </a>
-                    </li>
-                    <li class="">
-                        <a href="../apps/sessions-edit.html">
-                            <span class="nav-label">Sessions Edit</span>
-                        </a>
-                    </li>
-                </ul>
-            </li>
-        </ul>
-    </li>
-
-    <li>
-        <a href="#" title="Icons">
-            <i class="fa fa-star  fa-lg"></i><span class="nav-label">Icons</span><i class="fa arrow"></i>
-        </a>
-        <ul>
-            <li class="">
-                <a href="../icon/fonts-awesome.html">
-                    <span class="nav-label">Fonts Awesome</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="../icon/glyphicons.html">
-                    <span class="nav-label">Glyphicons</span>
-                </a>
-            </li>
-        </ul>
-    </li>
-
-    <li class="">
-        <a href="../panels/panels.html">
-            <i class="fa fa-columns fa-lg "></i><span class="nav-label">Panels</span>
-        </a>
-    </li>
-
-       <li class="">
-        <a href="../styleguide/styleguide.html">
-            <i class="fa fa-cube  fa-lg"></i><span class="nav-label">Styleguide</span>
-        </a>
-    </li>
-
-    <li class="">
-        <a href="../docs/docs.html">
-            <i class="fa fa-file-o fa-lg "></i><span class="nav-label">Docs</span>
-            <span class="badge badge-outline badge-gray-lighter pull-right">2</span>
-        </a>
-    </li>
-    
-    <li>
-        <a href="http://spin.webkom.co/react/">
-            <i class="fa fa-flash fa-lg"></i><span class="nav-label">Switch to React</span>
-            <span class="label label-outline label-danger pull-right">NEW</span>
-        </a>
-    </li>
-
-</ul>
-<!-- END Tree Sidebar Common  -->
+        <!-- END Tree Sidebar Common  -->
 
 
     <div class="sidebar-default-visible">
         <hr>
     </div>
 
-    <div class="sidebar-default-visible sidebar-section m-b-2">
+    <div class="sidebar-default-visible sidebar-section m-b-2" id="links">
         <span class="small text-muted text-uppercase p-b-2 block">
-            <strong>Labels</strong>
+            <strong>Links</strong>
         </span>
         <br>
         <br>
-        <p><i class="fa fa-circle-thin text-danger m-r-1"></i> Videos</p>
-        <p><i class="fa fa-circle-thin text-info m-r-1"></i> Pictures</p>
-        <p><i class="fa fa-circle-thin text-muted m-r-1"></i> Documents</p>
+        <a href="#"><p><i class="fas fa-envelope"></i> Contact Us</p></a>
+        <a href="#"><p><i class="fas fa-users"></i> About Us</p></a>
+        <a href="#"><p><i class="fab fa-twitter"></i> Twitter</p></a>
+        <a href="#"><p><i class="fab fa-telegram"></i> Telegram</p></a>        
     </div>
     </div>
 </aside>
@@ -2199,7 +1215,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="page-header m-t-0">
-                    <h3 class="m-t-0">E-Commerce</h3>
+                    <h3 class="m-t-0">home</h3>
                 </div>
             </div>
         </div>
@@ -2207,682 +1223,154 @@
 </div>
 <!-- END Sub-Navbar with Header only-->
 
-<!-- START Sub-Navbar with Header and Breadcrumbs-->
-<div class="sub-navbar sub-navbar__header-breadcrumbs">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 sub-navbar-column">
-                <div class="sub-navbar-header">
-                    <h3>E-Commerce</h3>
-                </div>
-                <ol class="breadcrumb navbar-text navbar-right no-bg">
-                    <li class="current-parent">
-                        <a class="current-parent" href="../index.html">
-                            <i class="fa fa-fw fa-home"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            Start
-                        </a>
-                    </li>
-                    <li class="active">E-Commerce</li>
-                </ol>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- END Sub-Navbar with Header and Breadcrumbs-->
-
-
 <div class="container">
 
-<!-- START EDIT CONTENT -->
-<div class="row">
-    <div class="col-lg-12">
+    <!-- START EDIT CONTENT -->
+    <div class="row">
+        <div class="col-lg-12">
 
-        <!-- START ROWs #1 -->
-        <div class="row m-t-1">
-
-            <!-- START Revenue -->
-            <div class="col-lg-4 col-md-4 col-sm-4">
-                <div class="panel panel-default b-a-0 bg-gray-dark">
-                    <div class="panel-heading">Total Revenue <small class="pull-right text-gray-lighter">22 - 29 May 2016</small></div>
-                    <div class="panel-body">
-                        <h2 class="m-t-0 f-w-300">IDR 10,215,845</h2>
-                        <i class="fa fa-fw fa-caret-up text-success"></i> <span class="text-success m-r-1">33,87%</span> <small>from last week</small>
-                    </div>
-                </div>
+            <!-- START ROW "Your Cash" Header -->
+            <div class="row m-b-2">
+                <div class="col-md-4 col-sm-4 col-xs-4">
+                <h4 class="m-b-0 m-t-0 f-w-300 current">Current Price <span>$8.23 USD (1.06%)</span> </h4>
+                </div>               
             </div>
-            <!-- END Revenue -->
+            <!-- END ROW "Your Cash" Header -->           
 
-            <!-- START Total Item Sold -->
-            <div class="col-lg-4 col-md-4  col-sm-4">
-                <div class="panel panel-default b-a-0 bg-gray-dark">
-                    <div class="panel-heading">Total Item Sold <small class="pull-right text-gray-lighter">22 - 29 May 2016</small></div>
-                    <div class="panel-body">
-                        <h2 class="m-t-0 f-w-300">128,980</h2>
-                        <i class="fa fa-fw fa-caret-down text-danger"></i> <span class="text-danger m-r-1">33,87%</span> <small>from last week</small>
-                    </div>
-                </div>
-            </div>
-            <!-- END Total Item Sold -->
 
-            <!-- START Total Visitor -->
-            <div class="col-lg-4 col-md-4  col-sm-4">
-                <div class="panel panel-default b-a-0 bg-gray-dark">
-                    <div class="panel-heading">Total Visitor <small class="pull-right text-gray-lighter">22 - 29 May 2016</small></div>
-                    <div class="panel-body">
-                        <h2 class="m-t-0 f-w-300">2,905,895</h2>
-                        <i class="fa fa-fw fa-caret-up text-success"></i> <span class="text-success m-r-1">92,01%</span> <small>from last week</small>
-                    </div>
-                </div>
-            </div>
-            <!-- END Total Visitor -->
+            <!-- START ROW "Market Cap" & "Recent Map" -->
+            <div class="row">
 
-        </div>
-        <!-- END ROWs #1 -->
-
-        <!-- START ROW Report Statisticts & Latest Transactions -->
-        <div class="row m-t-3">
-
-            <div class="col-lg-6">
-
-                <!-- START Header -->
-                <div class="row">
-                    <div class="col-md-4 col-sm-4 col-xs-6">
-                        <h5 class="m-b-0 m-t-0 f-w-300">Report Statisticts</h5> <small class="text-gray-lighter">Period: 22 - 29 May 2016</small></div>
-                    <div class="col-md-4 col-sm-4 col-xs-4 col-sm-offset-4 col-xs-offset-2 col-md-offset-4 text-right">
-
-                        <div class="btn-group" role="group" aria-label="...">
-                            <button type="button" class="btn btn-sm btn-default">Items Sold</button>
-                            <button type="button" class="btn btn-sm btn-default">Revenue</button>
+                <!-- START ROW "Market Cap" -->
+                <div class="col-lg-5">
+                    <!-- START ROW "Your Cash" Header -->
+                    <div class="row m-b-2">
+                        <div class="col-md-4">
+                            <h4 class="m-b-0 f-w-300">Market Cap</h4></div>
+                        <div class="col-md-4 col-md-offset-4 text-right">
                         </div>
+                    </div>
+                    <!-- END ROW "Your Cash" Header -->
+                    <div class="panel panel-default b-a-2 b-gray-dark no-bg">
+                        <div class="panel-heading">
+
+                            <div class="row">
+                                <div class="col-md-7 col-sm-7 col-xs-7">
+
+                                    <div class="btn-group" role="group" aria-label="...">
+                                        <div class="btn-group" role="group" aria-label="...">
+                                            <button type="button" class="btn btn-sm btn-default">Last Month</button>
+                                            <button type="button" class="btn btn-sm btn-default">This Month</button>
+                                            <button type="button" class="btn btn-sm btn-default">Today</button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-3 col-sm-3 col-xs-3 col-xs-offset-2 col-sm-offset-2 col-md-offset-2 text-right">
+                                    <div class="btn-group" role="group" aria-label="...">
+                                        <button type="button" class="btn btn-sm btn-default"><i class="fa fa-pie-chart"></i></button>
+                                        <button type="button" class="btn btn-sm btn-default"><i class="fa fa-bar-chart"></i></button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel-body">
+                            <!-- <div class="highcharts-pie-with-legend-money-map"></div> -->
+                            <div class="highcharts-pie-with-legend"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END ROW "Market Cap" -->
+
+            <!-- START ROW "Price Performance" & "Dashboard Settings" -->
+            <div class="row"> 
+
+                <!-- START ROW "Dashboard Settings" -->
+                <div class="col-lg-3">
+                    <!-- START ROW "Your Cash" Header -->
+                    <!-- <div class="row m-b-2">
+                        <div class="col-md-9">
+                            <h4 class="m-b-0 f-w-300">Dashboard Settings</h4></div>
+                        <div class="col-md-2 col-md-offset-2 text-right">
+                        </div>
+                    </div> -->
+                    <!-- END ROW "Your Cash" Header -->
+                    <div class="panel panel-default b-a-2 b-gray-dark no-bg">
+
+                        <!-- START Table -->
+                        <!-- <table class="table">
+                            <tbody>
+                                <tr>
+                                    <td class="v-a-m">My Cash
+                                        </td><td class="v-a-m text-right">
+                                            <input type="checkbox" class="js-switch-small" checked>
+                                        </td>
+                                </tr>
+                                <tr>
+                                    <td class="v-a-m">My Cap
+                                        </td><td class="v-a-m text-right">
+                                            <input type="checkbox" class="js-switch-small" checked>
+                                        </td>
+                                </tr>
+                                <tr>
+                                    <td class="v-a-m">Recent Fundings
+                                        </td><td class="v-a-m text-right">
+                                            <input type="checkbox" class="js-switch-small" checked>
+                                        </td>
+                                </tr>
+                                <tr>
+                                    <td class="v-a-m">Client List
+                                        </td><td class="v-a-m text-right">
+                                            <input type="checkbox" class="js-switch-small" checked>
+                                        </td>
+                                </tr>
+                                <tr>
+                                    <td class="v-a-m">Invoice Creator
+                                        </td><td class="v-a-m text-right">
+                                            <input type="checkbox" class="js-switch-small" checked>
+                                        </td>
+                                </tr>
+                                <tr>
+                                    <td class="v-a-m">Invoice Generator
+                                        </td><td class="v-a-m text-right">
+                                            <input type="checkbox" class="js-switch-small" checked>
+                                        </td>
+                                </tr>
+                                <tr>
+                                    <td class="v-a-m">Sales Lead
+                                        </td><td class="v-a-m text-right">
+                                            <input type="checkbox" class="js-switch-small" checked>
+                                        </td>
+                                </tr>
+                                <tr>
+                                    <td class="v-a-m">Q &amp; A
+                                        </td><td class="v-a-m text-right">
+                                            <input type="checkbox" class="js-switch-small" checked>
+                                        </td>
+                                </tr>
+                                <tr>
+                                    <td class="v-a-m">Price Performance
+                                        </td><td class="v-a-m text-right">
+                                            <input type="checkbox" class="js-switch-small" checked>
+                                        </td>
+                                </tr>
+                            </tbody>
+                        </table> -->
+                        <!-- END Table -->
 
                     </div>
                 </div>
-                <!-- END Header -->
-
-                <!-- START Chart Higcharts -->
-                <div class="highcharts-basic-column m-t-2"></div>
-                <!-- END Chart Higcharts -->
+                <!-- END ROW "Dashboard Settings" -->
 
             </div>
-
-
-            <div class="col-lg-6">
-
-                <div class="row">
-                    <div class="col-md-4 col-sm-4 col-xs-6">
-                        <h5 class="m-b-0 m-t-0 f-w-300">Latest Transcations</h5></div>
-                    <div class="col-md-4 col-sm-4 col-sm-4 col-sm-offset-4 col-md-offset-4 col-xs-offset-2 text-right">
-                        <button type="button" class="btn btn-sm btn-default">See All Transactions<i class="fa m-l-1 fa-angle-right"></i> </button>
-                    </div>
-                </div>
-
-                <table class="table m-t-2">
-                    <thead>
-                        <tr>
-                            <th class="small text-muted text-uppercase">
-                                <strong>Name</strong>
-                            </th>
-                            <th class="small text-muted text-uppercase">
-                                <strong>Price</strong>
-                            </th>
-                            <th class="small text-muted text-uppercase">
-                                <strong>Status</strong>
-                            </th>
-                        </tr>
-                    </thead>
-                    <tbody>
-
-                        <tr>
-                            <td class="v-a-m">
-                                <div class="media media-auto">
-                                    <div class="media-left">
-                                        <a href="javascript: void(0)">
-                                            <img class="media-object img-circle" style="width: 35px;" src="https://s3.amazonaws.com/uifaces/faces/twitter/lvovenok/128.jpg" alt="Avatar">
-                                        </a>
-                                    </div>
-                                    <div class="media-body">
-                                        <span class="media-heading text-white">Jeff Huels</span>
-                                        <br>
-                                        <span class="media-heading"><span>on Nov 18, 2015 </span>
-                                        </span>
-                                    </div>
-                                </div>
-                            </td>
-                            <td class="v-a-m"><span>IDR 515.00</span></td>
-                            <td class="v-a-m"><i class="fa fa-circle text-success m-r-1"></i>Confirmed</td>
-                        </tr>
-
-                        <tr>
-                            <td class="v-a-m">
-                                <div class="media media-auto">
-                                    <div class="media-left">
-                                        <a href="javascript: void(0)">
-                                            <img class="media-object img-circle" style="width: 35px;" src="https://s3.amazonaws.com/uifaces/faces/twitter/adityasutomo/128.jpg" alt="Avatar">
-                                        </a>
-                                    </div>
-                                    <div class="media-body">
-                                        <span class="media-heading text-white">Brandi Larson</span>
-                                        <br>
-                                        <span class="media-heading"><span>on Feb 04, 2016 </span>
-                                        </span>
-                                    </div>
-                                </div>
-                            </td>
-                            <td class="v-a-m"><span>IDR 439.00</span></td>
-                            <td class="v-a-m"><i class="fa fa-circle text-warning m-r-1"></i>Waiting Payment</td>
-                        </tr>
-
-                        <tr>
-                            <td class="v-a-m">
-                                <div class="media media-auto">
-                                    <div class="media-left">
-                                        <a href="javascript: void(0)">
-                                            <img class="media-object img-circle" style="width: 35px;" src="https://s3.amazonaws.com/uifaces/faces/twitter/davidcazalis/128.jpg" alt="Avatar">
-                                        </a>
-                                    </div>
-                                    <div class="media-body">
-                                        <span class="media-heading text-white">Daphnee Blanda</span>
-                                        <br>
-                                        <span class="media-heading"><span>on Nov 14, 2015 </span>
-                                        </span>
-                                    </div>
-                                </div>
-                            </td>
-                            <td class="v-a-m"><span>IDR 884.00</span></td>
-                            <td class="v-a-m"><i class="fa fa-circle text-success m-r-1"></i>Confirmed</td>
-                        </tr>
-
-                        <tr>
-                            <td class="v-a-m">
-                                <div class="media media-auto">
-                                    <div class="media-left">
-                                        <a href="javascript: void(0)">
-                                            <img class="media-object img-circle" style="width: 35px;" src="https://s3.amazonaws.com/uifaces/faces/twitter/ariil/128.jpg" alt="Avatar">
-                                        </a>
-                                    </div>
-                                    <div class="media-body">
-                                        <span class="media-heading text-white">Mireille O&apos;Keefe</span>
-                                        <br>
-                                        <span class="media-heading"><span>on Jun 10, 2013 </span>
-                                        </span>
-                                    </div>
-                                </div>
-                            </td>
-                            <td class="v-a-m"><span>IDR 512.00</span></td>
-                            <td class="v-a-m"><i class="fa fa-circle text-danger m-r-1"></i>Payment Expired</td>
-                        </tr>
-
-                        <tr>
-                            <td class="v-a-m">
-                                <div class="media media-auto">
-                                    <div class="media-left">
-                                        <a href="javascript: void(0)">
-                                            <img class="media-object img-circle" style="width: 35px;" src="https://s3.amazonaws.com/uifaces/faces/twitter/hellofeverrrr/128.jpg" alt="Avatar">
-                                        </a>
-                                    </div>
-                                    <div class="media-body">
-                                        <span class="media-heading text-white">Hailey Rogahn</span>
-                                        <br>
-                                        <span class="media-heading"><span>on Mar 20, 2013 </span>
-                                        </span>
-                                    </div>
-                                </div>
-                            </td>
-                            <td class="v-a-m"><span>IDR 559.00</span></td>
-                            <td class="v-a-m"><i class="fa fa-circle text-success m-r-1"></i>Confirmed</td>
-                        </tr>
-
-                        <tr>
-                            <td class="v-a-m">
-                                <div class="media media-auto">
-                                    <div class="media-left">
-                                        <a href="javascript: void(0)">
-                                            <img class="media-object img-circle" style="width: 35px;" src="https://s3.amazonaws.com/uifaces/faces/twitter/russoedu/128.jpg" alt="Avatar">
-                                        </a>
-                                    </div>
-                                    <div class="media-body">
-                                        <span class="media-heading text-white">Kayley Kilback</span>
-                                        <br>
-                                        <span class="media-heading"><span>on Nov 15, 2013 </span>
-                                        </span>
-                                    </div>
-                                </div>
-                            </td>
-                            <td class="v-a-m"><span>IDR 393.00</span></td>
-                            <td class="v-a-m"><i class="fa fa-circle text-success m-r-1"></i>Confirmed</td>
-                        </tr>
-
-                        <tr>
-                            <td class="v-a-m">
-                                <div class="media media-auto">
-                                    <div class="media-left">
-                                        <a href="javascript: void(0)">
-                                            <img class="media-object img-circle" style="width: 35px;" src="https://s3.amazonaws.com/uifaces/faces/twitter/joki4/128.jpg" alt="Avatar">
-                                        </a>
-                                    </div>
-                                    <div class="media-body">
-                                        <span class="media-heading text-white">Stacy Heidenreich</span>
-                                        <br>
-                                        <span class="media-heading"><span>on Jan 18, 2011 </span>
-                                        </span>
-                                    </div>
-                                </div>
-                            </td>
-                            <td class="v-a-m"><span>IDR 220.00</span></td>
-                            <td class="v-a-m"><i class="fa fa-circle text-warning m-r-1"></i>Witing Payment</td>
-                        </tr>
-
-                    </tbody>
-                </table>
-
-
-            </div>
-
-            <div class="highcharts-basic-column m-t-2"></div>
+            <!-- END ROW "Price Performance" & "Dashboard Settings" -->
 
         </div>
-        <!-- END ROW Report Statisticts & Latest Transactions -->
-
-        <!-- START ROW Latest Comments & Most Viewed -->
-        <div class="row m-t-3">
-
-            <div class="col-lg-6">
-
-                <div class="row">
-                    <div class="col-md-4 col-sm-4 col-xs-6">
-                        <h5 class="m-b-0 m-t-0 f-w-300">Latest Comments</h5></div>
-                    <div class="col-md-4 col-sm-4 col-xs-offset-2 col-sm-offset-4 col-md-offset-4 text-right">
-                        <button type="button" class="btn btn-sm btn-default">See All Comments<i class="fa m-l-1 fa-angle-right"></i> </button>
-                    </div>
-                </div>
-
-                <table class="table table-hover">
-                    <thead>
-                        <tr>
-                            <th class="small text-muted text-uppercase">
-                            </th>
-                        </tr>
-                    </thead>
-
-                    <tbody>
-
-                        <tr>
-                            <td>
-                                <div class="media media-auto">
-                                    <div class="media-left">
-                                        <a href="javascript: void(0)">
-                                            <img class="media-object img-circle" style="width: 35px;" src="https://s3.amazonaws.com/uifaces/faces/twitter/kiwiupover/128.jpg" alt="Avatar">
-                                        </a>
-                                    </div>
-                                    <div class="media-body">
-                                        <span class="media-heading text-white">Ruthie Hirthe</span>
-                                        <br>
-                                        <span class="media-heading"><span>on Jun 16, 2015 </span> on <a href="#"><span>Games</span></a>
-                                        </span>
-
-                                        <p class="m-t-2 m-b-0"><span>Odio ducimus quia maiores ut sint minima. Sit nemo provident voluptatem aperiam. Ut recusandae quia odio dolores voluptas. </span></p>
-                                    </div>
-                                </div>
-                            </td>
-                        </tr>
-
-
-                        <tr>
-                            <td>
-                                <div class="media media-auto">
-                                    <div class="media-left">
-                                        <a href="javascript: void(0)">
-                                            <img class="media-object img-circle" style="width: 35px;" src="https://s3.amazonaws.com/uifaces/faces/twitter/marshallchen_/128.jpg" alt="Avatar">
-                                        </a>
-                                    </div>
-                                    <div class="media-body">
-                                        <span class="media-heading text-white">Rollin Bradtke</span>
-                                        <br>
-                                        <span class="media-heading"><span>on Apr 22, 2016 </span> on <a href="#"><span>Books</span></a>
-                                        </span>
-
-                                        <p class="m-t-2  m-b-0"><span>Similique tempora id consequatur voluptatem. Aut porro eos et unde corporis ea et consequatur cumque. Aut ut id. Itaque ut saepe dolorem odit. </span></p>
-                                    </div>
-                                </div>
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td>
-                                <div class="media media-auto">
-                                    <div class="media-left">
-                                        <a href="javascript: void(0)">
-                                            <img class="media-object img-circle" style="width: 35px;" src="https://s3.amazonaws.com/uifaces/faces/twitter/danro/128.jpg" alt="Avatar">
-                                        </a>
-                                    </div>
-                                    <div class="media-body">
-                                        <span class="media-heading text-white">Antwon Rippin</span>
-                                        <br>
-                                        <span class="media-heading"><span>on Jan 17, 2012 </span> on <a href="#"><span>Toys</span></a>
-                                        </span>
-
-                                        <p class="m-t-2 m-b-0"><span>Est expedita dolorem reiciendis. Quis aut voluptatem laudantium praesentium iste. Est vel autem nostrum aut. Repellendus sed doloribus soluta doloremque itaque tempora doloribus enim. </span></p>
-                                    </div>
-                                </div>
-                            </td>
-                        </tr>
-
-
-                        <tr>
-                            <td>
-                                <div class="media media-auto">
-                                    <div class="media-left">
-                                        <a href="javascript: void(0)">
-                                            <img class="media-object img-circle" style="width: 35px;" src="https://s3.amazonaws.com/uifaces/faces/twitter/rdsaunders/128.jpg" alt="Avatar">
-                                        </a>
-                                    </div>
-                                    <div class="media-body">
-                                        <span class="media-heading text-white">Rex O&apos;Hara</span>
-                                        <br>
-                                        <span class="media-heading"><span>on Jul 30, 2013 </span> on <a href="#"><span>Kids</span></a>
-                                        </span>
-
-                                        <p class="m-t-2"><span>Voluptatum placeat enim. Et et ut. Eligendi sed quia illum provident. Consequatur sed dolorem numquam voluptatem. </span></p>
-                                    </div>
-                                </div>
-                            </td>
-                        </tr>
-
-                    </tbody>
-                </table>
-
-            </div>
-
-
-            <div class="col-lg-6">
-
-                <div class="row">
-
-                    <!-- START Most Viewed -->
-                    <div class="col-md-4 col-sm-4 col-xs-6">
-                        <h5 class="m-b-0 m-t-0 f-w-300">Most Viewed</h5></div>
-                    <div class="col-md-4 col-sm-4 col-xs-offset-2 col-sm-offset-4 col-md-offset-4 text-right">
-                        <button type="button" class="btn btn-sm btn-default">See All Transactions<i class="fa m-l-1 fa-angle-right"></i> </button>
-                    </div>
-                </div>
-
-                <table class="table m-t-2">
-                    <thead>
-                        <tr>
-                            <th class="small text-muted text-uppercase">
-                                <strong>Name</strong>
-                            </th>
-                            <th class="small text-muted text-uppercase">
-                                <strong>Price</strong>
-                            </th>
-                            <th class="small text-muted text-uppercase">
-                                <strong>Status</strong>
-                            </th>
-                        </tr>
-                    </thead>
-                    <tbody>
-
-                        <tr>
-                            <td class="v-a-m">
-                                <div class="media media-auto">
-                                    <div class="media-left">
-                                        <a href="javascript: void(0)">
-                                            <span class="fa-stack fa-lg">
-  <i class="fa fa-square fa-stack-2x text-gray-light"></i>
-  <i class="fa fa-shopping-basket fa-stack-1x fa-inverse"></i>
-</span>
-                                        </a>
-                                    </div>
-                                    <div class="media-body media-middle">
-                                        <span class="media-heading text-white">Refined Soft Shirt</span>
-                                        <br>
-                                        <span class="media-heading"><span>IDR 452.00</span>
-                                        </span>
-                                    </div>
-                                </div>
-                            </td>
-                            <td class="v-a-m"><span class="text-white">33073</span>
-                                <br> Views
-                            </td>
-                            <td class="v-a-m"><i class="fa fa-circle text-success m-r-1"></i><span class="text-white">84505</span> Items Left
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td class="v-a-m">
-                                <div class="media media-auto">
-                                    <div class="media-left">
-                                        <a href="javascript: void(0)">
-                                            <span class="fa-stack fa-lg">
-  <i class="fa fa-square fa-stack-2x text-gray-light"></i>
-  <i class="fa fa-shopping-basket fa-stack-1x fa-inverse"></i>
-</span>
-                                        </a>
-                                    </div>
-                                    <div class="media-body media-middle">
-                                        <span class="media-heading text-white">Practical Fresh Gloves</span>
-                                        <br>
-                                        <span class="media-heading"><span>IDR 962.00</span>
-                                        </span>
-                                    </div>
-                                </div>
-                            </td>
-                            <td class="v-a-m"><span class="text-white">33920</span>
-                                <br> Views
-                            </td>
-                            <td class="v-a-m"><i class="fa fa-circle text-success m-r-1"></i><span class="text-white">61836</span> Items Left
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td class="v-a-m">
-                                <div class="media media-auto">
-                                    <div class="media-left">
-                                        <a href="javascript: void(0)">
-                                            <span class="fa-stack fa-lg">
-  <i class="fa fa-square fa-stack-2x text-gray-light"></i>
-  <i class="fa fa-shopping-basket fa-stack-1x fa-inverse"></i>
-</span>
-                                        </a>
-                                    </div>
-                                    <div class="media-body media-middle">
-                                        <span class="media-heading text-white">Fantastic Steel Keyboard</span>
-                                        <br>
-                                        <span class="media-heading"><span>IDR 892.00</span>
-                                        </span>
-                                    </div>
-                                </div>
-                            </td>
-                            <td class="v-a-m"><span class="text-white">22729</span>
-                                <br> Views
-                            </td>
-                            <td class="v-a-m"><i class="fa fa-circle text-success m-r-1"></i><span class="text-white">58695</span> Items Left
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td class="v-a-m">
-                                <div class="media media-auto">
-                                    <div class="media-left">
-                                        <a href="javascript: void(0)">
-                                            <span class="fa-stack fa-lg">
-  <i class="fa fa-square fa-stack-2x text-gray-light"></i>
-  <i class="fa fa-shopping-basket fa-stack-1x fa-inverse"></i>
-</span>
-                                        </a>
-                                    </div>
-                                    <div class="media-body media-middle">
-                                        <span class="media-heading text-white">Sleek Steel Tuna</span>
-                                        <br>
-                                        <span class="media-heading"><span>IDR 887.00</span>
-                                        </span>
-                                    </div>
-                                </div>
-                            </td>
-                            <td class="v-a-m"><span class="text-white">27035</span>
-                                <br> Views
-                            </td>
-                            <td class="v-a-m"><i class="fa fa-circle text-danger m-r-1"></i><span class="text-white">87062</span> Items Left
-                            </td>
-                        </tr>
-
-
-                        <tr>
-                            <td class="v-a-m">
-                                <div class="media media-auto">
-                                    <div class="media-left">
-                                        <a href="javascript: void(0)">
-                                            <span class="fa-stack fa-lg">
-  <i class="fa fa-square fa-stack-2x text-gray-light"></i>
-  <i class="fa fa-shopping-basket fa-stack-1x fa-inverse"></i>
-</span>
-                                        </a>
-                                    </div>
-                                    <div class="media-body media-middle">
-                                        <span class="media-heading text-white">Handcrafted Cotton Bacon</span>
-                                        <br>
-                                        <span class="media-heading"><span>IDR 812.00</span>
-                                        </span>
-                                    </div>
-                                </div>
-                            </td>
-                            <td class="v-a-m"><span class="text-white">71085</span>
-                                <br> Views
-                            </td>
-                            <td class="v-a-m"><i class="fa fa-circle text-warning m-r-1"></i><span class="text-white">13260</span> Items Left
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td class="v-a-m">
-                                <div class="media media-auto">
-                                    <div class="media-left">
-                                        <a href="javascript: void(0)">
-                                            <span class="fa-stack fa-lg">
-  <i class="fa fa-square fa-stack-2x text-gray-light"></i>
-  <i class="fa fa-shopping-basket fa-stack-1x fa-inverse"></i>
-</span>
-                                        </a>
-                                    </div>
-                                    <div class="media-body media-middle">
-                                        <span class="media-heading text-white">Small Cotton Hat</span>
-                                        <br>
-                                        <span class="media-heading"><span>IDR 515.00</span>
-                                        </span>
-                                    </div>
-                                </div>
-                            </td>
-                            <td class="v-a-m"><span class="text-white">30775</span>
-                                <br> Views
-                            </td>
-                            <td class="v-a-m"><i class="fa fa-circle text-success m-r-1"></i><span class="text-white">59247</span> Items Left
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td class="v-a-m">
-                                <div class="media media-auto">
-                                    <div class="media-left">
-                                        <a href="javascript: void(0)">
-                                            <span class="fa-stack fa-lg">
-  <i class="fa fa-square fa-stack-2x text-gray-light"></i>
-  <i class="fa fa-shopping-basket fa-stack-1x fa-inverse"></i>
-</span>
-                                        </a>
-                                    </div>
-                                    <div class="media-body media-middle">
-                                        <span class="media-heading text-white">Handcrafted Rubber Pizza</span>
-                                        <br>
-                                        <span class="media-heading"><span>IDR 292.00</span>
-                                        </span>
-                                    </div>
-                                </div>
-                            </td>
-                            <td class="v-a-m"><span class="text-white">70811</span>
-                                <br> Views
-                            </td>
-                            <td class="v-a-m"><i class="fa fa-circle text-warning m-r-1"></i><span class="text-white">20406</span> Items Left
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td class="v-a-m">
-                                <div class="media media-auto">
-                                    <div class="media-left">
-                                        <a href="javascript: void(0)">
-                                            <span class="fa-stack fa-lg">
-  <i class="fa fa-square fa-stack-2x text-gray-light"></i>
-  <i class="fa fa-shopping-basket fa-stack-1x fa-inverse"></i>
-</span>
-                                        </a>
-                                    </div>
-                                    <div class="media-body media-middle">
-                                        <span class="media-heading text-white">Incredible Rubber Pizza</span>
-                                        <br>
-                                        <span class="media-heading"><span>IDR 199.00</span>
-                                        </span>
-                                    </div>
-                                </div>
-                            </td>
-                            <td class="v-a-m"><span class="text-white">95846</span>
-                                <br> Views
-                            </td>
-                            <td class="v-a-m"><i class="fa fa-circle text-danger m-r-1"></i><span class="text-white">23999</span> Items Left
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td class="v-a-m">
-                                <div class="media media-auto">
-                                    <div class="media-left">
-                                        <a href="javascript: void(0)">
-                                            <span class="fa-stack fa-lg">
-  <i class="fa fa-square fa-stack-2x text-gray-light"></i>
-  <i class="fa fa-shopping-basket fa-stack-1x fa-inverse"></i>
-</span>
-                                        </a>
-                                    </div>
-                                    <div class="media-body media-middle">
-                                        <span class="media-heading text-white">Licensed Plastic Chips</span>
-                                        <br>
-                                        <span class="media-heading"><span>IDR 703.00</span>
-                                        </span>
-                                    </div>
-                                </div>
-                            </td>
-                            <td class="v-a-m"><span class="text-white">26386</span>
-                                <br> Views
-                            </td>
-                            <td class="v-a-m"><i class="fa fa-circle text-success m-r-1"></i><span class="text-white">18643</span> Items Left
-                            </td>
-                        </tr>
-
-
-                    </tbody>
-                </table>
-
-
-            </div>
-
-
-
-
-            <!-- END ROW Report Statisticts & Latest Transactions -->
-
-
-
-        </div>
-        <!-- END EDIT CONTENT -->
-
     </div>
+    <!-- END EDIT CONTENT -->
 
 </div>
-</div>
-<!-- END EDIT CONTENT -->
 <script src="..//assets/vendor/js/highstock.min.js"></script>
 <script src="..//assets/javascript/highchart-themes/highcharts&amp;highstock-theme.js"></script>
 <script src="..//assets/javascript/highchart-themes/highcharts-settings.js"></script>
@@ -2891,21 +1379,21 @@
 
         <!-- START Layout Options (Right Side) -->
 <div class="layout-options">
-    <button type="button" class="btn btn-primary action-toggle-layout-options" data-toggle="tooltip" data-placement="left" title="Show/Hide Layout settings"><i class="fa fa-gear"></i></button>
-    <button type="button" class="btn btn-primary action-toggle-layout-options disabled" data-toggle="tooltip" data-placement="left" title="Layout settings disabled on this page"><i class="fa fa-gear"></i></button>
+    <!-- <button type="button" class="btn btn-primary action-toggle-layout-options" data-toggle="tooltip" data-placement="left" title="Show/Hide Layout settings"><i class="fa fa-gear"></i></button>
+    <button type="button" class="btn btn-primary action-toggle-layout-options disabled" data-toggle="tooltip" data-placement="left" title="Layout settings disabled on this page"><i class="fa fa-gear"></i></button> -->
 
     <div class="panel panel-default">
 
         <div class="panel-body">
             <!-- START Tabs: Options | Skins -->
-            <ul class="nav nav-tabs nav-justified tab-color-panel-bg">
+            <!-- <ul class="nav nav-tabs nav-justified tab-color-panel-bg">
                 <li role="presentation" class="active">
                     <a aria-expanded="true" data-toggle="tab" href="#tab-options" role="tab">Options</a>
                 </li>
                 <li role="presentation">
                     <a aria-expanded="true" data-toggle="tab" href="#tab-skins" role="tab">Skins</a>
                 </li>
-            </ul>
+            </ul> -->
             <!-- END Tabs: Options | Skins -->
 
             <!-- START Tabs Content: Options & Skins -->
@@ -2958,10 +1446,7 @@
                         </div>
 
                         <select class="form-control" id="layout-sidebar-style">
-                            <option selected value="">Default Sidebar</option>
-                            <option value="sidebar-slim">Slim Sidebar</option>
-                            <option value="sidebar-big-icons">Big Icons Sidebar</option>
-                            <option value="sidebar-big-icons sidebar-with-avatar">Big Icons with Avatar</option>
+                            <i class="fas fa-bars"></i>
                         </select>
 
                         <div class="input-group p-t-1">
@@ -3152,19 +1637,19 @@
             <div class="tab-content vertical-scroll-container" id="myTabContent">
                 <div class="tab-pane fade in active p-r-1" id="tab-calendar" role="tabpanel">
 
-                   <p class="small text-uppercase m-b-0 m-t-1"><strong>Weather</strong></p>
+                   <!-- <p class="small text-uppercase m-b-0 m-t-1"><strong>Weather</strong></p> -->
                     <!-- START Widget - Weather Current -->
-                    <div class="m-t-0 m-b-3">
+                    <!-- <div class="m-t-0 m-b-3">
                         <p class="display-4 text-white m-t-0 m-b-0">
-                            <span>Thursday</span>
+                            <span>Monday</span>
                         </p>
-                        <span class="lead text-white m-t-0 m-b-0">30 June</span>
+                        <span class="lead text-white m-t-0 m-b-0">30 March</span>
                         <p class="m-t-2">Partly cloudy today, temperature minimum 11&#xBA;, maximum 15&#xBA;</p>
                         <a href="../start/weather.html">More Details <i class="fa fa-angle-right"></i></a>
-                    </div>
+                    </div> -->
                     <!-- END Widget - Weather Current -->
                     <!-- START Widget - Stock -->
-                    <table class="table table-condensed table-hover">
+                    <!-- <table class="table table-condensed table-hover">
                         <thead>
                             <tr>
                                 <th class="small text-muted text-uppercase">
@@ -3200,11 +1685,11 @@
                                 </td>
                             </tr>
                         </tbody>
-                    </table>
+                    </table> -->
 
                     <!-- END Widget - Stock -->
                     <!-- START Widget - Emails Today -->
-                    <table class="table m-t-2 m-b-3">
+                    <!-- <table class="table m-t-2 m-b-3">
                         <thead>
                             <tr>
                                 <th class="small text-muted text-uppercase">
@@ -3218,12 +1703,12 @@
         <div class="media">
             <div class="media-left media-middle">
                 <a href="../apps/email-details.html">
-                    <div class="avatar"> <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/hfalucas/128.jpg" alt="Avatar"><i class="avatar-status avatar-status-bottom bg-success b-gray-darker"></i> </div>
+                    <div class="avatar"> <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/kapaluccio/128.jpg" alt="Avatar"><i class="avatar-status avatar-status-bottom bg-success b-gray-darker"></i> </div>
                 </a>
             </div>
             <div class="media-body media-auto">
-                <h5 class="m-b-0"><span>Norberto Brakus</span> <small><span>11:51</span></small></h5>
-                <p class="m-t-0 m-b-0"><span>Velit laborum tenetur.</span></p>
+                <h5 class="m-b-0"><span>Russ Franecki</span> <small><span>04:23</span></small></h5>
+                <p class="m-t-0 m-b-0"><span>Dicta iure quas veritatis quia rerum odit perspiciatis molestiae dicta.</span></p>
                                     <div class="btn-group" role="group">
   <a role="button" class="btn btn-link btn-xs" href="../apps/email-details.html"><i class="fa fa-reply text-gray-light"></i></a>
   <a role="button" class="btn btn-link btn-xs" href="../apps/email-details.html"><i class="fa fa-archive text-gray-light"></i></a>
@@ -3238,12 +1723,12 @@
         <div class="media">
             <div class="media-left media-middle">
                 <a href="../apps/email-details.html">
-                    <div class="avatar"> <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/kucingbelang4/128.jpg" alt="Avatar"><i class="avatar-status avatar-status-bottom bg-danger b-gray-darker"></i> </div>
+                    <div class="avatar"> <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/guiiipontes/128.jpg" alt="Avatar"><i class="avatar-status avatar-status-bottom bg-danger b-gray-darker"></i> </div>
                 </a>
             </div>
             <div class="media-body media-auto">
-                <h5 class="m-b-0"><span>Vilma Lebsack</span> <small><span>03:06</span></small></h5>
-                <p class="m-t-0 m-b-0"><span>Aut minima ea blanditiis voluptatem est.</span></p>
+                <h5 class="m-b-0"><span>Ceasar McLaughlin</span> <small><span>09:22</span></small></h5>
+                <p class="m-t-0 m-b-0"><span>Repudiandae qui voluptas facilis.</span></p>
                                     <div class="btn-group" role="group">
   <a role="button" class="btn btn-link btn-xs" href="../apps/email-details.html"><i class="fa fa-reply text-gray-light"></i></a>
   <a role="button" class="btn btn-link btn-xs" href="../apps/email-details.html"><i class="fa fa-archive text-gray-light"></i></a>
@@ -3259,12 +1744,12 @@
         <div class="media">
             <div class="media-left media-middle">
                 <a href="../apps/email-details.html">
-                    <div class="avatar"> <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/antonyzotov/128.jpg" alt="Avatar"><i class="avatar-status avatar-status-bottom bg-warning b-gray-darker"></i> </div>
+                    <div class="avatar"> <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/ah_lice/128.jpg" alt="Avatar"><i class="avatar-status avatar-status-bottom bg-warning b-gray-darker"></i> </div>
                 </a>
             </div>
             <div class="media-body media-auto">
-                <h5 class="m-b-0"><span>Kristina Bartell</span> <small><span>06:49</span></small></h5>
-                <p class="m-t-0 m-b-0"><span>Eos magni perferendis.</span></p>
+                <h5 class="m-b-0"><span>Connie Carter</span> <small><span>06:45</span></small></h5>
+                <p class="m-t-0 m-b-0"><span>Voluptatem iure est quam quae adipisci illo.</span></p>
                                     <div class="btn-group" role="group">
   <a role="button" class="btn btn-link btn-xs" href="../apps/email-details.html"><i class="fa fa-reply text-gray-light"></i></a>
   <a role="button" class="btn btn-link btn-xs" href="../apps/email-details.html"><i class="fa fa-archive text-gray-light"></i></a>
@@ -3277,12 +1762,12 @@
 
 
                         </tbody>
-                    </table>
+                    </table> -->
 
 
                     <!-- END Widget - Emails Today -->
                     <!-- START Widget - Tasks -->
-                    <table class="table table-condensed m-t-2 m-b-0">
+                    <!-- <table class="table table-condensed m-t-2 m-b-0">
                         <thead>
                             <tr>
                                 <th class="small text-muted text-uppercase">
@@ -3296,8 +1781,8 @@
                                     <div class="checkbox">
                                         <label>
                                             <input type="checkbox" value="">
-                                            <a href="../apps/tasks-details.html"><span>You can&apos;t override the port without calculating the bluetooth USB protocol!</span></a>
-                                            <span class="m-t-1 small"><i class="fa fa-history small text-gray-light"></i> <span>31-Aug-2013, 12:12</span> </span>
+                                            <a href="../apps/tasks-details.html"><span>The TCP matrix is down, parse the optical interface so we can program the SQL pixel!</span></a>
+                                            <span class="m-t-1 small"><i class="fa fa-history small text-gray-light"></i> <span>10-Nov-2015, 02:36</span> </span>
                                         </label>
                                     </div>
                                 </td>
@@ -3307,8 +1792,8 @@
                                     <div class="checkbox">
                                         <label>
                                             <input type="checkbox" value="" checked>
-                                            <del> <a href="../apps/tasks-details.html" class="text-muted"><span>You can&apos;t override the bandwidth without generating the neural XML hard drive!</span></a></del>
-                                            <span class="m-t-1 small"><i class="fa fa-history small text-gray-light"></i> <span>25-Jun-2011, 12:35</span> </span>
+                                            <del> <a href="../apps/tasks-details.html" class="text-muted"><span>You can&apos;t calculate the circuit without calculating the auxiliary SMS system!</span></a></del>
+                                            <span class="m-t-1 small"><i class="fa fa-history small text-gray-light"></i> <span>25-Jun-2015, 09:44</span> </span>
                                         </label>
                                     </div>
                                 </td>
@@ -3318,14 +1803,14 @@
                                     <div class="checkbox">
                                         <label>
                                             <input type="checkbox" value="" checked>
-                                            <del> <a href="../apps/tasks-details.html" class="text-muted"><span>I&apos;ll calculate the back-end AGP program, that should application the PNG panel!</span></a></del>
-                                            <span class="m-t-1 small"><i class="fa fa-history small text-gray-light"></i> <span>14-May-2012, 07:39</span> </span>
+                                            <del> <a href="../apps/tasks-details.html" class="text-muted"><span>We need to calculate the open-source USB driver!</span></a></del>
+                                            <span class="m-t-1 small"><i class="fa fa-history small text-gray-light"></i> <span>16-Dec-2012, 03:11</span> </span>
                                         </label>
                                     </div>
                                 </td>
                             </tr>
                         </tbody>
-                    </table>
+                    </table> -->
                     <!-- END Widget - Emails Today -->
 
                 </div>
@@ -3386,7 +1871,7 @@
                                 </tr>
                                 <tr class="small v-a-m">
                                     <td> Processing </td>
-                                    <td class="text-right v-a-m text-white"><span>18694</span></td>
+                                    <td class="text-right v-a-m text-white"><span>73920</span></td>
                                 </tr>
                                 <tr class="small v-a-m">
                                     <td> CPU User </td>
@@ -3419,26 +1904,26 @@
                                     </tr>
                                     <tr class="small v-a-m">
                                         <td>IP</td>
-                                        <td class="text-right v-a-m text-white"><samp><span>169.95.40.10</span></samp></td>
+                                        <td class="text-right v-a-m text-white"><samp><span>7.239.176.0</span></samp></td>
                                     </tr>
                                     <tr class="small v-a-m">
                                         <td>MAC</td>
-                                        <td class="text-right v-a-m text-white"><samp><span>b6:cf:06:85:0f:98</span></samp></td>
+                                        <td class="text-right v-a-m text-white"><samp><span>9b:1b:eb:d6:bd:71</span></samp></td>
                                     </tr>
                                     <tr class="small v-a-m">
                                         <td>
                                             <i class="fa fa-long-arrow-down"></i>
                                         </td>
-                                        <td class="text-right v-a-m text-white"><span class="m-r-1">835.00  KB/s</span>
-                                            <span>947.00 MB</span>
+                                        <td class="text-right v-a-m text-white"><span class="m-r-1">207.00  KB/s</span>
+                                            <span>122.00 MB</span>
                                         </td>
                                     </tr>
                                     <tr class=" small v-a-m">
                                         <td>
                                             <i class="fa fa-long-arrow-up text-white"></i>
                                         </td>
-                                        <td class="text-right v-a-m text-white"><span class="m-r-1">107.00  KB/s</span>
-                                            <span>942.00 MB</span>
+                                        <td class="text-right v-a-m text-white"><span class="m-r-1">933.00  KB/s</span>
+                                            <span>193.00 MB</span>
                                         </td>
                                     </tr>
                                 </tbody>
@@ -3447,39 +1932,39 @@
                             <!-- START Widget - Usage -->
                             <ul class="list-group b-a-0 m-t-3">
                                 <li class="list-group-item">
-                                    <i class="fa fa-hdd-o small  m-r-1"></i> <span class="text-uppercase small m-t-0"><strong>Macintosh</strong> <span class="pull-right text-right text-white"><span>311.00</span></span>
+                                    <i class="fa fa-hdd-o small  m-r-1"></i> <span class="text-uppercase small m-t-0"><strong>Macintosh</strong> <span class="pull-right text-right text-white"><span>247.00</span></span>
                                 </span>
                                 <div class="progress b-r-a-0 m-t-1 m-b-1 h-3">
                                     <div class="progress-bar" role="progressbar" style="width: 60%;">
                                         <span class="sr-only">60% Complete</span>
                                     </div>
                                 </div>
-                                <span class="text-uppercase small m-t-0"><strong class="text-white"><span>430.00 GB</span></strong>
-                                    <span class="small"> / 90.00 GB</span></span>
+                                <span class="text-uppercase small m-t-0"><strong class="text-white"><span>111.00 GB</span></strong>
+                                    <span class="small"> / 259.00 GB</span></span>
                             </li>
                             <li class="list-group-item">
                                 <i class="fa fa-hdd-o small m-r-1"></i> <span class="text-uppercase small m-t-2"><strong>Windows</strong>
-                                    <span class="pull-right text-right text-white"><span>988.00</span></span>
+                                    <span class="pull-right text-right text-white"><span>985.00</span></span>
                                 </span>
                                 <div class="progress b-r-a-0 m-t-1 m-b-1 h-3">
                                     <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
                                         <span class="sr-only">60% Complete</span>
                                     </div>
                                 </div>
-                                <span class="text-uppercase small m-t-0"><strong class="text-white"><span>600.00 GB</span></strong>
-                                    <span class="small"> / 356.00 GB</span></span>
+                                <span class="text-uppercase small m-t-0"><strong class="text-white"><span>901.00 GB</span></strong>
+                                    <span class="small"> / 309.00 GB</span></span>
                             </li>
                             <li class="list-group-item">
                                 <i class="fa fa-hdd-o small m-r-1"></i> <span class="text-uppercase small m-t-2"><strong>Linux</strong>
-                                    <span class="pull-right text-right text-white"><span>941.00</span></span>
+                                    <span class="pull-right text-right text-white"><span>261.00</span></span>
                                 </span>
                                 <div class="progress b-r-a-0 m-t-1 m-b-1 h-3">
                                     <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 20%;">
                                         <span class="sr-only">60% Complete</span>
                                     </div>
                                 </div>
-                                <span class="text-uppercase small m-t-0"><strong class="text-white"><span>112.00 GB</span></strong>
-                                    <span class="small"> / 785.00 GB</span></span>
+                                <span class="text-uppercase small m-t-0"><strong class="text-white"><span>944.00 GB</span></strong>
+                                    <span class="small"> / 140.00 GB</span></span>
                             </li>
                         </ul>
                         <!-- END Widget - Usage -->
@@ -3493,7 +1978,7 @@
                         <div class="input-group">
                             <input type="text" class="form-control" placeholder="Search for...">
                             <span class="input-group-btn">
-                                <button class="btn btn-primary" type="button"><i class="fa fa-fw fa-search"></i></button>
+                                <button class="btn btn-primary" type="button"><i class="fas fa-search"></i></i></button>
                             </span>
                         </div>
                         <!-- END Search Input -->
@@ -3513,13 +1998,13 @@
                             <div class="media">
                                 <div class="media-left media-middle">
                                     <div class="avatar avatar-image avatar-sm ">
-                                        <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/irae/128.jpg" alt="Avatar">
+                                        <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/chaabane_wail/128.jpg" alt="Avatar">
                                         <i class="avatar-status avatar-status-bottom  bg-success b-brand-gray-darker"></i>
                                     </div>
                                 </div>
                                 <div class="media-body">
-                                    <h5 class="m-t-0 m-b-0"><span>Benedict Beatty</span></h5>
-                                    <p class="small text-muted m-b-0"><span>International Implementation Liason</span></p>
+                                    <h5 class="m-t-0 m-b-0"><span>Austyn Mueller</span></h5>
+                                    <p class="small text-muted m-b-0"><span>Central Paradigm Assistant</span></p>
                                 </div>
                                 <div class="media-right media-middle">
                                     <span class="badge">4</span>
@@ -3535,13 +2020,13 @@
                             <div class="media">
                                 <div class="media-left  media-middle">
                                     <div class="avatar avatar-image avatar-sm ">
-                                        <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/aaronalfred/128.jpg" alt="Avatar">
+                                        <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/_vojto/128.jpg" alt="Avatar">
                                         <i class="avatar-status avatar-status-bottom  bg-success b-brand-gray-darker"></i>
                                     </div>
                                 </div>
                                 <div class="media-body">
-                                    <h5 class="m-t-0 m-b-0"><span>Violet Torphy</span></h5>
-                                    <p class="small text-gray-lighter m-b-0"><span>Direct Applications Developer</span></p>
+                                    <h5 class="m-t-0 m-b-0"><span>Vivian Abernathy</span></h5>
+                                    <p class="small text-gray-lighter m-b-0"><span>Dynamic Usability Strategist</span></p>
                                 </div>
 
                                 <div class="media-right  media-middle">
@@ -3559,13 +2044,13 @@
                             <div class="media">
                                 <div class="media-left  media-middle">
                                     <div class="avatar avatar-image avatar-sm ">
-                                        <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/cherif_b/128.jpg" alt="Avatar">
+                                        <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/abdots/128.jpg" alt="Avatar">
                                         <i class="avatar-status avatar-status-bottom  bg-success b-brand-gray-darker"></i>
                                     </div>
                                 </div>
                                 <div class="media-body">
-                                    <h5 class="m-t-0 m-b-0"><span>Addison Hoppe</span></h5>
-                                    <p class="small text-gray-lighter m-b-0"><span>Forward Quality Agent</span></p>
+                                    <h5 class="m-t-0 m-b-0"><span>Bonnie Heller</span></h5>
+                                    <p class="small text-gray-lighter m-b-0"><span>Legacy Functionality Associate</span></p>
                                 </div>
 
                                 <div class="media-right media-middle">
@@ -3588,13 +2073,13 @@
                             <div class="media">
                                 <div class="media-left media-middle">
                                     <div class="avatar avatar-image avatar-sm ">
-                                        <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/nellleo/128.jpg" alt="Avatar">
+                                        <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/millinet/128.jpg" alt="Avatar">
                                         <i class="avatar-status avatar-status-bottom  bg-danger b-brand-gray-darker"></i>
                                     </div>
                                 </div>
                                 <div class="media-body">
-                                    <h5 class="m-t-0 m-b-0"><span>Mckenzie Maggio</span></h5>
-                                    <p class="small text-muted m-b-0"><span>International Directives Analyst</span></p>
+                                    <h5 class="m-t-0 m-b-0"><span>Ines Bogan</span></h5>
+                                    <p class="small text-muted m-b-0"><span>Product Interactions Associate</span></p>
                                 </div>
 
                                 <div class="media-right  media-middle">
@@ -3612,13 +2097,13 @@
                             <div class="media">
                                 <div class="media-left media-middle">
                                     <div class="avatar avatar-image avatar-sm ">
-                                        <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/sangdth/128.jpg" alt="Avatar">
+                                        <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/paulfarino/128.jpg" alt="Avatar">
                                         <i class="avatar-status avatar-status-bottom  bg-danger b-brand-gray-darker"></i>
                                     </div>
                                 </div>
                                 <div class="media-body">
-                                    <h5 class="m-t-0 m-b-0"><span>Okey Goodwin</span></h5>
-                                    <p class="small text-muted m-b-0"><span>Senior Mobility Specialist</span></p>
+                                    <h5 class="m-t-0 m-b-0"><span>Chester Weber</span></h5>
+                                    <p class="small text-muted m-b-0"><span>Senior Communications Facilitator</span></p>
                                 </div>
 
                                 <div class="media-right  media-middle">
@@ -3636,13 +2121,13 @@
                             <div class="media">
                                 <div class="media-left media-middle">
                                     <div class="avatar avatar-image avatar-sm ">
-                                        <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/falling_soul/128.jpg" alt="Avatar">
+                                        <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/shinze/128.jpg" alt="Avatar">
                                         <i class="avatar-status avatar-status-bottom  bg-danger b-brand-gray-darker"></i>
                                     </div>
                                 </div>
                                 <div class="media-body">
-                                    <h5 class="m-t-0 m-b-0"><span>Jackie Schroeder</span></h5>
-                                    <p class="small text-muted m-b-0"><span>Customer Response Assistant</span></p>
+                                    <h5 class="m-t-0 m-b-0"><span>Eloy Pfeffer</span></h5>
+                                    <p class="small text-muted m-b-0"><span>Customer Research Consultant</span></p>
                                 </div>
 
                                 <div class="media-right  media-middle">
@@ -3664,13 +2149,13 @@
                             <div class="media">
                                 <div class="media-left media-middle">
                                     <div class="avatar avatar-image avatar-sm ">
-                                        <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/svenlen/128.jpg" alt="Avatar">
+                                        <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/caseycavanagh/128.jpg" alt="Avatar">
                                         <i class="avatar-status avatar-status-bottom  bg-warning b-brand-gray-darker"></i>
                                     </div>
                                 </div>
                                 <div class="media-body">
-                                    <h5 class="m-t-0 m-b-0"><span>Coty Hoppe</span></h5>
-                                    <p class="small text-muted m-b-0"><span>Corporate Functionality Associate</span></p>
+                                    <h5 class="m-t-0 m-b-0"><span>Clemens Kerluke</span></h5>
+                                    <p class="small text-muted m-b-0"><span>International Program Producer</span></p>
                                 </div>
 
                                 <div class="media-right  media-middle">
@@ -3688,13 +2173,13 @@
                             <div class="media">
                                 <div class="media-left media-middle">
                                     <div class="avatar avatar-image avatar-sm ">
-                                        <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/lanceguyatt/128.jpg" alt="Avatar">
+                                        <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/andysolomon/128.jpg" alt="Avatar">
                                         <i class="avatar-status avatar-status-bottom  bg-warning b-brand-gray-darker"></i>
                                     </div>
                                 </div>
                                 <div class="media-body">
-                                    <h5 class="m-t-0 m-b-0"><span>Gertrude Cartwright</span></h5>
-                                    <p class="small text-muted m-b-0"><span>Future Data Engineer</span></p>
+                                    <h5 class="m-t-0 m-b-0"><span>Dortha Kilback</span></h5>
+                                    <p class="small text-muted m-b-0"><span>Corporate Directives Associate</span></p>
                                 </div>
 
                                 <div class="media-right  media-middle">
@@ -3712,13 +2197,13 @@
                             <div class="media">
                                 <div class="media-left media-middle">
                                     <div class="avatar avatar-image avatar-sm ">
-                                        <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/oscarowusu/128.jpg" alt="Avatar">
+                                        <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/vonachoo/128.jpg" alt="Avatar">
                                         <i class="avatar-status avatar-status-bottom  bg-warning b-brand-gray-darker"></i>
                                     </div>
                                 </div>
                                 <div class="media-body">
-                                    <h5 class="m-t-0 m-b-0"><span>Maxwell Hagenes</span></h5>
-                                    <p class="small text-muted m-b-0"><span>Regional Accountability Agent</span></p>
+                                    <h5 class="m-t-0 m-b-0"><span>Jude Russel</span></h5>
+                                    <p class="small text-muted m-b-0"><span>Dynamic Metrics Associate</span></p>
                                 </div>
 
                                 <div class="media-right  media-middle">
@@ -3740,13 +2225,13 @@
                             <div class="media">
                                 <div class="media-left media-middle">
                                     <div class="avatar avatar-image avatar-sm ">
-                                        <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/kijanmaharjan/128.jpg" alt="Avatar">
+                                        <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/joe_black/128.jpg" alt="Avatar">
                                         <i class="avatar-status avatar-status-bottom  bg-gray-lighter b-brand-gray-darker"></i>
                                     </div>
                                 </div>
                                 <div class="media-body">
-                                    <h5 class="m-t-0 m-b-0"><span>Tristian Erdman</span></h5>
-                                    <p class="small text-muted m-b-0"><span>Direct Markets Associate</span></p>
+                                    <h5 class="m-t-0 m-b-0"><span>Jose Hoeger</span></h5>
+                                    <p class="small text-muted m-b-0"><span>Chief Interactions Facilitator</span></p>
                                 </div>
 
                                 <div class="media-right  media-middle">
@@ -3764,13 +2249,13 @@
                             <div class="media">
                                 <div class="media-left media-middle">
                                     <div class="avatar avatar-image avatar-sm ">
-                                        <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/andrea211087/128.jpg" alt="Avatar">
+                                        <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/the_purplebunny/128.jpg" alt="Avatar">
                                         <i class="avatar-status avatar-status-bottom  bg-gray-lighter  b-brand-gray-darker"></i>
                                     </div>
                                 </div>
                                 <div class="media-body">
-                                    <h5 class="m-t-0 m-b-0"><span>Layla Mertz</span></h5>
-                                    <p class="small text-muted m-b-0"><span>Lead Research Technician</span></p>
+                                    <h5 class="m-t-0 m-b-0"><span>Ricky Kuhic</span></h5>
+                                    <p class="small text-muted m-b-0"><span>Human Marketing Consultant</span></p>
                                 </div>
 
                                 <div class="media-right  media-middle">
@@ -3788,13 +2273,13 @@
                             <div class="media">
                                 <div class="media-left media-middle">
                                     <div class="avatar avatar-image avatar-sm ">
-                                        <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/geran7/128.jpg" alt="Avatar">
+                                        <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/gregsqueeb/128.jpg" alt="Avatar">
                                         <i class="avatar-status avatar-status-bottom  bg-gray-lighter  b-brand-gray-darker"></i>
                                     </div>
                                 </div>
                                 <div class="media-body">
-                                    <h5 class="m-t-0 m-b-0"><span>Jamey Batz</span></h5>
-                                    <p class="small text-muted m-b-0"><span>Global Communications Architect</span></p>
+                                    <h5 class="m-t-0 m-b-0"><span>Bonita Bruen</span></h5>
+                                    <p class="small text-muted m-b-0"><span>Central Paradigm Facilitator</span></p>
                                 </div>
 
                                 <div class="media-right  media-middle">
@@ -3817,7 +2302,7 @@
     <div class="panel-heading">
         <div class="row">
             <div class="col-xs-3"><a class="extra-content-close small" href="javascript:void(0);"><i class="fa fa-fw fa-chevron-left"></i></a></div>
-            <div class="col-xs-6 text-center"><span>G. Spencer</span></div>
+            <div class="col-xs-6 text-center"><span>G. Lehner</span></div>
             <div class="col-xs-3 text-right"><a href="#" class="text-gray-lighter"><i class="fa fa-fw fa-circle text-success"></i></a></div>
         </div>
     </div>
@@ -3828,17 +2313,17 @@
 <div class="media">
     <div class="media-left">
         <div class="avatar avatar-image avatar-sm">
-            <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/dparrelli/128.jpg" alt="Avatar">
+            <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/buzzusborne/128.jpg" alt="Avatar">
             <i class="avatar-status avatar-status-bottom  bg-warning b-brand-gray-darker"></i>
         </div>
     </div>
     <div class="media-body">
         <div class="panel-default">
             <div class="panel-body bg-gray-dark text-white b-r-a-3">
-                <span>In quia fugiat enim dolor rerum repellat eaque molestiae maxime.</span>
+                <span>Nam quos et.</span>
             </div>
         </div>
-        <h6 class="m-t-1"><span>Shanelle Medhurst</span>   <small><span> 02:31</span></small></h6>
+        <h6 class="m-t-1"><span>Rylan Mohr</span>   <small><span> 09:27</span></small></h6>
     </div>
 </div>
 <!-- END Left Chat -->
@@ -3848,14 +2333,14 @@
     <div class="media-body">
         <div class="panel-default">
             <div class="panel-body bg-primary text-white b-r-a-3">
-                <span>At rem non distinctio qui aperiam rerum id et soluta.</span>
+                <span>Qui iure itaque facere natus incidunt molestiae nam voluptate.</span>
             </div>
         </div>
-        <h6 class="m-t-1"><span>Effie Tremblay</span>   <small><span> 10:56</span></small></h6>
+        <h6 class="m-t-1"><span>Germaine Wuckert</span>   <small><span> 06:52</span></small></h6>
     </div>
     <div class="media-right">
         <div class="avatar avatar-image avatar-sm">
-            <img class="media-object img-circle" alt="Avatar" src="https://s3.amazonaws.com/uifaces/faces/twitter/romanbulah/128.jpg">
+            <img class="media-object img-circle" alt="Avatar" src="https://s3.amazonaws.com/uifaces/faces/twitter/buryaknick/128.jpg">
             <i class="avatar-status avatar-status-bottom  bg-danger b-brand-gray-darker"></i>
         </div>
     </div>
@@ -3866,17 +2351,17 @@
 <div class="media">
     <div class="media-left">
         <div class="avatar avatar-image avatar-sm">
-            <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/juaumlol/128.jpg" alt="Avatar">
+            <img class="media-object img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/madebyvadim/128.jpg" alt="Avatar">
             <i class="avatar-status avatar-status-bottom  bg-success b-brand-gray-darker"></i>
         </div>
     </div>
     <div class="media-body">
         <div class="panel-default">
             <div class="panel-body bg-gray-dark text-white b-r-a-3">
-                <span>Ad vel voluptatum tenetur quae perspiciatis temporibus. Illo sapiente asperiores molestiae eveniet nesciunt nemo occaecati et. Corporis quae dolor aliquam assumenda harum et et qui placeat. Temporibus enim aliquam et recusandae voluptate. Odio officiis ea.</span>
+                <span>Hic odio cum excepturi commodi qui omnis id. Iusto omnis ut est iure.</span>
             </div>
         </div>
-        <h6 class="m-t-1"><span>Shania Quitzon</span>   <small><span>10:32</span></small></h6>
+        <h6 class="m-t-1"><span>Savion Tromp</span>   <small><span>03:17</span></small></h6>
     </div>
 </div>
 <!-- END Left Chat -->
@@ -3886,14 +2371,14 @@
     <div class="media-body">
         <div class="panel-default">
             <div class="panel-body bg-gray-dark text-white b-r-a-3">
-                <span>Ut et debitis et nihil rerum aliquam ab.</span>
+                <span>Et dolore expedita quaerat rerum sed et.</span>
             </div>
         </div>
-        <h6 class="m-t-1"><span>Rhea Pacocha</span>   <small><span> 08:36</span></small></h6>
+        <h6 class="m-t-1"><span>Vaughn Mueller</span>   <small><span> 05:19</span></small></h6>
     </div>
     <div class="media-right">
         <div class="avatar avatar-image avatar-sm">
-            <img class="media-object img-circle" alt="Avatar" src="https://s3.amazonaws.com/uifaces/faces/twitter/joshuasortino/128.jpg">
+            <img class="media-object img-circle" alt="Avatar" src="https://s3.amazonaws.com/uifaces/faces/twitter/kaspernordkvist/128.jpg">
             <i class="avatar-status avatar-status-bottom  bg-danger b-brand-gray-darker"></i>
         </div>
     </div>
@@ -3985,8 +2470,8 @@
 
                     <span class="label label-danger label-outline">Alert</span>
                     <br>
-                    <p class="text-white m-t-1"><span>You can&apos;t input the interface without bypassing the redundant SAS feed!</span></p>
-                    <p class="text-nowrap small"><span>13-Aug-2014, 05:39</span>
+                    <p class="text-white m-t-1"><span>If we compress the bus, we can get to the ADP transmitter through the solid state SMTP bus!</span></p>
+                    <p class="text-nowrap small"><span>03-Mar-2014, 03:06</span>
                     </p>
                 </div>
             </div>
@@ -4016,8 +2501,8 @@
 
                     <span class="label label-warning label-outline">Warning</span>
                     <br>
-                    <p class="text-white m-t-1"><span>If we navigate the firewall, we can get to the AGP card through the virtual PNG protocol!</span></p>
-                    <p class="text-nowrap small"><span>16-Sep-2014, 05:15</span>
+                    <p class="text-white m-t-1"><span>You can&apos;t copy the bus without backing up the online RAM firewall!</span></p>
+                    <p class="text-nowrap small"><span>15-Nov-2011, 02:52</span>
                     </p>
                 </div>
             </div>
@@ -4048,7 +2533,7 @@
                     <span class="label label-info label-outline">Info</span>
                     <br>
                     <p class="text-white m-t-1">15 Files Uploaded</p>
-                    <p class="text-nowrap small"><span>14-Mar-2012, 02:10</span>
+                    <p class="text-nowrap small"><span>26-Dec-2015, 12:60</span>
                      </p>
                     <i class="m-l-1 fa fa-file-text-o fa-fw"></i> read_me.txt<br>
                     <i class="m-l-1 fa fa-file-zip-o fa-fw"></i> all-files.zip<br>
@@ -4085,15 +2570,15 @@
                     <span class="label label-primary label-outline">Message</span>
                     <br>
                     <p class="text-white m-t-1">6 users have been accepted by the Admin</p>
-                    <p class="text-nowrap small"><span>12-Jun-2015, 09:13</span>
+                    <p class="text-nowrap small"><span>08-May-2015, 07:35</span>
                      </p>
                                <div class="m-b-1">
-                                <img class="img-circle avatar avatar-sm" src="https://s3.amazonaws.com/uifaces/faces/twitter/_ragzor/128.jpg" alt="Avatar">
-                                <img class="img-circle avatar avatar-sm" src="https://s3.amazonaws.com/uifaces/faces/twitter/romanbulah/128.jpg" alt="Avatar">
-                                <img class="img-circle avatar avatar-sm" src="https://s3.amazonaws.com/uifaces/faces/twitter/S0ufi4n3/128.jpg" alt="Avatar">
-                                <img class="img-circle avatar avatar-sm" src="https://s3.amazonaws.com/uifaces/faces/twitter/ddggccaa/128.jpg" alt="Avatar">
-                                <img class="img-circle avatar avatar-sm" src="https://s3.amazonaws.com/uifaces/faces/twitter/mattsapii/128.jpg" alt="Avatar">
+                                <img class="img-circle avatar avatar-sm" src="https://s3.amazonaws.com/uifaces/faces/twitter/1markiz/128.jpg" alt="Avatar">
+                                <img class="img-circle avatar avatar-sm" src="https://s3.amazonaws.com/uifaces/faces/twitter/lokesh_coder/128.jpg" alt="Avatar">
+                                <img class="img-circle avatar avatar-sm" src="https://s3.amazonaws.com/uifaces/faces/twitter/incubo82/128.jpg" alt="Avatar">
+                                <img class="img-circle avatar avatar-sm" src="https://s3.amazonaws.com/uifaces/faces/twitter/jodytaggart/128.jpg" alt="Avatar">
                                 <img class="img-circle avatar avatar-sm" src="https://s3.amazonaws.com/uifaces/faces/twitter/kurafire/128.jpg" alt="Avatar">
+                                <img class="img-circle avatar avatar-sm" src="https://s3.amazonaws.com/uifaces/faces/twitter/fotomagin/128.jpg" alt="Avatar">
                                 </div>
                 </div>
             </div>
@@ -4127,11 +2612,11 @@
 
                     <span class="label label-success label-outline">Success</span>
                     <br>
-                    <p class="text-white m-t-1"><span>I&apos;ll connect the cross-platform PNG driver, that should system the ADP monitor!</span></p>
-                    <p class="text-nowrap small"><span>25-Nov-2011, 01:57</span>
+                    <p class="text-white m-t-1"><span>backing up the capacitor won&apos;t do anything, we need to input the multi-byte COM pixel!</span></p>
+                    <p class="text-nowrap small"><span>12-Dec-2013, 08:10</span>
                     </p>
 
-                    <p><span>Commodi aliquid tempora dignissimos et iste velit.</span></p>
+                    <p><span>Aspernatur tempora qui.</span></p>
                 </div>
             </div>
             <!-- END Avatar, Message & Time -->
@@ -4141,37 +2626,37 @@
 </div>
 <!-- END Timeline - Active Entry (Day) -->
 
- <!-- START Timeline - Active Entry -->
-<div class="timeline">
+    <!-- START Timeline - Active Entry -->
+    <div class="timeline">
 
-    <div class="timeline-item p-r-1">
-        <!-- Timeline - Mini Icon -->
-        <div class="timeline-icon">
-            <i class="fa fa-fw fa-circle text-gray"></i>
-        </div>
-
-        <!-- Timeline - Icon  -->
-        <div class="timeline-item-head clearfix m-b-0">
-            <!-- Timeline - Header & Subtitle -->
-
-            <!-- START Avatar, Message & Time -->
-            <div class="row">
-
-                <div class="col-lg-12 m-l-1">
-
-                    <span class="label label-gray label-outline">Obsolete</span>
-                    <br>
-                    <del><p class="m-t-1"><span>Use the open-source SCSI application, then you can synthesize the neural firewall!</span></p></del>
-                    <p class="text-nowrap small"><span>27-Dec-2014, 12:04</span>
-                    </p>
-                </div>
+        <div class="timeline-item p-r-1">
+            <!-- Timeline - Mini Icon -->
+            <div class="timeline-icon">
+                <i class="fa fa-fw fa-circle text-gray"></i>
             </div>
-            <!-- END Avatar, Message & Time -->
 
+            <!-- Timeline - Icon  -->
+            <div class="timeline-item-head clearfix m-b-0">
+                <!-- Timeline - Header & Subtitle -->
+
+                <!-- START Avatar, Message & Time -->
+                <div class="row">
+
+                    <div class="col-lg-12 m-l-1">
+
+                        <span class="label label-gray label-outline">Obsolete</span>
+                        <br>
+                        <del><p class="m-t-1"><span>I&apos;ll override the 1080p EXE firewall, that should system the USB card!</span></p></del>
+                        <p class="text-nowrap small"><span>23-Aug-2015, 05:13</span>
+                        </p>
+                    </div>
+                </div>
+                <!-- END Avatar, Message & Time -->
+
+            </div>
         </div>
     </div>
-</div>
-<!-- END Timeline - Active Entry  -->
+    <!-- END Timeline - Active Entry  -->
                         </div>
                         <!-- END Tab: Timeline -->
                     </div>
@@ -4185,17 +2670,17 @@
     </div>
     <!-- END Content Show in Full-Height -->
 </div>
- <!-- START Footer -->
-<footer>
-    <div class="container-fluid">
-        <p class="text-gray-dark">
-            <strong class="m-r-1">SPIN Dashboard </strong> 
-            <span class="text-gray-dark">&#xA9; 2009 - 2016. Made by 
-            <i class="fa fa-fw fa-heart text-danger"></i> New York, US</span>
-        </p>
-    </div>
-</footer>
-<!-- END Footer -->
+    <!-- START Footer -->
+    <footer>
+        <div class="container-fluid" id="thefoot">
+            <p class="text-gray-dark">
+                <strong class="m-r-1"><a href="http://www.eosnairobi.io/"> EOSNairobi </a></strong> 
+                <span class="text-gray-dark">&#xA9; 2018. Made by 
+                <a href="https://github.com/joelmachango"> J M </a>           
+            </p>
+        </div>
+    </footer>
+    <!-- END Footer -->
 
     </div>
     <script>
