@@ -11,3 +11,12 @@
 #logo a {
   text-decoration: none;
 }
+#votess {
+  padding: 20px 20px 0 20px;  
+  float: left;
+  width: 99%;
+  height: 100vh; 
+  display: block; 
+  height:30em;    
+  overflow-y: scroll; 
+}
