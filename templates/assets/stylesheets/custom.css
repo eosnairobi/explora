@@ -20,6 +20,15 @@
   height:30em;    
   overflow-y: scroll; 
 }
+#transactionss {
+  padding: 20px 20px 0 20px;  
+  float: left;
+  width: 99%;
+  height: 100vh; 
+  display: block; 
+  height:30em;    
+  overflow-y: scroll;  
+}
 #eos-graph {
   padding-top: -20px;   
 }
