@@ -1146,7 +1146,7 @@
                 </li> 
                 <li class="">
                     <a href="../widgets/prices.html">
-                    <span class="nav-label">Transactions History</span>
+                    <span class="nav-label">Transactions Volume</span>
                     </a>
                 </li>
                 <li class="">
@@ -1297,7 +1297,13 @@
                     <!-- END ROW "Your Cash" Header -->
 
                     <!-- Start table with top Block Producers -->
-                    <div class="panel panel-default b-a-2 b-gray-dark no-bg">
+                    <table class="table  table-inverse">
+                        <tbody id="votess">
+                        </tbody>
+                        <div>
+                        </div>
+                    </table>
+                     <div class="panel panel-default b-a-2 b-gray-dark no-bg">
 
                         <table class="table table-striped">
                             <thead>
@@ -1320,7 +1326,7 @@
                             </tbody>
                         </table>
 
-                    </div>
+                    </div> 
                     <!-- End table with top block producers -->
                 </div>
                 <!-- END ROW "Recent Funding" -->
@@ -2921,6 +2927,43 @@
 
     <script src="../assets/javascript/plugins-init.js"></script>
     <script src="../assets/javascript/switchery-settings.js"></script>
+    
+    <script type="text/javascript">
+    setInterval(function() {
+        $.ajax({
+            method: "POST",
+            url: "http://api1.eosnairobi.io:8898/v1/chain/get_producers",
+            dataType: "json",
+            // contentType:"application/json",
+            data: JSON.stringify({ 'json': true, 'limit': 300 }),
+            success: function(data, textStatus, xhr) {
+                // console.log(data, xhr.status, 'success');
+                // console.log(data.rows[0].owner)
+                $("#votess").empty();
+                $.each(data.rows, function(index, element) {
+                    new_index = parseInt(index, 10);
+                    new_index += 1;
+                    $('#votess').append(
+                        $('<tr>' +
+                            '<td>' + new_index + '</td>' +
+                            '<td><strong>' + element.owner +
+                            '</strong></td><td class="text-success"><strong>' + parseFloat(Math.round(element.total_votes * 100) / 100).toFixed(4) +
+                            '</strong></td></tr>'
+                        ));
+                });
+            },
+            error: function(data, textStatus, xhr) {
+                console.log(xhr.status, 'error encountered here');
+                $("#err").html("<div class='alert alert-danger fade show'><span class='close' data-dismiss='alert'>×</span>" +
+                    "<strong>Error!</strong> Your Question Was NOT submitted Successfully</div>");
+            },
+            complete: function(xhr, textStatus) {
+                console.log(xhr.status, 'finished');
+    
+            }
+        })
+    }, 2000);
+    </script>
     <script src="../js/mustache.min.js"></script>
     <script src="../js/underscore.min.js"></script>
     <script src="../js/home1.js?sahgsag=1h" type="application/javascript"></script>
