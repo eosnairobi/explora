@@ -32,3 +32,7 @@
 #eos-graph {
   padding-top: -20px;   
 }
+#producers {
+  border: 2px solid #e1e5ea;
+  border-radius: 10px;
+}
