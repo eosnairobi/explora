@@ -20,3 +20,6 @@
   height:30em;    
   overflow-y: scroll; 
 }
+#eos-graph {
+  padding-top: -20px;   
+}
