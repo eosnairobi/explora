@@ -11,7 +11,7 @@
 #logo a {
   text-decoration: none;
 }
-#votess {
+#producers {
   padding: 20px 20px 0 20px;  
   float: left;
   width: 99%;
@@ -19,6 +19,9 @@
   display: block; 
   height:30em;    
   overflow-y: scroll; 
+  border: 2px solid #e1e5ea;
+  border-radius: 10px;
+  min-width: 285px;
 }
 #transactionss {
   padding: 20px 20px 0 20px;  
@@ -28,11 +31,15 @@
   display: block; 
   height:30em;    
   overflow-y: scroll;  
+  border: 2px solid #e1e5ea;
+  border-radius: 10px;
+  min-width: 285px;
 }
 #eos-graph {
   padding-top: -20px;   
 }
-#producers {
-  border: 2px solid #e1e5ea;
+.tradingview-widget-container {
+  /* border: 2px solid #e1e5ea;
   border-radius: 10px;
+  min-width: 285px;  */
 }
