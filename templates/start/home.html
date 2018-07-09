@@ -102,16 +102,7 @@
         </div>   
 
         <div class="sidebar-content">
-            <div class="p-y-3 avatar-container">
-                <img src="../assets/images/avatars/spin-avatar-woman.png" width="50" alt="Avatar" class="spin-avatar img-circle">
-                <div class="text-center">
-                    <h6 class="m-b-0">Michelle Baez</h6>
-                    <small class="text-muted">Help Desk</small>
-                    <p class="m-t-1 m-b-2">
-                        <span id="sidebar-avatar-chart">5,3,2,-1,-3,-2,2,3,5,2</span>
-                    </p>
-                </div>
-            </div>
+            
         <div class="sidebar-default-visible text-muted small text-uppercase sidebar-section p-y-2">
             <strong>Navigation</strong>
         </div>
@@ -249,61 +240,114 @@
         <script src="https://widgets.coingecko.com/coingecko-coin-price-marquee-widget.js"></script>
         <coingecko-coin-price-marquee-widget currency="usd" coin-ids="bitcoin,ethereum,eos,ripple,litecoin" locale="en"></coingecko-coin-price-marquee-widget>
         <br> 
+        <!-- START ROW Info -->
+        <div class="row">
+
+                <!-- START RAM Price -->
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="panel panel-default b-a-0 bg-gray-dark">
+                        <div class="panel-heading">RAM Price </div>
+                        <div class="panel-body">
+                            <h2 class="m-t-0 f-w-300">
+            <span>0.47559 </span></h2>
+                            <i class="fas fa-fw fas-caret-up text-success"></i> <span>EOS/KB</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- END RAM Price  -->
+
+                <!-- START Invoices -->
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="panel panel-default b-a-0 bg-gray-dark">
+                        <div class="panel-heading">Irreversible Blocks</div>
+                        <div class="panel-body">
+                            <h2 class="m-t-0 f-w-300">
+            <span>4,904,059</span></h2>
+                            <i class="fa fa-fw fas-caret-down text-danger"></i><span>producer:</span> <span>eosstorebest</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- END Invoices -->
+
+                <!-- START Accounts Receiveable -->
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="panel panel-default b-a-0 bg-gray-dark">
+                        <div class="panel-heading">Accounts Created</div>
+                        <div class="panel-body">
+                            <h2 class="m-t-0 f-w-300">
+            <span>259,271</span></h2>
+                            <i class="fa fa-fw fas-caret-up text-success"></i> <span>stream</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- END Accounts Receiveable -->
+
+                <!-- START Secure Holdings -->
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="panel panel-default b-a-0 bg-gray-dark">
+                        <div class="panel-heading">Actions on Chain</div>
+                        <div class="panel-body">
+                            <h2 class="m-t-0 f-w-300">
+            <span>3,896,642</span></h2> stream
+                        </div>
+                    </div>
+                </div>
+                <!-- END Secure Holdings -->
+
+        </div>
+        <!-- END ROW Info -->   
         
         <div class="row">
             <div class="col-lg-12">
                 <br>
-                <!-- START ROW "Your Cash" Header -->
-            
-                <!-- END ROW "Your Cash" Header -->           
-
-
                 <!-- START ROW "Market Cap" & "Recent Map" -->
-                <div class="row">
-
+                <div class="row"> 
                     <!-- START Widget-->
                     <div class="col-lg-5">
-                        <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script><div class="coinmarketcap-currency-widget" data-currencyid="1765" data-base="USD" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>                                            
-                        <br>
-                        <!-- TradingView Widget BEGIN -->
-                        <div class="tradingview-widget-container">
-                                <div id="tv-medium-widget"></div>
-                                <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/KRAKEN-EOSUSD/" rel="noopener" target="_blank"><span class="blue-text">EOSUSD Quotes</span></a> by TradingView</div>
-                                <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
-                                <script type="text/javascript">
-                                new TradingView.MediumWidget(
-                                {
-                                "container_id": "tv-medium-widget",
-                                "symbols": [
-                                "KRAKEN:EOSUSD|1y"
-                                ],
-                                "greyText": "Quotes by",
-                                "gridLineColor": "#e9e9ea",
-                                "fontColor": "#83888D",
-                                "underLineColor": "#dbeffb",
-                                "trendLineColor": "#4bafe9",
-                                "width": "395px",
-                                "height": "195px",
-                                "locale": "en",
-                                "chartOnly": true
-                            }
-                                );
-                                </script>
-                        </div>
-                        <!-- TradingView Widget END -->
+                            <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script><div class="coinmarketcap-currency-widget" data-currencyid="1765" data-base="USD" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>                                            
+                            <br>
+                            <!-- TradingView Widget BEGIN -->
+                            <div class="tradingview-widget-container">
+                                    <div id="tv-medium-widget"></div>
+                                    <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/KRAKEN-EOSUSD/" rel="noopener" target="_blank"><span class="blue-text">EOSUSD Quotes</span></a> by TradingView</div>
+                                    <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+                                    <script type="text/javascript">
+                                    new TradingView.MediumWidget(
+                                    {
+                                    "container_id": "tv-medium-widget",
+                                    "symbols": [
+                                    "KRAKEN:EOSUSD|1y"
+                                    ],
+                                    "greyText": "Quotes by",
+                                    "gridLineColor": "#e9e9ea",
+                                    "fontColor": "#83888D",
+                                    "underLineColor": "#dbeffb",
+                                    "trendLineColor": "#4bafe9",
+                                    "width": "395px",
+                                    "height": "195px",
+                                    "locale": "en",
+                                    "border": "2px solid #e1e5ea",
+                                    "border-radius": "10px",
+                                    // min-width: 285px;
+                                    "chartOnly": true
+                                }
+                                    );
+                                    </script>
+                            </div>
+                            <!-- TradingView Widget END -->
                     </div>                    
-                    <!-- END  Widet-->
+                    <!-- END  Widet-->                                 
 
                     <!-- START Top BlockProducers -->
                     <div class="col-lg-7">                        
-                        <div class="row m-b-2" id="producers">
+                        <div class="row m-b-2" id="">
                             <div class="col-md-4 col-sm-4 col-xs-6">
                                 <h4 class="m-b-0 f-w-300">Top Producers</h4></div>
                             <div class="col-md-4 col-sm-4 col-xs-4 col-xs-offset-2 col-sm-offset-4 col-md-offset-4 text-right">
                                 <button type="button" class="btn btn-sm btn-default">View All<i class="fas m-l-1 fa-angle-right"></i> </button>
                             </div>
-                            <table class="table  table-inverse">
-                                <tbody id=" ">
+                            <table class="table  table-inverse table-responsive table-hover">
+                                <tbody id="producers" class="">
                                 </tbody>
                                 <div>
                                 </div>
@@ -312,30 +356,7 @@
                     </div>
                     <!-- END Top BlockProducers" -->
                 </div>
-                <!-- END ROW "Market Cap" & "Recent Map" -->
-
-
-                <!-- START Latest Transactions" -->
-                <div class="col-lg-12" id="transactionss">
-                <!-- START ROW Header -->
-                <div class="row m-b-2">
-                    <div class="col-md-4 col-sm-4 col-xs-6">
-                        <h4 class="m-b-0 f-w-300">Latest Transactions</h4></div>
-                    <div class="col-md-4 col-sm-4 col-xs-4 col-xs-offset-2 col-sm-offset-4 col-md-offset-4 text-right">
-                        <button type="button" href="transactions.html" class="btn btn-sm btn-default">View All<i class="fas m-l-1 fa-angle-right"></i> </button>
-                    </div>
-                </div>
-                <!-- END ROW Header -->
-
-                <!-- Start table with top Block Producers -->
-                <table class="table  table-inverse">                    
-                        <tbody id="">
-                        </tbody>
-                        <div>
-                        </div>
-                    </table>                    
-                </div>
-                <!-- END Latest Transactions" -->           
+                <!-- END ROW "Market Cap" & "Recent Map" -->                       
 
             </div>
         </div>
